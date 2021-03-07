@@ -1,0 +1,383 @@
+@import "//dl.dropbox.com/s/6523jl7nh6hietx/high.css";
+@import "//dl.dropbox.com/s/9s289mbhxpdhb3l/starry.css";
+@font-face {
+    font-family: 'Bebas';
+    src:
+   url('//dl.dropbox.com/s/bipxxtezc722cu2/BebasNeue-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.merlot-wrapper { 
+    --background: #f8f8f8;
+    --shadow: #d8d8d8;
+    --shadow2: #e6e6e6;
+    --black: #383838;
+  width: 580px;
+  height: 530px;
+  background: var(--background);
+  position: relative;
+  font-family: 'Bebas';
+  list-style:none;
+  color: var(--black);
+  border-radius: 10px;
+  line-height: 0px;
+  -webkit-text-size-adjust: none;
+  margin: 10px 0px;
+
+} 
+
+.merlot-wrapper a { 
+  text-decoration: none;
+  color: var(--main);
+} 
+
+.merlot-wrapper b { 
+ color: var(--main);
+} 
+
+/*tabs*/
+
+.merlot-tab {  
+
+} 
+.merlot-tab label {
+  position: relative;
+  right: -300px;
+  display: block;  
+  top: 30px; 
+  width: 20px; 
+  height: 25px; 
+  border-radius: 5px;
+  margin-bottom: 5px;
+  z-index: ; 
+  background: var(--shadow);
+  border-right: 10px solid var(--main);
+   transition: all ease-in-out  0.3s; 
+  -webkit-transition: all ease-in-out  0.3s; 
+  -moz-transition: all ease-in-out  0.3s; 
+  -o-transition:  all ease-in-out  0.3s; 
+  opacity: 0.8;
+}
+  
+.merlot-tab [type=radio] {
+  display: none;   
+  
+}
+
+[type=radio]:checked ~ label {
+  background: var(--main);
+  border-right: 10px solid var(--main);
+  width: 30px;
+    transition: all ease-in-out  0.3s; 
+  -webkit-transition: all ease-in-out  0.3s; 
+  -moz-transition: all ease-in-out  0.3s; 
+  -o-transition:  all ease-in-out  0.3s; 
+   transform: skew(-20deg);
+  opacity: 1;
+}
+
+
+/*content*/ 
+
+  [type=radio]:checked ~ label ~ .merlot-content  {
+  z-index:8;
+  transition: all ease-in-out  0.5s; 
+  -webkit-transition: all ease-in-out  0.5s; 
+  -moz-transition: all ease-in-out  0.5s; 
+  -o-transition:  all ease-in-out  0.5s; 
+
+}
+
+  [type=radio]:checked ~ label ~ .merlot-content .merlot-body  {
+  z-index:8;
+  transition: all ease-in-out  0.5s; 
+  -webkit-transition: all ease-in-out  0.5s; 
+  -moz-transition: all ease-in-out  0.5s; 
+  -o-transition:  all ease-in-out  0.5s; 
+  top: 0px; 
+  left: 0px;
+  opacity: 1; 
+}
+
+.merlot-content { 
+  overflow: hidden;
+  width: 580px;
+  height: 530px;
+  position: absolute; 
+  top: 0px;
+  border-radius: 10px;
+  box-shadow: 3px 3px var(--shadow2);
+  background: var(--background);
+
+
+} 
+
+.merlot-body { 
+width: 570px;
+  height: 530px;
+  position: absolute;
+  left: -300px;
+  opacity: 0;
+    transition: all ease-in-out  0.5s; 
+  -webkit-transition: all ease-in-out  0.5s; 
+  -moz-transition: all ease-in-out  0.5s; 
+  -o-transition:  all ease-in-out  0.5s; 
+
+} 
+
+
+.merlot-border { 
+  color: var(--main);
+  width:250px;
+  height: 585px;
+ transform: skew(-20deg);
+position: absolute;
+left: -110px;
+    background: var(--accent);
+    clear: both;
+    opacity: 0.5;
+} 
+
+.merlot-name { 
+  font: 45px 'Bebas', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  position: absolute;
+  text-transform: uppercase;
+  color: var(--shadow2);
+  left: 210px;
+  top:70px;
+  letter-spacing: 5px;
+  line-height:40px;
+  clear: both;
+} 
+
+.merlot-name::after { 
+  font-family: 'starry', 'high';
+  content: '\a39';
+  position: relative;
+  color: var(--shadow);
+  font-size: 50px;
+  left: 185px;
+  top: -100px;
+} 
+.merlot-first { 
+  position: relative;
+    z-index: 6;
+    color: var(--main);
+    text-shadow: 3px 3px var(--shadow);
+} 
+.merlot-last { 
+  position: relative;
+  z-index: 3;
+  padding-left: 30px;
+  text-shadow: 3px 3px var(--accent);
+} 
+
+.merlot-image { 
+  position: absolute; 
+  top: 40px;
+  left: 10px;
+} 
+
+.merlot-info { 
+position: relative; 
+top:30px;
+float: right;
+text-align: right;
+width: 200px;
+margin: 0px 20px;
+font: 15px 'Bebas', sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+line-height: 25px;
+
+} 
+
+.merlot-info li { 
+  display: inline;
+} 
+
+.merlot-info li::after { 
+content: ' //';
+color: var(--accent);
+font-weight: 500;
+  
+} 
+
+
+.merlot-shape {
+      width: 180px;
+      height: 400px;
+      transform: skew(-20deg);
+      border: 10px solid var(--accent);
+      position: relative; 
+      left: -15px;
+      top: -400px;
+      z-index: 3;
+
+    }
+  
+.merlot-shape2 {
+      width: 180px;
+     height: 400px;
+      transform: skew(-20deg);
+      border-right: 10px solid var(--accent);
+      border-bottom: 10px solid var(--accent);
+      position: relative; 
+      left: -12px;
+      top: -810px;
+      z-index: 5;
+    }
+    
+    .merlot-shape3 {
+  width: 510px;
+  height: 100px;
+ transform: skew(-20deg);
+position: absolute;
+bottom:0px;
+right:-42px;
+    background: var(--shadow2);
+    clear: both;
+opacity: 0.4;
+    border-right: 60px solid var(--main);
+
+    }
+  
+.merlot-hover { 
+  z-index: 5;
+  position: relative; 
+  overflow: hidden;
+  top: -5px;
+  left: 5px;
+  width: 170px;
+  height: 400px;
+  background-image: var(--img);
+  box-shadow: -10px -10px var(--main);
+    background-position: -40px;
+    border-radius: 10px;
+
+} 
+
+
+.merlot-blurb { 
+  font: 13.5px 'Roboto', sans-serif;
+  position: absolute;
+  width: 290px;
+  height: 230px;
+  text-align: justify; 
+  right: -5px; 
+  top: 175px;
+  line-height: 19px;
+  padding: 0px 30px;
+  z-index: 5;
+  overflow: hidden;
+
+} 
+
+.merlot-blurb a { 
+text-transform: lowercase; 
+font-weight: 700;
+} 
+
+.merlot-wants { 
+  font: 13px 'Roboto', sans-serif;
+  position: absolute; 
+  top: 450px; 
+  width: 350px;
+  text-align: justify; 
+  right: 55px;
+  height: 60px;
+  overflow: hidden;
+} 
+
+.merlot-wants li { 
+  display: inline;
+} 
+
+.merlot-wants li::after { 
+content: ' //';
+color: var(--accent);
+font-weight: 500;
+  
+} 
+ #high { 
+  --main: #767793; 
+  --accent:#9e7d6f;
+  --img:  url(https://cdn.discordapp.com/attachments/707844943535800373/789355063335452702/nyx2.png);
+} 
+
+ #alec { 
+  --main: #9e6679; 
+--accent: #8a9295;
+  --img:   url(https://cdn.discordapp.com/attachments/693249041240424470/787556337616814111/12.png);
+} 
+
+  
+#darius { 
+--main: #BD6745; 
+--accent: #658682;
+--img:  url(https://cdn.discordapp.com/attachments/688851464688631896/688851554836807712/2.png);
+  } 
+
+#dom { 
+--main: #5E6E82; 
+--accent: #a1888a;
+--img:  url(https://cdn.discordapp.com/attachments/385174823975780363/501973972083015680/9.png);
+} 
+
+
+  #leon { 
+--main: #8f3d41; 
+--accent: #738895;
+--img:  url(https://cdn.discordapp.com/attachments/388542678587015168/744238620717744298/65.png);
+} 
+#marko { 
+--main: #D28158;
+--accent: #adcac5;
+--img:  url(https://cdn.discordapp.com/attachments/502675404214108166/767861560252825640/35.png);
+} 
+
+
+ #oli { 
+ --main: #a48dad; 
+--accent: #e97f77;
+--img:  url(https://cdn.discordapp.com/attachments/760984903650115594/760984932730273822/2.png);
+} 
+  
+ #paris { 
+--main: #723c54;
+--accent: #a5a3b8;
+--img:  url(https://cdn.discordapp.com/attachments/394261484072468480/723948557530300517/paris5.png);
+} 
+
+
+#pip { 
+  --main: #729889;
+  --accent: #bfa0a0; 
+--img:  url(https://cdn.discordapp.com/attachments/781057064898265098/781057110560604170/5.png);
+} 
+
+#romy {
+--main: #d16481;
+--accent: #84b3b0;
+--img:  url(https://cdn.discordapp.com/attachments/738485850181992550/750444472990564423/3.png);
+} 
+
+ #seema { 
+--main: #ac416a;
+--accent: #dab774;
+  --uni:'\37'; 
+} 
+
+#wick{ 
+--main: #6c7e96;
+--accent: #c3b69d;
+--img:  url(https://cdn.discordapp.com/attachments/378634339027779585/442251515818803201/cullenh4.png);
+} 
+
+ #yusuf { 
+ --main: #b13f2c; 
+--accent: #e2a671;
+--img:  url(https://cdn.discordapp.com/attachments/610278323641122838/610341494942990338/2.png);
+} 
