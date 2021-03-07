@@ -1,0 +1,340 @@
+
+  @import "//dl.dropbox.com/s/6523jl7nh6hietx/high.css";
+  @import "//dl.dropbox.com/s/9s289mbhxpdhb3l/starry.css";
+
+
+
+  
+    .holly-wrapper { 
+    --background: #f2f2f2;
+    --shadow: #d8d8d8;
+    --shadow2: #e6e6e6;
+    --black: #2a2a2a;
+    width: 495px; 
+    height:510px;
+    background: #eaeaea;
+    border: 1.5px solid var(--shadow2);
+    border-radius: 15px;
+    box-shadow: 2px 2px var(--shadow2);
+    margin: 20px;
+    position: relative;
+     font-family:'starry','high'; 
+     overflow: hidden;
+  -webkit-text-size-adjust: none;
+  } 
+  
+  .holly-wrapper a { 
+    color: var(--main);
+    text-decoration:none;
+  } 
+  
+    .holly-wrapper b { 
+    color: var(--main);
+  } 
+  
+  .holly-wrapper span::after { 
+  content: ' ● ';
+  color: var(--main);
+
+  } 
+
+  
+/*tabs*/ 
+
+.holly-tab {  
+
+} 
+.holly-tab label {
+  position: relative;
+  display: block;
+  float: left;
+  top:486px;
+  left: 20px; 
+  width: 7px; 
+  height: 7px; 
+  margin-right: 15px; 
+  z-index: 6; 
+  border-radius: 100px; 
+  font:18px 'Spartan', Sans-serif;
+  color: var(--background);
+  text-align: right; 
+  color: var(--main);
+  border: 4px solid var(--main);
+  opacity: 0.6;
+}
+  
+.holly-tab [type=radio] {
+  display: none;   
+}
+
+[type=radio]:checked ~ label {
+  background: var(--main);
+  z-index: 7;
+  
+}
+
+
+/*content*/
+.holly-content { 
+   overflow: hidden;
+    width: 495px; 
+    height:485px;
+    background: var(--background);
+    position: absolute;
+ top: -400px;
+ opacity: 0;
+   transition: all ease-in-out  0.6s; 
+  -webkit-transition: all ease-in-out  0.6s; 
+  -moz-transition: all ease-in-out  0.6s; 
+  -o-transition:  all ease-in-out  0.6s; 
+} 
+
+  
+  [type=radio]:checked ~ label ~ .holly-content  {
+  z-index: 5;
+  transition: all ease-in-out  0.7s; 
+  -webkit-transition: all ease-in-out  0.7s; 
+  -moz-transition: all ease-in-out  0.7s; 
+  -o-transition:  all ease-in-out  0.7s; 
+  opacity: 1; 
+  top: -10px;
+ 
+}
+
+  
+  .holly-top { 
+  height: 100px;
+  background-image: radial-gradient(var(--main) 30%, transparent 0.3%);
+  background-color: var(--background);
+  background-size:15px 15px;
+  position: relative; 
+  opacity: 0.2;
+  top: -8px;
+} 
+
+  .holly-name::before  { 
+    font: 25px 'Spartan', sans-serif;
+    content: var(--name);
+    text-transform: uppercase; 
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    font-weight: 700;
+    color:var(--accent);
+    text-shadow: 3px 3px var(--shadow);
+    letter-spacing: 2px solid;
+    
+  } 
+  
+
+.holly-left { 
+  height:380px;
+  width: 200px;
+  position: absolute;
+  top:70px;
+  left: -55px;
+  box-shadow:10px 10px var(--accent);
+  background-color: var(--main);
+  border-radius: 0px 0px 20px;
+  clear: both;
+  z-index: 3;
+} 
+
+.holly-left::before { 
+  content:'';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  border-radius: 0px 0px 20px;
+  background-position: -10px 0px;
+  background-color: var(--main);
+  background-blend-mode: screen;
+    background-image: var(--img);
+    opacity: 0.9;
+    
+} 
+  
+  .holly-info { 
+    font: 10.5px 'Spartan', sans-serif;
+    font-weight: 700;
+    color: var(--main);
+    text-transform: uppercase; 
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    text-shadow: 2px 2px var(--shadow);
+  } 
+
+  
+   .holly-blurb { 
+    font: 12.5px 'Roboto', Sans-serif;
+    line-height: 18.5px; 
+    width: 250px;
+    height: 240px;
+    text-align: justify;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    padding: 0px 40px;
+    color: var(--black);
+    overflow: hidden; 
+
+    
+  } s
+  .holly-blurb b { 
+    color: var(--main);
+  } 
+
+  .holly-plot { 
+    font: 10px 'Spartan', Sans-serif;
+    border-left: 5px solid var(--main);
+    width:230px; 
+    height: 100px;
+    float: right; 
+    position: absolute; 
+    bottom: -15px;
+    right: 30px;
+    text-align: justify;
+    padding: 10px 0px 10px 20px;
+    line-height: 16px;
+    color: var(--black);
+  } 
+
+  
+  #alec { 
+  --main: #936153; 
+--accent: #9e6679;
+--name: 'alecto v.';
+--img:  url(https://cdn.discordapp.com/attachments/693249041240424470/693249123708567612/1.png);
+  } 
+
+  
+#darius { 
+--main: #BD6745; 
+--accent: #658682;
+--name: 'darius b.';
+--img:  url(https://cdn.discordapp.com/attachments/688851464688631896/688851554836807712/2.png);
+  } 
+
+#dom { 
+--main: #5E6E82; 
+--accent: #a1888a;
+--name: 'dominic h.';
+--img:  url(https://cdn.discordapp.com/attachments/385174823975780363/744232692219904090/32.png);
+} 
+
+#dom .holly-left::before { 
+  background-position:  -25px ;
+} 
+
+  #leon { 
+--main: #8f3d41; 
+--accent: #738895;
+--name: 'leon b.';
+--img:  url(https://cdn.discordapp.com/attachments/388542678587015168/572452242460901396/reaperhover21.png);
+} 
+
+#marko { 
+--main: #D28158;
+--accent: #adcac5;
+--uni:'\33'; 
+--name: 'marko j.';
+--img:  url(https://cdn.discordapp.com/attachments/502675404214108166/747666762606051418/30.png);
+} 
+
+#melo { 
+--main: #a67179; 
+--accent: #9dc2bb;
+--uni:'\70';
+--name: 'melokuhle n.';
+--img:  url(https://cdn.discordapp.com/attachments/729198966775742464/729199026930712626/5.png);
+} 
+
+#melo .holly-left::before { 
+  background-position:  45px ;
+} 
+
+
+#naito { 
+--main: #406f93; 
+--accent: #d5a4a3; 
+--uni:'\36'; 
+} 
+
+ #oli { 
+ --main: #de7868; 
+--accent: #a48dad;
+  --uni:'\38'; 
+    --name: 'olivier r.';
+--img:  url(https://cdn.discordapp.com/attachments/760984903650115594/761122873322504243/5.png);
+} 
+  
+ #paris { 
+--main: #8d4452;
+--accent: #936d7f;
+--uni:'\31'; 
+--name: 'paris k.';
+--img:  url(https://cdn.discordapp.com/attachments/394261484072468480/394261524211826689/5.png);
+} 
+#paris .holly-left::before { 
+  background-position:20px ;
+} 
+
+
+#pip { 
+  --main: #729889;
+  --accent: #bfa0a0; 
+  --uni:'\63'; 
+  --name: 'phillipa h.';
+--img:  url(https://cdn.discordapp.com/attachments/781057064898265098/781057110560604170/5.png);
+} 
+
+#romy {
+--main: #d16481;
+--accent: #84b3b0;
+--uni:'\62';
+--name: 'romy p.';
+--img:  url(https://cdn.discordapp.com/attachments/738485850181992550/738485943383883826/1.png);
+} 
+
+ #seema { 
+--main: #ac416a;
+--accent: #dab774;
+  --uni:'\37'; 
+} 
+
+
+#wick{ 
+--main: #6c7e96;
+--accent: #c3b69d;
+  --uni:'\61'; 
+  --name: 'warwick h.';
+--img:  url(https://cdn.discordapp.com/attachments/378634339027779585/442251515818803201/cullenh4.png);
+} 
+
+ #yusuf { 
+ --main: #b13f2c; 
+--accent: #e2a671;
+  --uni:'\38'; 
+    --name: 'yusuf a.';
+--img:  url(https://cdn.discordapp.com/attachments/610278323641122838/610341494942990338/2.png);
+} 
+
+#yusuf .holly-left::before { 
+  background-position:-20px ;
+} 
+
+ #high { 
+  --main: #767793; 
+  --accent:#9e7d6f;
+  --uni:'\68'; 
+  --name: 'avocado lee #0919';
+  --img:  url(https://cdn.discordapp.com/attachments/707844943535800373/789355389942497320/nyx2.png);
+} 
+
+#high .holly-left::before { 
+  background-blend-mode: overlay;
+}
+
