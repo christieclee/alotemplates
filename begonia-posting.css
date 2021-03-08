@@ -6,6 +6,9 @@
 @import "//christieclee.github.io/highalo/high/high.css";
 @import "//christieclee.github.io/highalo/starry/starry.css";
 
+@import "//christieclee.github.io/highalo/stark/stark.css";
+@import "//christieclee.github.io/highalo/zuki/deer.css";
+
 .begonia-wrapper{ 
    --background: #f5f5f5;
     --shadow: #d8d8d8;
