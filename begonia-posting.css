@@ -1,3 +1,5 @@
+/*begonia-post*/
+
 @import "//dl.dropbox.com/s/6523jl7nh6hietx/high.css";
 @import "//dl.dropbox.com/s/9s289mbhxpdhb3l/starry.css";
 
@@ -290,4 +292,246 @@ background-color: var(--main);
 --main: #d16481;
 --accent: #84b3b0;
 --uni:'\6d';
+} 
+
+
+/*milky-post*/
+.milky-wrapper { 
+   --background: #f2f2f2;
+    --shadow: #d8d8d8;
+    --shadow2: #e6e6e6;
+    --black: #2a2a2a;
+  width: 360px;
+  background: var(--background);
+  min-height: 200px;
+  box-shadow: 2px 2px 2px 2px var(--shadow2);
+  border: 1.25px solid var(--shadow2);
+  border-radius: 15px;
+  margin: 30px 0px;
+position: relative;
+border-right: 40px solid var(--main);
+padding: 20px;
+  -webkit-text-size-adjust: none;
+line-height: 0px;
+display: block;
+} 
+
+.milky-top { 
+position: absolute; 
+left: 10px;
+top: 15px;
+width: 50px;
+} 
+
+.tear-group { 
+transform: rotate(20deg);
+} 
+
+.teardrop, .teardrop2, .teardrop3  {
+background-color: var(--main);
+transform: rotate(-110deg);
+position: relative; 
+top: 10px;
+left: 20px; 
+content: “”; 
+width:30px;
+Height: 25px;
+padding: 5px 0px 0px 15px;
+Border-radius: 140% 70% 130% 10%;
+opacity: 0.5;
+}
+
+.teardrop2 { 
+background-color: var(--accent);
+transform: rotate(130deg);
+top: 8px;
+left:5px;
+width:15px;
+Height: 15px;
+padding: 5px 0px 0px 0px;
+Border-radius: 30% 190% 145% 145%;
+opacity: 0.5; 
+  
+} 
+
+.teardrop3 { 
+background-color: var(--main);
+transform: rotate(30deg);
+top: 0px;
+left: 25px;
+width:20px;
+Height: 25px;
+padding: 0px 0px 0px 0px;
+Border-radius: 140% 20% 130% 80%;
+opacity: 0.4;
+  
+} 
+
+.milky-date { 
+  font: 20px 'Spartan', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--shadow);
+  position: relative;
+  top:175px;
+  left: 190px;
+  transform: rotate(-90deg);
+  text-align: right;
+  line-height: 0px;
+  display: block;
+} 
+
+.milky-icon { 
+  transform: rotate(0deg);
+  font-size: 65px; 
+  color: var(--accent);
+  position: relative; 
+  top: 5px;
+  left:60px;
+  content: var(--uni);
+  text-shadow: 2px 2px var(--shadow);
+  
+} 
+
+.milky-icon span { 
+margin-top: -28px;
+} 
+
+.milky-icon::before { 
+  font-size: 65px; 
+  color: var(--accent);
+  clear: both;
+  content: var(--uni);
+  font-family: 'high', 'starry';
+  text-shadow: 2px 2px var(--shadow);
+  position: relative; 
+  top: 5px;
+} 
+
+.milky-body { 
+  font: 13.5px 'Roboto', sans-serif;
+  margin-top:100px;
+  padding: 40px 40px 60px;
+  text-align: justify;
+  line-height: 23px;
+  color: var(--black);
+} 
+
+.milky-body b { 
+  color: var(--main);
+} 
+
+.milky-body a { 
+  color: var(--main);
+} 
+
+.milky-tag { 
+  position: relative;
+  top: -20px;
+  text-align: right;
+  padding-bottom:  15px;
+line-height: 13px;
+
+} 
+
+.milky-tag a { 
+  font: 10px 'Spartan', sans-serif; 
+  text-transform: uppercase; 
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--accent);
+  text-decoration: none;
+} 
+
+
+/*vesper-post*/
+
+  @import "//dl.dropbox.com/s/9s289mbhxpdhb3l/starry.css";
+
+.vesper-wrapper { 
+   --background: #f2f2f2;
+    --shadow: #d8d8d8;
+    --shadow2: #e6e6e6;
+    --black: #2a2a2a;
+  width: 370px;
+  background: var(--background);
+  min-height: 200px;
+  box-shadow: 2px 2px 2px 2px var(--shadow2);
+  padding: 20px;
+  border: 1.25px solid var(--shadow2);
+  border-radius: 15px;
+  margin: 30px 0px;
+position: relative;
+} 
+
+.vesper-top { 
+  height: 80px;
+  background-image: radial-gradient(var(--accent) 20%, transparent 0.3%);
+  background-color: var(--background);
+  background-size:15px 15px;
+  position: relative; 
+  opacity: 0.4;
+} 
+
+.vesper-date { 
+  font: 10px 'Spartan', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--accent);
+  text-shadow: 1px 2px var(--shadow);
+  line-height: 0px;
+position: relative; 
+top: -40px;
+} 
+
+.vesper-icon::before { 
+  content: var(--uni);
+  font-family: 'High', 'Starry', 'Honeybee'; 
+  font-size: 60px;
+  color: var(--main);
+  text-shadow: 3px 3px var(--shadow);
+  display: block;
+position: relative; 
+bottom: -3px;
+} 
+
+.vesper-icon  { 
+  font-size: 60px;
+  position: relative;
+  top: -50px;
+  text-shadow: 3px 3px var(--shadow);
+  color: var(--main);
+height: 60px;
+} 
+
+.vesper-body { 
+  font: 13px 'Roboto', sans-serif;
+  padding: 0px 40px 0px;
+  text-align: justify;
+  line-height: 20px;
+  color: var(--black);
+} 
+
+.vesper-body b { 
+  color: var(--main);
+} 
+
+.vesper-body a { 
+  all: initial;
+  font: 13.5px 'Roboto', sans-serif;
+  text-transform: lowercase;
+} 
+
+.vesper-tag { 
+  margin: 40px 0px 40px;
+  font: 10px 'Spartan', sans-serif;
+} 
+
+.vesper-tag a { 
+  text-decoration: none;
+  color: var(--accent);
+  text-transform: uppercase;
+  font: 10px 'Spartan', sans-serif;
+  font-weight: 700;
+  
 } 
