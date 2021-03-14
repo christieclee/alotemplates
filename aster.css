@@ -1,15 +1,13 @@
-
-   @import "//dl.dropbox.com/s/6523jl7nh6hietx/high.css";
-  @import "//dl.dropbox.com/s/9s289mbhxpdhb3l/starry.css";
-
+@import "//dl.dropbox.com/s/6523jl7nh6hietx/high.css";
+@import "//dl.dropbox.com/s/9s289mbhxpdhb3l/starry.css";
   
 @import "//christieclee.github.io/highalo/high/high.css";
 @import "//christieclee.github.io/highalo/starry/starry.css";
 
 .aster-wrapper { 
-    --background: #ededed;
-    --white: #f6f6f6;
-    --whitet: #f6f6f6ED;
+    --background: #dfdfdf;
+    --white: #efefef;
+    --whitet: #efefefED;
     --grey: #bebebe;
     --black: #444444;
     position: relative;  
@@ -20,8 +18,9 @@
     font-family: 'Heebo', sans-serif;
     border-radius:20px;
     color: var(--black);
-    margin: 20px 0px ;
+    margin: 20px 0px;
       -webkit-text-size-adjust: none;
+    line-height:45px;
   } 
   
   .aster-wrapper a { 
@@ -152,6 +151,7 @@
     background: #EAEAEA;
     border-radius: 0px 15px 15px 0px;
     box-shadow: 5px 6px var(--main2);
+    line-height:20px;
   } 
   
   .aster-canon { 
@@ -205,7 +205,7 @@
    position: absolute; 
    left:101px;
    font-size: 25px;
-   top:55px;
+   top: 65px;
    transform: rotate(90deg);
   } 
       
