@@ -7,9 +7,9 @@
 @import "//christieclee.github.io/highalo/starry/starry.css";
 
 .aster-wrapper { 
-    --background: #e6e6e6;
-    --white: #f3f3f3;
-    --whitet: #f3f3f3ED;
+    --background: #ededed;
+    --white: #f6f6f6;
+    --whitet: #f6f6f6ED;
     --grey: #bebebe;
     --black: #444444;
     position: relative;  
