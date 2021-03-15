@@ -455,7 +455,7 @@ letter-spacing:1px;
   
   .aevent { 
     display: block;
-    line-height: 0px;
+    line-height: 16px;
     font-weight: 400;
     padding-left: 10px;
   } 
