@@ -5,7 +5,7 @@
 @import "//christieclee.github.io/highalo/starry/starry.css";
 
 .aster-wrapper { 
-    --background: #dfdfdf;
+    --background: #dcdcdc;
     --white: #efefef;
     --whitet: #efefefED;
     --grey: #bebebe;
@@ -18,7 +18,7 @@
     font-family: 'Heebo', sans-serif;
     border-radius:20px;
     color: var(--black);
-    margin: 20px 0px;
+    margin: auto;
       -webkit-text-size-adjust: none;
     line-height:45px;
   } 
@@ -439,7 +439,7 @@ letter-spacing:1px;
 
 .info-scroll li { 
   position: relative; 
-  top: -10px;
+  top: -20px;
     line-height: 16px;
 } 
 
@@ -455,7 +455,7 @@ letter-spacing:1px;
   
   .aevent { 
     display: block;
-    line-height: 15px;
+    line-height: 0px;
     font-weight: 400;
     padding-left: 10px;
   } 
