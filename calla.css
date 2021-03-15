@@ -212,9 +212,13 @@ line-height: 0px;
 #dom { 
 --hmain: #5E6E82; 
 --haccent: #a1888a;
-/*--uni: '\64';*/
- --pattern: url(https://i.pinimg.com/564x/89/94/83/89948343faada8e5f76ff730a8c2f096.jpg);
+--uni: '\64';
+ --pattern: url(https://i.pinimg.com/564x/ef/8e/ce/ef8ece8958f5567fcbd7ef4278108666.jpg);
 } 
+
+#dom .calla-background { 
+   background-position: -20px 280px;
+}
 
   #leon { 
 --hmain: #8f3d41; 
