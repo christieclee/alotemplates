@@ -184,11 +184,12 @@ line-height: 0px;
 #high { 
   --hmain: #767793; 
   --haccent:#9e7d6f;
-  --uni:'\6a'; 
+  --pattern: url(https://i.pinimg.com/564x/a9/a3/e1/a9a3e138385beb21fb7ff6637cfb5a27.jpg);
 } 
 #character { 
  --hmain: #767793; 
   --haccent:#9e7d6f;
+  
 } 
 
 #alec { 
@@ -198,11 +199,9 @@ line-height: 0px;
   } 
 
 
-
 #darius { 
 --hmain: #b86837; 
 --haccent: #2e676e;
---uni: '\66';
  --pattern: url(https://i.pinimg.com/564x/1a/67/b2/1a67b2d22a7452f22828d8441923552a.jpg);
   } 
 
@@ -254,7 +253,7 @@ line-height: 0px;
   
  #paris { 
 --hmain: #723c54;
---haccent: #a5a3b8;
+--haccent: #908da8;
 --uni:'\31'; 
    --pattern: url(https://i.pinimg.com/564x/66/5a/59/665a599f34159adea46f507b02619528.jpg);
 } 
@@ -271,7 +270,7 @@ line-height: 0px;
 
  #seema { 
 --hmain: #ac416a;
---haccent: #dab774;
+--haccent: #c5a361;
   --uni:'\37'; 
   --pattern: url(https://i.pinimg.com/564x/ee/de/78/eede7801a39922177ef8e4d889155155.jpg);
 } 
@@ -282,7 +281,7 @@ line-height: 0px;
 
 #wick{ 
 --hmain: #808ea1;
---haccent: #c3b69d;
+--haccent: #b5a68a;
   --uni:'\61'; 
       --pattern: url(https://i.pinimg.com/564x/c0/58/97/c05897f8a54fad347e7a067d230c49ff.jpg);
 } 
@@ -298,5 +297,5 @@ line-height: 0px;
 --hmain: #d16481;
 --haccent: #84b3b0;
 --uni:'\6d';
---pattern: url(https://i.pinimg.com/564x/aa/62/93/aa6293ac1807553c760af06f19624b8c.jpg);
+    --pattern: url(https://i.pinimg.com/564x/aa/62/93/aa6293ac1807553c760af06f19624b8c.jpg);
 } 
