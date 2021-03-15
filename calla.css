@@ -256,11 +256,11 @@ line-height: 0px;
 --hmain: #723c54;
 --haccent: #a5a3b8;
 --uni:'\31'; 
-   --pattern: url(https://i.pinimg.com/564x/f1/a0/7b/f1a07b1ecf0754b960aae44499db18b6.jpg);
+   --pattern: url(https://i.pinimg.com/564x/66/5a/59/665a599f34159adea46f507b02619528.jpg);
 } 
 
 #paris .calla-background { 
-   background-position: -70px 5px;
+   background-position: -70px 0px;
 }
 
 #pip { 
