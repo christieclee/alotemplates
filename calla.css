@@ -1,0 +1,297 @@
+@import "//dl.dropbox.com/s/6523jl7nh6hietx/high.css";
+@import "//dl.dropbox.com/s/9s289mbhxpdhb3l/starry.css";
+  
+@import "//christieclee.github.io/highalo/high/high.css";
+@import "//christieclee.github.io/highalo/starry/starry.css";
+  
+  .calla-wrapper { 
+    --body: #e7e7e7;
+    --white: #fbfbfb;
+    --shadow: #bbbbbb;
+    --background: #dfdfdf; 
+    --shadow2: #e1e1e1;
+    --black: #2f2f2f;
+    width: 420px;
+    min-height: 200px; 
+    background: var(--background);
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden; 
+    box-shadow: 4px 4px var(--shadow2);
+    position: relative;
+  } 
+  
+  .calla-top { 
+    height: 110px; 
+
+  } 
+  
+  .calla-background { 
+    height: 110px;
+    background-image: var(--pattern);
+    background-position: 00px 0px;
+    opacity: 0.6;
+    filter: grayscale(40%);
+    background-size: 80%;
+  } 
+  
+  
+  .calla-background:after { 
+  /*background: linear-gradient(-130deg, var(-), var(--haccent));*/
+  background: var(--haccent);
+  height: 110px; 
+  width: 420px;
+  z-index: 5;
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    opacity:0.3;
+    
+  } 
+  
+  .calla-triangle1 { 
+    width:300px ;
+   background: linear-gradient(130deg, var(--hmain), var(--background));
+   height: 300px; 
+   position: absolute; 
+   left:180px;
+   top: -220px;
+   transform:rotate(45deg);
+   z-index: 6;
+   box-shadow: 1px 1px var(--background);
+  } 
+  
+  .colla-icon { 
+    width: 20px; 
+    height:0px;
+    position: absolute;
+    top:30px;
+    left:250px;
+    padding: 45px 20px;
+    z-index: 6;
+  } 
+  
+.colla-icon::before { 
+  content: var(--uni);
+  font-family: 'high', 'starry';
+  position: relative; 
+  font-size:70px;
+  color: var(--haccent);
+  position: relative; 
+  top: -5px;
+   z-index:3;  
+  text-shadow: 1px 2px var(--body);
+} 
+  .colla-icon span { 
+    font-size:70px;
+    color: var(--haccent);
+    position: relative; 
+    top: -5px;
+    z-index:3;
+    text-shadow: 1px 2px var(--body);
+  } 
+  
+ .colla-dot2 {
+    width:50px;
+    height:50px; 
+    border-radius: 100px;
+   background: linear-gradient(100deg, var(--hmain), var(--haccent));
+   position: relative;
+   top: -90px; 
+   left:40px;
+   margin-bottom: 15px;
+   opacity: 0.5;
+   z-index: 2;
+    
+  }
+  
+  .calla-body { 
+    background: var(--body);
+    font: 14.5px 'Roboto', sans-serif;
+    line-height: 28px;
+    padding: 65px 50px;
+    text-align: justify;
+    position: relative;
+    top: 0px;
+    z-index:4;
+    color: var(--black);
+  } 
+  
+  .calla-body b { 
+ color: var(--hmain);
+  } 
+   
+  .calla-bottom { 
+    background: var(--haccent);
+    height:100px;
+    position: relative;
+    top: 0pxx;
+    z-index: 4;
+    opacity: 0.5;
+    display: flex;
+  } 
+    
+   
+   .calla-date { 
+     position: absolute; 
+     z-index: 3;
+     font: 30px 'montserrat', sans-serif;
+     text-transform: uppercase; 
+     font-weight: 900;
+     color: var(--white);
+     letter-spacing: 3px;
+     bottom: 25px;
+     right: 30px;
+     line-height: 25px;
+     text-shadow: 2px 2px var(--black);
+     opacity: 0.4;
+     width:100px;
+     text-align: right;
+
+   } 
+   
+   .calla-tag {  
+     font:13px 'Nunito', sans-serif; 
+     text-decoration: none; 
+     color: var(--white);
+     position: relative; 
+     margin-top:30px;
+     left: 30px;
+     width:280px;
+     height: 0px;
+     font-weight: 700;
+     display: inline;
+     padding: 0px 0px ;
+     height: 10px;
+   } 
+   
+   .calla-tag a {
+     text-decoration: none; 
+    color: var(--white);
+     text-shadow: 1px 1px var(--black) ;
+  
+   } 
+
+  
+  body { 
+    background: #e9e9e9;
+  } 
+  
+#high { 
+  --hmain: #767793; 
+  --haccent:#9e7d6f;
+  --uni:'\6a'; 
+} 
+#character { 
+ --hmain: #767793; 
+  --haccent:#9e7d6f;
+} 
+
+#alec { 
+  --hmain: #9e6679; 
+--haccent: #8a9295;
+--uni: '\69';
+--pattern: url(https://i.pinimg.com/564x/e5/b6/c3/e5b6c34823282771d99fe69b0166c066.jpg);
+  } 
+
+
+#darius { 
+--hmain: #b86837; 
+--haccent: #2e676e;
+--uni: '\66';
+ --pattern: url(https://i.pinimg.com/564x/1a/67/b2/1a67b2d22a7452f22828d8441923552a.jpg);
+  } 
+
+#darius .calla-background { 
+   background-position: -20px -180px;
+}
+
+#dom { 
+--hmain: #5E6E82; 
+--haccent: #a1888a;
+--uni: '\64';
+ --pattern: url(https://i.pinimg.com/564x/89/94/83/89948343faada8e5f76ff730a8c2f096.jpg);
+} 
+
+  #leon { 
+--hmain: #8f3d41; 
+--haccent: #738895;
+ --uni:'\34'; 
+ --pattern: url(https://i.pinimg.com/564x/f1/a7/f3/f1a7f30abd81cf59125d1b66b95c2ce2.jpg);
+} 
+#leon .calla-background { 
+   background-position: -10px -95px;
+   background-size: 80%;
+}
+
+#marko { 
+--hmain: #D28158;
+--haccent: #89b9b1;
+--uni:'\33'; 
+ --pattern: url(https://i.pinimg.com/564x/8e/d8/4d/8ed84d875b72d8af74d46683cdbda211.jpg);
+} 
+
+#marko .calla-background { 
+   background-position: -50px -185px;
+}
+
+
+#oli { 
+ --haccent: #de7868; 
+--hmain: #a48dad;
+  --uni:'\6f'; 
+   --pattern: url(https://i.pinimg.com/564x/0e/f8/b8/0ef8b87d06aa263023a2a8d185b00fa5.jpg);
+} 
+
+  
+ #paris { 
+--hmain: #723c54;
+--haccent: #a5a3b8;
+--uni:'\31'; 
+   --pattern: url(https://i.pinimg.com/564x/f1/a0/7b/f1a07b1ecf0754b960aae44499db18b6.jpg);
+} 
+
+#paris .calla-background { 
+   background-position: -70px 5px;
+}
+
+#pip { 
+  --hmain: #729889;
+  --haccent: #bfa0a0; 
+  --uni:'\63'; 
+} 
+
+ #seema { 
+--hmain: #ac416a;
+--haccent: #dab774;
+  --uni:'\37'; 
+  --pattern: url(https://i.pinimg.com/564x/ee/de/78/eede7801a39922177ef8e4d889155155.jpg);
+} 
+
+#seema .calla-background { 
+   background-position: -70px px;
+}
+
+#wick{ 
+--hmain: #808ea1;
+--haccent: #c3b69d;
+  --uni:'\61'; 
+      --pattern: url(https://i.pinimg.com/564x/c0/58/97/c05897f8a54fad347e7a067d230c49ff.jpg);
+} 
+
+ #yusuf { 
+ --hmain: #b13f2c; 
+--haccent: #da9b63;
+  --uni:'\38'; 
+    --pattern: url(https://i.pinimg.com/564x/4c/21/25/4c2125fc0fbb0b63a49bdc9b43522557.jpg);
+} 
+
+#romy {
+--hmain: #d16481;
+--haccent: #84b3b0;
+--uni:'\6d';
+    --pattern: url(https://i.pinimg.com/564x/aa/62/93/aa6293ac1807553c760af06f19624b8c.jpg);
+} 
