@@ -130,7 +130,7 @@ line-height: 0px;
  color: var(--hmain);
   } 
    
-    .calla-bottom { 
+     .calla-bottom { 
     background: var(--haccent);
     height:90px;
     position: relative;
@@ -138,6 +138,7 @@ line-height: 0px;
     z-index: 4;
     opacity: 0.5;
     display: flex;
+    vertical-align: middle; 
   } 
     
    
@@ -163,15 +164,16 @@ line-height: 0px;
      font:13px 'Nunito', sans-serif; 
      text-decoration: none; 
      color: var(--white);
-     position: relative; 
-     margin-top:35px;
+     position: absolute; 
      left: 30px;
      width:280px;
-     height: 0px;
      font-weight: 700;
      display: inline;
-     padding: 0px 0px ;
+     padding: 0px ;
      height: 10px;
+     height: 90px;
+     top:35%;
+     
    } 
    
    .calla-tag a {
