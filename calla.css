@@ -161,13 +161,14 @@ line-height: 0px;
    } 
    
    
+     
    .calla-tag {  
      font:13px 'Nunito', sans-serif; 
      text-decoration: none; 
      color: var(--white);
      position: relative; 
      left: 30px;
-     width:280px;
+     width:300px;
      font-weight: 700;
      display: inline;
      height: 10px;
