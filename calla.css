@@ -160,20 +160,20 @@ line-height: 0px;
 
    } 
    
+   
    .calla-tag {  
      font:13px 'Nunito', sans-serif; 
      text-decoration: none; 
      color: var(--white);
-     position: absolute; 
+     position: relative; 
      left: 30px;
      width:280px;
      font-weight: 700;
      display: inline;
-     padding: 0px ;
      height: 10px;
-     height: 90px;
-     top:35%;
-     
+     padding:32px 0px ;
+     text-align: left; 
+
    } 
    
    .calla-tag a {
