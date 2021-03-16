@@ -1,0 +1,294 @@
+[dohtml]<center> 
+<div class="holly-wrapper"> 
+<div class="holly-tab" id="character">
+<input type="radio" id="tab-1" name="tab-group-1" checked>
+<label for="tab-1" title="CHARACTERNAME"></label>
+<div class="holly-content">
+<div class="holly-top"></div>
+<div class="holly-name"></div>
+<div class="holly-left"></div>
+
+<div class="holly-info">
+<span class="h-info">● AGE ( in numbers )</span>
+<span class="h-info">job</span>
+<span class="h-info">BLOOD</span>
+<span class="h-info"><a href="LINK GOES HERE" target="_blank">ads</a></span>
+</div>
+
+<div class="holly-blurb">
+
+your blurb goes here. it'll cut off after a certain point and does not scroll. if you want to do bullet points put it in 
+<*span> spans and just take out the asterisks <*/span> it'll automatically insert bullet points. 
+<b>bolds look like this.</b>
+</div>
+
+  <div class="holly-plot">
+ <span>plot ideas or specific plot wants goes here </span> 
+<span>span tags for bullet</span>
+  </div>
+</div>
+</div> 
+<div class="holly-tab" id="character2">
+<input type="radio" id="tab-2" name="tab-group-1">
+<label for="tab-2" title="CHARACTERNAME"></label>
+<div class="holly-content">
+<div class="holly-top"></div>
+<div class="holly-name"></div>
+<div class="holly-left"></div>
+
+<div class="holly-info">
+<span class="h-info">● AGE ( in numbers )</span>
+<span class="h-info">job</span>
+<span class="h-info">BLOOD</span>
+<span class="h-info"><a href="LINK GOES HERE" target="_blank">APP</a></span>
+
+</div>
+
+<div class="holly-blurb">
+
+your blurb goes here. it'll cut off after a certain point and does not scroll. if you want to do bullet points put it in 
+<*span> spans and just take out the asterisks <*/span> it'll automatically insert bullet points. 
+<b>bolds look like this.</b>
+</div>
+
+  <div class="holly-plot">
+ <span>plot ideas or specific plot wants goes here </span> 
+<span>span tags for bullet</span>
+  </div>
+</div>
+</div> 
+<div class="holly-tab" id="character3">
+<input type="radio" id="tab-3" name="tab-group-1">
+<label for="tab-3" title="CHARACTERNAME"></label>
+<div class="holly-content">
+<div class="holly-top"></div>
+<div class="holly-name"></div>
+<div class="holly-left"></div>
+
+<div class="holly-info">
+<span class="h-info">● AGE ( in numbers )</span>
+<span class="h-info">job</span>
+<span class="h-info">BLOOD</span>
+<span class="h-info"><a href="LINK GOES HERE" target="_blank">APP</a></span>
+
+</div>
+
+<div class="holly-blurb">
+
+your blurb goes here. it'll cut off after a certain point and does not scroll. if you want to do bullet points put it in 
+<*span> spans and just take out the asterisks <*/span> it'll automatically insert bullet points. 
+<b>bolds look like this.</b>
+</div>
+
+  <div class="holly-plot">
+ <span>plot ideas or specific plot wants goes here </span> 
+<span>span tags for bullet</span>
+  </div>
+</div>
+</div> 
+<div class="holly-tab" id="character4">
+<input type="radio" id="tab-4" name="tab-group-1">
+<label for="tab-4" title="CHARACTERNAME"></label>
+<div class="holly-content">
+<div class="holly-top"></div>
+<div class="holly-name"></div>
+<div class="holly-left"></div>
+
+<div class="holly-info">
+<span class="h-info">● AGE ( in numbers )</span>
+<span class="h-info">job</span>
+<span class="h-info">BLOOD</span>
+<span class="h-info"><a href="LINK GOES HERE" target="_blank">APP</a></span>
+</div>
+
+<div class="holly-blurb">
+
+your blurb goes here. it'll cut off after a certain point and does not scroll. if you want to do bullet points put it in 
+<*span> spans and just take out the asterisks <*/span> it'll automatically insert bullet points. 
+<b>bolds look like this.</b>
+</div>
+
+  <div class="holly-plot">
+ <span>plot ideas or specific plot wants goes here </span> 
+<span>span tags for bullet</span>
+  </div>
+</div>
+</div> 
+<div class="holly-tab" id="character5">
+<input type="radio" id="tab-5" name="tab-group-1">
+<label for="tab-5" title="CHARACTERNAME"></label>
+<div class="holly-content">
+<div class="holly-top"></div>
+<div class="holly-name"></div>
+<div class="holly-left"></div>
+
+<div class="holly-info">
+<span class="h-info">● AGE ( in numbers )</span>
+<span class="h-info">job</span>
+<span class="h-info">BLOOD</span>
+<span class="h-info"><a href="LINK GOES HERE" target="_blank">APP</a></span>
+
+</div>
+
+<div class="holly-blurb">
+
+your blurb goes here. it'll cut off after a certain point and does not scroll. if you want to do bullet points put it in 
+<*span> spans and just take out the asterisks <*/span> it'll automatically insert bullet points. 
+<b>bolds look like this.</b>
+</div>
+
+  <div class="holly-plot">
+ <span>plot ideas or specific plot wants goes here </span> 
+<span>span tags for bullet</span>
+  </div>
+</div>
+</div> 
+<div class="holly-tab" id="character6">
+<input type="radio" id="tab-6" name="tab-group-1">
+<label for="tab-6" title="CHARACTERNAME"></label>
+<div class="holly-content">
+<div class="holly-top"></div>
+<div class="holly-name"></div>
+<div class="holly-left"></div>
+
+<div class="holly-info">
+<span class="h-info">● AGE ( in numbers )</span>
+<span class="h-info">job</span>
+<span class="h-info">BLOOD</span>
+<span class="h-info"><a href="LINK GOES HERE" target="_blank">APP</a></span>
+
+</div>
+
+<div class="holly-blurb">
+
+your blurb goes here. it'll cut off after a certain point and does not scroll. if you want to do bullet points put it in 
+<*span> spans and just take out the asterisks <*/span> it'll automatically insert bullet points. 
+<b>bolds look like this.</b>
+</div>
+
+  <div class="holly-plot">
+ <span>plot ideas or specific plot wants goes here </span> 
+<span>span tags for bullet</span>
+  </div>
+</div>
+</div> 
+<div class="holly-tab" id="character7">
+<input type="radio" id="tab-7" name="tab-group-1">
+<label for="tab-7" title="CHARACTERNAME"></label>
+<div class="holly-content">
+<div class="holly-top"></div>
+<div class="holly-name"></div>
+<div class="holly-left"></div>
+
+<div class="holly-info">
+<span class="h-info">● AGE ( in numbers )</span>
+<span class="h-info">job</span>
+<span class="h-info">BLOOD</span>
+<span class="h-info"><a href="LINK GOES HERE" target="_blank">APP</a></span>
+
+</div>
+
+<div class="holly-blurb">
+
+your blurb goes here. it'll cut off after a certain point and does not scroll. if you want to do bullet points put it in 
+<*span> spans and just take out the asterisks <*/span> it'll automatically insert bullet points. 
+<b>bolds look like this.</b>
+</div>
+
+  <div class="holly-plot">
+ <span>plot ideas or specific plot wants goes here </span> 
+<span>span tags for bullet</span>
+  </div>
+</div>
+</div> 
+<div class="holly-tab" id="character8">
+<input type="radio" id="tab-8" name="tab-group-1">
+<label for="tab-8" title="CHARACTERNAME"></label>
+<div class="holly-content">
+<div class="holly-top"></div>
+<div class="holly-name"></div>
+<div class="holly-left"></div>
+
+<div class="holly-info">
+<span class="h-info">● AGE ( in numbers )</span>
+<span class="h-info">job</span>
+<span class="h-info">BLOOD</span>
+<span class="h-info"><a href="LINK GOES HERE" target="_blank">APP</a></span>
+
+</div>
+
+<div class="holly-blurb">
+
+your blurb goes here. it'll cut off after a certain point and does not scroll. if you want to do bullet points put it in 
+<*span> spans and just take out the asterisks <*/span> it'll automatically insert bullet points. 
+<b>bolds look like this.</b>
+</div>
+
+  <div class="holly-plot">
+ <span>plot ideas or specific plot wants goes here </span> 
+<span>span tags for bullet</span>
+  </div>
+</div>
+</div> 
+</div>
+<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700|Spartan:500,700&display=swap" rel="stylesheet">
+<link href="//dl.dropbox.com/s/a2iqw9v89kp7jo1/holly.css" rel="stylesheet">
+<link href="//christieclee.github.io/alotemplates/holly.css" rel="stylesheet">
+
+</center>
+<style>
+/*Character colors and image goes here*/ 
+   #character { 
+  --main: #272727; 
+  --accent:#808080;
+  --name: 'Firstname l.'; /*put your character's name here*/ 
+  --img:  url(https://cdn.discordapp.com/attachments/378633932754780170/388179774394073092/20.png);
+} 
+
+   #character2 { 
+  --main: #272727; 
+  --accent:#808080;
+  --name: 'Firstname l.'; /*put your character's name here*/ 
+  --img:  url(https://cdn.discordapp.com/attachments/378633932754780170/388179774394073092/20.png); /*250x400 hover size*/
+} 
+   #character3 { 
+  --main: #272727; 
+  --accent:#808080;
+  --name: 'Firstname l.'; /*put your character's name here*/ 
+  --img:  url(https://cdn.discordapp.com/attachments/378633932754780170/388179774394073092/20.png); /*250x400 hover size*/
+} 
+
+   #character4 { 
+  --main: #272727; 
+  --accent:#808080;
+  --name: 'Firstname l.'; /*put your character's name here*/ 
+  --img:  url(https://cdn.discordapp.com/attachments/378633932754780170/388179774394073092/20.png); /*250x400 hover size*/
+} 
+   #character5 { 
+  --main: #272727; 
+  --accent:#808080;
+  --name: 'Firstname l.'; /*put your character's name here*/ 
+  --img:  url(https://cdn.discordapp.com/attachments/378633932754780170/388179774394073092/20.png); /*250x400 hover size*/
+} 
+   #character6 { 
+  --main: #272727; 
+  --accent:#808080;
+  --name: 'Firstname l.'; /*put your character's name here*/ 
+  --img:  url(https://cdn.discordapp.com/attachments/378633932754780170/388179774394073092/20.png); /*250x400 hover size*/
+} 
+   #character7 { 
+  --main: #272727; 
+  --accent:#808080;
+  --name: 'Firstname l.'; /*put your character's name here*/ 
+  --img:  url(https://cdn.discordapp.com/attachments/378633932754780170/388179774394073092/20.png); /*250x400 hover size*/
+} 
+   #character8 { 
+  --main: #272727; 
+  --accent:#808080;
+  --name: 'Firstname l.'; /*put your character's name here*/ 
+  --img:  url(https://cdn.discordapp.com/attachments/378633932754780170/388179774394073092/20.png); /*250x400 hover size*/
+} 
+
+</style>
+
+[/dohtml]
