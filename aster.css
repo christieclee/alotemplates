@@ -18,7 +18,7 @@
     font-family: 'Heebo', sans-serif;
     border-radius:20px;
     color: var(--black);
-    margin: auto;
+    margin: 30px auto;
       -webkit-text-size-adjust: none;
     line-height:45px;
   } 
@@ -431,6 +431,7 @@ font-size: 15px;
 color: var(--accent);
 letter-spacing:1px;
  margin: 0px;
+   margin-top: 0px;
 }
 
 .info-scroll h2::after, h1::after, .aevent::after { 
