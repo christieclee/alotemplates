@@ -1,4 +1,3 @@
- 
 @import "//christieclee.github.io/highalo/high/high.css";
 @import "//christieclee.github.io/highalo/starry/starry.css";
 @import "//christieclee.github.io/highalo/stark/stark.css";
@@ -132,13 +131,11 @@ line-height: 0px;
    
      .calla-bottom { 
     background: var(--haccent);
-    height:90px;
+    height:100px;
     position: relative;
-    top: 0px;
     z-index: 4;
     opacity: 0.5;
-    display: flex;
-    vertical-align: middle; 
+    display: block;
   } 
     
    
@@ -150,7 +147,7 @@ line-height: 0px;
      font-weight: 900;
      color: var(--white);
      letter-spacing: 3px;
-     bottom: 20px;
+     bottom: 25px;
      right: 30px;
      line-height: 25px;
      text-shadow: 2px 2px var(--black);
@@ -163,18 +160,19 @@ line-height: 0px;
    
      
    .calla-tag {  
-     font:13px 'Nunito', sans-serif; 
+     font:12px 'Nunito', sans-serif; 
      text-decoration: none; 
      color: var(--white);
      position: relative; 
      left: 30px;
-     width:300px;
+     width: 300px;
+     top: 40px;
      font-weight: 700;
-     display: inline;
+     display: block;
      height: 10px;
-     padding:34px 0px ;
+     padding:px 0px ;
      text-align: left; 
-
+     line-height: 15px;
    } 
    
    .calla-tag a {
@@ -304,4 +302,4 @@ line-height: 0px;
 --haccent: #84b3b0;
 --uni:'\6d';
     --pattern: url(https://i.pinimg.com/564x/aa/62/93/aa6293ac1807553c760af06f19624b8c.jpg);
-} 
+}
