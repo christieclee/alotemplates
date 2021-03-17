@@ -64,7 +64,7 @@
   
 }
 
-[type=radio]:checked ~ .merlot-tab label {
+.merlot-tab [type=radio]:checked ~  label {
   background: var(--main);
   border-right: 10px solid var(--main);
   width: 30px;
