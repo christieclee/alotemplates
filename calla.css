@@ -18,6 +18,7 @@
     overflow: hidden; 
     box-shadow: 4px 4px var(--shadow2);
     position: relative;
+    border: 1px solid var(--shadow2);
   } 
   
   .calla-top { 
