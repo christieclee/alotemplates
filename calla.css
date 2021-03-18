@@ -132,7 +132,7 @@ line-height: 0px;
    
      .calla-bottom { 
     background: var(--haccent);
-    height:100px;
+    height:95px;
     position: relative;
     z-index: 4;
     opacity: 0.5;
@@ -167,15 +167,14 @@ line-height: 0px;
      position: relative; 
      left: 30px;
      width: 300px;
-     top: 40px;
+     top: 38px;
      font-weight: 700;
      display: block;
      height: 10px;
      padding:px 0px ;
      text-align: left; 
-     line-height: 15px;
+     line-height: 13px;
    } 
-   
    .calla-tag a {
      text-decoration: none; 
     color: var(--white);
