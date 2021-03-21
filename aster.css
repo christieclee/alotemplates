@@ -430,7 +430,7 @@ font-size: 15px;
 color: var(--accent);
 letter-spacing:1px;
  margin: 0px;
-   margin-top: 0px;
+   margin-top: -10px;
   margin-bottom: -10px;
 }
 
