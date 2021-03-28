@@ -179,7 +179,7 @@ line-height: 0px;
      text-decoration: none; 
     color: var(--white);
      text-shadow: 1px 1px var(--black); 
-    text-transform: uppercase;
+    text-transform: lowercase;
    } 
 
 
