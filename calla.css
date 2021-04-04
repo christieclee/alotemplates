@@ -132,7 +132,7 @@ line-height: 0px;
 
   .calla-body a { 
  color: var(--hmain);
-    text-shadow: 1px 1px var(--shadow);
+    text-shadow: 1px 1px var(--shadow2);
     text-decoration: none;
   } 
 
