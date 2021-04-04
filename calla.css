@@ -129,6 +129,16 @@ line-height: 0px;
   .calla-body b { 
  color: var(--hmain);
   } 
+
+  .calla-body a { 
+ color: var(--hmain);
+    text-shadow: 1px 1px var(--shadow);
+    text-decoration: none;
+  } 
+
+
+
+
    
      .calla-bottom { 
     background: var(--haccent);
