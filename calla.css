@@ -325,3 +325,13 @@ line-height: 0px;
 #rhys .calla-background { 
    background-position: 0px -210px;
 }
+
+#rook{ 
+--hmain: #89a995;
+--haccent: #786277;
+  --uni:'\61'; 
+      --pattern: url(https://i.pinimg.com/564x/b0/ff/e4/b0ffe4c423881d31635d5ac76046b20f.jpg);
+} 
+#rook .calla-background { 
+   background-position: -40px 225px;
+}
