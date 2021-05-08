@@ -765,3 +765,13 @@ text-align: right;
 --name: 'rhys p.';
 
 } 
+
+  #rook { 
+ --main: #786277; 
+--accent: #89a995;
+--main2: #78627766; 
+--accent2: #89a99566;
+--img:  url(https://i.pinimg.com/564x/74/96/23/749623632ea8e0c2502b2905157937ee.jpg);
+--name: 'rook m.';
+
+} 
