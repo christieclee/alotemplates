@@ -335,3 +335,10 @@ line-height: 0px;
 #rook .calla-background { 
    background-position: -40px 225px;
 }
+
+  #lissy {
+--hmain: #a7af97;
+--haccent: #e89684;
+--uni:'\6d';
+    --pattern: url(https://i.pinimg.com/474x/fb/81/50/fb8150a0cd89359fba74920f4abcab77.jpg);
+} 
