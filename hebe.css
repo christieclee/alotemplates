@@ -1,0 +1,83 @@
+@import "//dl.dropbox.com/s/6523jl7nh6hietx/high.css";  
+
+    .hebe-wrapper { 
+    --white: #ffffff;
+    --shadow: #bbbbbb;
+    --background: #f1f1f1;
+    --backgroundt: #f1f1f180;
+    --shadow2: #dcdcdc;
+    --black: #2f2f2f;
+      
+      width: 420px;
+      background: var(--background);
+      min-height: 200px;
+      border-radius:15px 15px 0px 0px ;
+      border: 2px solid var(--shadow2);
+      font-family: 'Nunito', Sans-serif;
+      position: relative; 
+      overflow: hidden;
+      margin: 30px 0px ;
+    } 
+    
+    .hebe-wrapper b { 
+      color: var(--hmain);
+    } 
+    
+    .hebe-body { 
+      background: var(--backgroundt);
+      margin: 50px 0px 0px;
+      padding: 20px 0px 20px; 
+      position: relative;  
+      z-index: 4;
+      border-top: 2px solid var(--haccent);
+    } 
+    
+      .hebe-text { 
+      font-size: 13.5px;
+      padding: 30px 50px 50px;
+      text-align: justify;
+      line-height:24px;
+      background: var(--backgroundt);
+
+
+    } 
+    
+    .hebe-text hr { 
+margin: 40px 30px;
+border: none;
+border-bottom: 1px solid var(--shadow2);
+    } 
+    
+    .hebe-bottom { 
+      height:100px;
+      background-image: url(https://cdn.discordapp.com/attachments/821102323715539014/862557836538281984/d32a5b673b35efba202712893a5855bc.png);
+      position: relative;
+      top: 0px; 
+      background-position: -50px -500px;
+        filter: grayscale(100%);
+        margin-top: -40px;
+    } 
+    
+    .hebe-tag { 
+      font: 11px 'Spartan', sans-serif;
+      margin-top: -10px;
+      text-align: right;
+    } 
+    
+    .hebe-tag a { 
+      font: 11px 'Spartan', sans-serif;
+      text-decoration: none;
+      color: var(--haccent);
+    } 
+    
+    .hebe-tag a:before { 
+      content: '#';
+    } 
+   
+
+#dom { 
+--hmain: #5E6E82; 
+--haccent: #a1888a;
+--uni: '\64';
+
+} 
