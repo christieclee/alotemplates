@@ -1,4 +1,3 @@
-@import "//dl.dropbox.com/s/6523jl7nh6hietx/high.css";  
 
     .hebe-wrapper { 
     --white: #ffffff;
@@ -68,6 +67,7 @@ border-bottom: 1px solid var(--shadow2);
       font: 11px 'Spartan', sans-serif;
       text-decoration: none;
       color: var(--haccent);
+        font-weight: 700;
     } 
     
     .hebe-tag a:before { 
