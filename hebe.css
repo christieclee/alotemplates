@@ -76,6 +76,36 @@ border-bottom: 1px solid var(--shadow2);
     } 
    
 
+.hebe-pkmn {
+  position: relative; 
+  left: -20px;
+  text-align: right; 
+  padding: 10px 0px 20px;
+} 
+
+.hebe-hp { 
+  position: relative; 
+  top: 60px;
+  left: -17px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--black);
+} 
+
+.hebe-team { 
+position: absolute;
+opacity: 0.2;
+font:30px 'Spartan', Sans-serif;
+text-transform: uppercase;
+right:10px;
+top:  20px;
+color: var(--hmain);
+} 
+
+#fainted { 
+  opacity: 0.5;
+} 
+
 #dom { 
 --hmain: #5E6E82; 
 --haccent: #a1888a;
