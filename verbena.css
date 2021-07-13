@@ -119,6 +119,7 @@ background-color: var(--background);
       font: 11px 'Spartan', sans-serif;
       margin-top: 0px;
       text-align: right;
+              color: var(--black);
 
     } 
     
