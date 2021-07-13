@@ -1,0 +1,226 @@
+
+@import "//dl.dropbox.com/s/6523jl7nh6hietx/high.css";  
+
+    .verbena-wrapper { 
+    --white: #ffffff;
+    --shadow: #bbbbbb;
+    --background: #f1f1f1;
+    --backgroundt: #f1f1f180;
+    --shadow2: #dcdcdc;
+    --black: #2f2f2f;
+      
+      width: 420px;
+      background: var(--background);
+      min-height: 200px;
+      border-radius:15px 15px 0px 0px ;
+      font-family: 'Nunito', Sans-serif;
+      position: relative; 
+      margin: 30px 0px ;
+      display: inline-block;
+    } 
+    
+    .verbena-wrapper b { 
+      color: var(--hmain);
+    } 
+    .verbena-date { 
+      font: 20px 'Spartan', sans-serif;
+      position: absolute;
+      right: 55px; 
+      color: var(--hmain);
+      font-weight: 800; 
+      text-transform: uppercase;
+      top: 40px;
+      z-index: 5;
+      opacity: 0.4;
+      width:70px;
+      text-align: left; 
+      text-shadow: 2px 2px var(--shadow);
+    } 
+    .verbena-top { 
+    position: relative;
+    z-index: 5;
+    padding-bottom: 20px; 
+    top: 10px;
+    right: 10px;
+    }
+    
+    .verbena-icon { 
+      font-size: 60px;
+      float: right;
+      color: var(--haccent);
+      position: relative; 
+      top:15px;
+      right: 14px;
+      z-index:5;
+      padding: 0px 10px;
+      text-shadow: 2px 2px var(--shadow2);
+
+    } 
+    
+    .verbena-body { 
+      background: var(--backgroundt);
+      padding: 20px 0px 30px; 
+      position: relative;  
+      z-index: 4;
+      margin-top:50px;
+
+
+    } 
+    
+      .verbena-text { 
+      font-size: 13.5px;
+      padding: 30px 50px 0px;
+      text-align: justify;
+      line-height:24px;
+
+    } 
+    
+    .verbena-text hr { 
+margin: 40px 30px;
+border: none;
+border-bottom: 1px solid var(--shadow2);
+    } 
+    
+    .verbena-bottom { 
+      height:30px;
+      position: relative;
+      margin-top: 0px;
+    } 
+    
+    .verbena-gradient { 
+    background: linear-gradient(var(--hmain), var(--haccent));
+    height: 75px;
+    z-index: 3;
+    opacity: 0.5; 
+    position: relative; 
+    top: 0px;
+    } 
+    
+    .verbena-color { 
+      background-color: var(--haccent);
+      height: 20px;
+      position:relative;
+      z-index:;
+      top: 0px;
+      opacity: 0.5;
+    } 
+    
+    .verbena-paper { 
+    background-image: url(https://cdn.discordapp.com/attachments/821102323715539014/864356453006966824/paper3.png);
+    background-position: -10px 130px;
+    position: relative; 
+    top:0px;
+    z-index: 2;
+    height:75px;
+
+    } 
+    
+    .verbena-tag { 
+      font: 11px 'Spartan', sans-serif;
+      margin-top: 0px;
+      text-align: right;
+
+    } 
+    
+    .verbena-tag a { 
+      font: 11px 'Spartan', sans-serif;
+      text-decoration: none;
+      color: var(--haccent);
+    } 
+    
+    .verbena-tag a:before { 
+      content: '#';
+    } 
+    
+
+#high { 
+  --hmain: #767793; 
+  --haccent:#9e7d6f;
+
+} 
+
+#character { 
+ --hmain: #767793; 
+  --haccent:#9e7d6f;
+} 
+
+#alec { 
+  --hmain: #9e6679; 
+--haccent: #8a9295;
+
+  } 
+
+
+#darius { 
+--hmain: #b86837; 
+--haccent: #2e676e;
+
+  } 
+
+#dom { 
+--hmain: #5E6E82; 
+--haccent: #a1888a;
+} 
+
+
+  #leon { 
+--hmain: #8f3d41; 
+--haccent: #738895;
+
+} 
+
+
+#marko { 
+--hmain: #D28158;
+--haccent: #89b9b1;
+} 
+  
+ #paris { 
+--hmain: #723c54;
+--haccent: #a5a3b8;
+
+} 
+
+
+#pip { 
+  --hmain: #729889;
+  --haccent: #bfa0a0; 
+ 
+} 
+
+
+#wick{ 
+--hmain: #808ea1;
+--haccent: #c3b69d;
+
+} 
+
+ #yusuf { 
+ --hmain: #b7412d; 
+--haccent: #da9b63;
+
+} 
+
+#romy {
+--hmain: #d16481;
+--haccent: #84b3b0;
+} 
+
+#rook{ 
+--hmain: #7a9785;
+--haccent: #8a7189;
+
+} 
+
+  #lissy {
+--hmain: #a7af97;
+--haccent: #dc9d81;
+
+} 
+
+#rhys {
+--hmain: #7091a9;
+--haccent: #4a6850;
+
+}
+  
