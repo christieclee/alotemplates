@@ -129,6 +129,7 @@ background-color: var(--background);
       text-decoration: none;
       color: var(--haccent);
       text-transform: uppercase;
+        font-weight: 600;
     } 
     
     
