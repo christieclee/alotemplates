@@ -26,7 +26,7 @@
     .verbena-date { 
       font: 20px 'Spartan', sans-serif;
       position: absolute;
-      right:57px;
+      right:60px;
       color: var(--hmain);
       font-weight: 800; 
       text-transform: uppercase;
