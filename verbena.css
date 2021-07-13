@@ -33,7 +33,7 @@
       z-index: 5;
       opacity: 0.4;
       width:70px;
-      text-align: right; 
+      text-align: left; 
       text-shadow: 2px 2px var(--shadow);
     } 
  .verbena-top { 
