@@ -36,11 +36,11 @@
       text-align: left; 
       text-shadow: 2px 2px var(--shadow);
     } 
-    .verbena-top { 
+ .verbena-top { 
     position: relative;
     z-index: 5;
-    padding-bottom: 20px; 
-    top: 10px;
+    padding-bottom: 30px; 
+    top: 15px;
     right: 10px;
     }
     
@@ -115,19 +115,22 @@ border-bottom: 1px solid var(--shadow2);
 background-color: var(--background);
     } 
     
+     
     .verbena-tag { 
       font: 11px 'Spartan', sans-serif;
       margin-top: 0px;
       text-align: right;
-              color: var(--black);
+      color: var(--black);
 
     } 
     
     .verbena-tag a { 
-      font: 11px 'Spartan', sans-serif;
+      font: 10px 'Spartan', sans-serif;
       text-decoration: none;
       color: var(--haccent);
+      text-transform: uppercase;
     } 
+    
     
     .verbena-tag a:before { 
       content: '#';
