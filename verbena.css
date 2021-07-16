@@ -136,6 +136,7 @@ background-color: var(--background);
     
     .verbena-tag a:before { 
       content: '#';
+      color: var(--hmain);
     } 
     
 
