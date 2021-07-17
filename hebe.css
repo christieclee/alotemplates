@@ -73,6 +73,7 @@ border-bottom: 1px solid var(--shadow2);
     
     .hebe-tag a:before { 
       content: '#';
+        color: var(--hmain);
     } 
    
 
