@@ -1,7 +1,9 @@
 .high-tracker #caught { 
-  opacity:; 
-  position: relative; 
-
+  opacity:0.8; 
+  position: relative;
+} 
+.high-tracker { 
+  z-index: 3;
 } 
 
 .high-tracker #caught:before { 
@@ -9,10 +11,10 @@
   font-family:'cappuccicons';
   float: left;
   position: relative; 
-  top: 32px;
-  left: 23px;
-  font-size: 24px;
-  color: #b9b9b9;
+  top: 20px;
+  left: 20px;
+  font-size: 30px;
+  color: #d31c1c;
   opacity: 0.7;
-  z-index: 2;
+  transform: rotate(40deg);
 } 
