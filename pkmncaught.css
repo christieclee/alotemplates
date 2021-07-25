@@ -1,0 +1,18 @@
+.high-tracker #caught { 
+  opacity:; 
+  position: relative; 
+
+} 
+
+.high-tracker #caught:before { 
+  content: '\ec17';
+  font-family:'cappuccicons';
+  float: left;
+  position: relative; 
+  top: 32px;
+  left: 23px;
+  font-size: 24px;
+  color: #b9b9b9;
+  opacity: 0.7;
+  z-index: 2;
+} 
