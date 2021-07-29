@@ -124,3 +124,8 @@ color: var(--hmain);
 --hmain: #bd8946; 
 --haccent: #6d9a94;
   } 
+
+  #wen { 
+--hmain: #524f7a; 
+--haccent: #7da4a1;
+}
