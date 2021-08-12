@@ -107,6 +107,11 @@ color: var(--hmain);
   opacity: 0.5;
 } 
 
+#wen { 
+--hmain: #524f7a; 
+--haccent: #7da4a1;
+}
+
 #dom { 
 --hmain: #5E6E82; 
 --haccent: #a1888a;
@@ -125,7 +130,3 @@ color: var(--hmain);
 --haccent: #6d9a94;
   } 
 
-  #wen { 
---hmain: #524f7a; 
---haccent: #7da4a1;
-}
