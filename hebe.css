@@ -130,3 +130,7 @@ color: var(--hmain);
 --haccent: #6d9a94;
   } 
 
+#lissy { 
+--hmain: #8a9377;
+--haccent: #dc9d81;
+}
