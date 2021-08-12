@@ -107,6 +107,11 @@ color: var(--hmain);
   opacity: 0.5;
 } 
 
+#lissy { 
+--hmain: #8a9377;
+--haccent: #dc9d81;
+}
+
 #wen { 
 --hmain: #524f7a; 
 --haccent: #7da4a1;
@@ -128,9 +133,4 @@ color: var(--hmain);
  #melo { 
 --hmain: #bd8946; 
 --haccent: #6d9a94;
-  } 
-
-#lissy { 
---hmain: #8a9377;
---haccent: #dc9d81;
-}
+} 
