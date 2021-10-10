@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,900&display=swap');
 @import "//christieclee.github.io/highalo/high/high.css";  
-
   .yarrow-wrapper{ 
   --background: #f7f7f7;
       --bg2: #efefef;
@@ -28,7 +27,7 @@
       color: var(--haccent);
     } 
     
-  
+    
     
     
  /*toggle*/
@@ -162,8 +161,8 @@ background-size: 43%;
   .yarrow-name{
     position: absolute; 
     color: var(--white);
-    font-size: 35px; 
-    left:180px;
+    font-size: 37px; 
+    left:200px;
     top:27px;
     text-transform: uppercase;
     font-style: italic;
@@ -208,7 +207,7 @@ background-size: 43%;
       color: var(--white);
     border: 1px solid var(--haccent);
     padding: 10px 20px;
-    letter-spacing: 1.3px;
+    letter-spacing: 2px;
     border-radius: 5px;
   } 
   
@@ -226,7 +225,7 @@ background-size: 48%;
    height: 100px; 
    width: 90px; 
    top: -40px; 
-   right: -40px; 
+   right: -20px; 
    background-repeat:no-repeat;
    z-index:5;
 
@@ -274,9 +273,9 @@ transform: rotate(-60deg);
   position: sticky;
   width: 100%;
   color: var(--hmain);
-  top: 10px;
-  padding: 20px 20px 0px 0px;
-z-index: 2;
+  top: 0px;
+  padding: 30px 20px 0px 0px;
+z-index: 4;
 text-align: right; 
 float: right; 
     font-style: italic;
@@ -289,7 +288,7 @@ height: 45px;
 .y-season { 
   position: relative;
   text-shadow: 2px 2px var(--grey);
-  z-index: 2; 
+  z-index: 4; 
 } 
 
   .yarrow-month { 
@@ -300,12 +299,12 @@ height: 45px;
   color: var(--haccent);
   top:45px;
   padding: 10px 0px 16px 0px;
-z-index: 3;
+z-index: 5;
 background: var(--background);
 float: right; 
 width: 130px; 
 margin-right: 20px; 
-margin-top: -20px;
+margin-top: -30px;
 text-align: right; 
 line-height: 0px!important;
 border-bottom: 1px solid var(--grey); 
@@ -314,7 +313,7 @@ border-bottom: 1px solid var(--grey);
 .y-month { 
   position: relative;
   text-shadow: 2px 2px var(--grey);
-  z-index: 3; 
+  z-index:5; 
 }
   
   /*month seasons*/  
@@ -324,7 +323,7 @@ border-bottom: 1px solid var(--grey);
     width: 70px;
     position:absolute;
     right: 155px;
-    top: -45px;
+    top: -35px;
     height:120px;
     background-size:80%;
     background-position: 0px;
@@ -356,7 +355,7 @@ border-bottom: 1px solid var(--grey);
     width: 70px;
     position:absolute;
     right: 150px;
-    top: -25px;
+    top:-10px;
     height:120px;
     background-size:130%;
     background-position: 0px;
@@ -380,12 +379,32 @@ border-bottom: 1px solid var(--grey);
     transform: rotate(-100deg);
 
     } 
+    
+    #past::before { 
+    content: '';
+    background-image: url(https://cdn.discordapp.com/attachments/894460498064601108/894460945936560129/20.png);
+    width: 70px;
+    position:absolute;
+    right: 90px;
+    top: -45px;
+    height:120px;
+    background-size:68%;
+    background-position: 0px;
+     background-repeat:no-repeat;
+     opacity: 0.4;
+    transform: rotate(-80deg);
+
+    } 
+
 
 /*threads*/
     
 #closed { 
-  opacity: 0.5;
+   filter: grayscale(1);
+   color: var(--grey);
+   opacity: 0.7;
 } 
+
     
 .yarrow-threads { 
   text-align: left;
@@ -395,7 +414,7 @@ border-bottom: 1px solid var(--grey);
   counter-reset: code-counter;
   font:12px 'Nunito', sans-serif;
 display: inline-block;
-z-index: 4;
+z-index: 2;
 margin: 30px 0px 30px;
   } 
   
@@ -405,7 +424,7 @@ height: auto;
 position: relative;
 padding: 15px 0px;
 margin-bottom: 5px;
-z-index: 4;
+z-index: 2;
 } 
 
 .yarrow-threads li::before { 
