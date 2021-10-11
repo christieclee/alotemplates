@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,900&display=swap');
 @import "//christieclee.github.io/highalo/high/high.css";  
   .yarrow-wrapper{ 
-  --background: #f7f7f7;
-      --bg2: #efefef;
+  --background: #f2f2f2;
+      --bg2: #e3e3e3;
     --white: #efefef;
     --whitet: #efefef6B;
     --grey: #bebebe;
@@ -12,7 +12,7 @@
     height: 600px; 
     background-color: var(--background);
     color: var(--black);
-    margin:40px auto 15px;
+    margin:30px auto 15px;
     -webkit-text-size-adjust: none;
     line-height:45px;
     border-radius: 10px 10px 0px 0px;
@@ -60,10 +60,10 @@ font: 12px 'nunito', sans-serif;
   top:-460px;
   left: 0px; 
   z-index: 8; 
-  -webkit-transition: ease-in-out 0.6s;  
-   -ms-transition: ease-in-out 0.6s;  
-   -moz-transition: ease-in-out 0.6s;  
-   -o-transition: ease-in-out 0.6s;  
+  -webkit-transition: ease-in-out 0.5s;  
+   -ms-transition: ease-in-out 0.5s;  
+   -moz-transition: ease-in-out 0.5s;  
+   -o-transition: ease-in-out 0.5s;  
 }
 
   .yarrow-timeline { 
@@ -78,10 +78,10 @@ font: 12px 'nunito', sans-serif;
   top: 0px;
   left:0px;
 
-  -webkit-transition: ease-in 0.6s;  
-   -ms-transition: ease-in 0.6s;  
-   -moz-transition: ease-in 0.6s;  
-   -o-transition: ease-in 0.6s;  
+  -webkit-transition: ease-in 0.7s;  
+   -ms-transition: ease-in 0.7s;  
+   -moz-transition: ease-in 0.7s;  
+   -o-transition: ease-in 0.7s;  
   } 
   
 
@@ -90,21 +90,21 @@ font: 12px 'nunito', sans-serif;
   right: 0px;
   z-index: 10; 
   opacity: 1;
-  -webkit-transition: ease-in-out 0.6s;  
-   -ms-transition: ease-in-out 0.6s;  
-   -moz-transition: ease-in-out 0.6s;  
-   -o-transition: ease-in-out 0.6s;  
+  -webkit-transition: ease-in-out 0.8s;  
+   -ms-transition: ease-in-out 0.8s;  
+   -moz-transition: ease-in-out 0.8s;  
+   -o-transition: ease-in-out 0.8s;  
   }
   
    input[type=checkbox]:checked ~ .yarrow-timeline { 
   top:0px;
-  left:-700px;
+  left:-600px;
   z-index: 10; 
   opacity: 1;
-  -webkit-transition: ease-in-out 0.6s;  
-   -ms-transition: ease-in-out 0.6s;  
-   -moz-transition: ease-in-out 0.6s;  
-   -o-transition: ease-in-out 0.6s;   
+ -webkit-transition: ease-in-out 0.5s;  
+   -ms-transition: ease-in-out 0.5s;  
+   -moz-transition: ease-in-out 0.5s;  
+   -o-transition: ease-in-out 0.5s;  
   }
 
 
@@ -144,8 +144,8 @@ color: var(--hmain);
   
   .yarrow-image { 
     border-radius: 100%;
-    width: 140px; 
-    height: 140px; 
+    width: 135px; 
+    height: 135px; 
     background-image: var(--y-img);
     position: absolute; 
     top: -10px;
@@ -158,11 +158,11 @@ color: var(--hmain);
   .yarrow-frame { 
     position: absolute;
    background-image: url(https://cdn.discordapp.com/attachments/894460498064601108/894848959808421888/frame.png);
-background-size: 87%;
+background-size: 80%;
   height:250px; 
    width: 250px; 
    background-position:0px 10px;
-   top: -45px;
+   top: -55px;
    left: -25px;
   transform: scaley(-1);
      background-repeat:no-repeat;
@@ -191,7 +191,7 @@ background-size: 43%;
     position: absolute; 
     color: var(--white);
     font-size: 37px; 
-    left:200px;
+    left:170px;
     top:27px;
     text-transform: uppercase;
     font-style: italic;
@@ -249,12 +249,12 @@ font-weight: 600;
  .y-leaves { 
    position: absolute;
     background-image: url(https://cdn.discordapp.com/attachments/894460498064601108/894460989330829322/17.png);
-background-size: 48%;
+background-size: 45%;
     background-position: 0px;
    height: 100px; 
    width: 90px; 
    top: -40px; 
-   right: -20px; 
+   right: -33px; 
    background-repeat:no-repeat;
    z-index:5;
 
@@ -304,7 +304,8 @@ height: 45px;
   position: sticky;
   color: var(--haccent);
   top:45px;
-  padding: 10px 0px 16px 0px;
+  padding: 10px 5px 15px 0px;
+  border-radius: 5px;
 z-index: 5;
 background: var(--background);
 float: right; 
@@ -313,12 +314,13 @@ margin-right: 20px;
 margin-top: -30px;
 text-align: right; 
 line-height: 0px!important;
-border-bottom: 1px solid var(--grey); 
+  background-image: linear-gradient(to right, var(--background), var(--bg2));
+
   } 
   
 .y-month { 
   position: relative;
-  text-shadow: 2px 2px var(--grey);
+  text-shadow: 1px 1px var(--grey);
   z-index:5; 
 }
   
@@ -421,7 +423,7 @@ border-bottom: 1px solid var(--grey);
   font:12px 'Nunito', sans-serif;
 display: inline-block;
 z-index: 2;
-margin: 30px 0px 30px;
+margin: 15px 0px 30px;
   } 
   
     
@@ -753,9 +755,15 @@ text-transform: uppercase;
 --hmain: #b86837; 
 --haccent: #2e676e;
   --y-img:  url(https://cdn.discordapp.com/attachments/867661284391780392/867661330126340156/3.png);
-  --name: 'darius b.';
-      
+  --name: 'darius b.'
     } 
+    
+     #darius .yarrow-image {
+    background-size:120%; 
+    background-position: 0px -10px;
+  } 
+    
+    
 #dom { 
 --hmain: #5E6E82; 
 --haccent: #a1888a;
@@ -825,7 +833,7 @@ text-transform: uppercase;
 } 
 
  #yusuf { 
- --hmain: #b7412d; 
+ --hmain: #b74f3d; 
 --haccent: #da9b63;
  --y-img:  url(https://cdn.discordapp.com/attachments/378633932754780170/877052284972961874/yusuf1.png);
   --name: 'yusuf a.';
