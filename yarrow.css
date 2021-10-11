@@ -51,7 +51,7 @@ color: var(--black);
 font: 12px 'nunito', sans-serif; 
   text-transform: lowercase;
   position: relative; 
- top:-460px;
+  top:-460px;
   left: 0px; 
   z-index: 8; 
   -webkit-transition: ease-in-out 0.5s;  
@@ -72,10 +72,10 @@ font: 12px 'nunito', sans-serif;
   top: 0px;
   left:0px;
 
-  -webkit-transition: ease-in 0.7s;  
-   -ms-transition: ease-in 0.7s;  
-   -moz-transition: ease-in 0.7s;  
-   -o-transition: ease-in 0.7s;  
+  -webkit-transition: ease-in 0.6s;  
+   -ms-transition: ease-in 0.6s;  
+   -moz-transition: ease-in 0.6s;  
+   -o-transition: ease-in 0.6s;  
   } 
   
 
@@ -84,10 +84,10 @@ font: 12px 'nunito', sans-serif;
   right: 0px;
   z-index: 10; 
   opacity: 1;
-  -webkit-transition: ease-in-out 0.8s;  
-   -ms-transition: ease-in-out 0.8s;  
-   -moz-transition: ease-in-out 0.8s;  
-   -o-transition: ease-in-out 0.8s;  
+  -webkit-transition: ease-in 0.6s;  
+   -ms-transition: ease-in 0.6s;  
+   -moz-transition: ease-in 0.6s;  
+   -o-transition: ease-in 0.6s;  
   }
   
 .yarrow-content   input[type=checkbox]:checked ~ .yarrow-timeline { 
@@ -132,27 +132,6 @@ z-index: 5;
 } 
 
 
-#y-reltitle { 
-  font-size: 22px;
-} 
-
-.y-rel2 {
-  position: absolute;
-right: -450px;
-  top: 50px;
- z-index: 8;
- -webkit-transition: ease-in-out 0.5s;  
-   -ms-transition: ease-in-out 0.5s;  
-   -moz-transition: ease-in-out 0.5s;  
-   -o-transition: ease-in-out 0.5s;  
-    align-items: flex-start;
-    height: 300px;
-  width:350px; 
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  align-content: flex-start;
-} 
 
 .y-chartoggle input[type=checkbox]:checked ~ .y-rel2 { 
 
@@ -170,7 +149,6 @@ right:65px;
 
 .y-chartoggle input[type=checkbox]:checked ~ .yarrow-extras { 
   top: -500px;
-
   z-index: 10; 
   opacity: 1;
  -webkit-transition: ease-in-out 0.5s;  
@@ -232,11 +210,7 @@ background-size: 43%;
      background-repeat:no-repeat;
      z-index: 4;
     transform: rotate(30deg);
-    
-
   } 
-  
-
   
   .yarrow-name{
     position: absolute; 
@@ -253,7 +227,6 @@ background-size: 43%;
     width: 300px;
     height: 80px; 
     text-align: left; 
-
   } 
   
   .yarrow-name::before { 
@@ -537,7 +510,7 @@ z-index: 2;
   margin-right: 0px;
   line-height: 15px;
   position: relative; 
-  font-size: 12px;
+  font-size: 13px;
 
 } 
 
@@ -722,19 +695,40 @@ text-align: left;
 
 
 
+/*ships*/
+#y-reltitle { 
+  font-size: 22px;
+} 
+
+.y-rel2 {
+  position: absolute;
+right: -450px; 
+  top: 50px;
+ z-index: 8;
+ -webkit-transition: ease-in-out 0.5s;  
+   -ms-transition: ease-in-out 0.5s;  
+   -moz-transition: ease-in-out 0.5s;  
+   -o-transition: ease-in-out 0.5s;  
+    align-items: flex-start;
+    height: 300px;
+  width:350px; 
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-content: flex-start;
+
+} 
 
 
-
-
- .y-rel2::-webkit-scrollbar { width: 0px;  }
- .y-rel2::-webkit-scrollbar-track { background:; display: none; }
- .y-rel2::-webkit-scrollbar-thumb { background: ; border: 0; }
+.y-shipscroll::-webkit-scrollbar { width: 0px;  }
+.y-shipscroll::-webkit-scrollbar-track { background:; display: none; }
+.y-shipscroll::-webkit-scrollbar-thumb { background: ; border: 0; }
 
 .yarrow-rel { 
   font-size: 11.7px;
   background-color: var(--bg2);
   padding: 10px; 
-text-transform: uppercase; 
+  text-transform: uppercase; 
   font-weight: 600;
   color: var(--black);
   border-radius: 5px;
@@ -745,6 +739,49 @@ text-transform: uppercase;
   flex-grow: 1;
   align-items: baseline;  
  
+} 
+
+.y-shipscroll { 
+  height: 300px;
+  width:350px; 
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-content: flex-start;
+  overflow-x: scroll;
+} 
+
+.y-ship-key { 
+  width:350px; 
+  top: 0px; 
+  font-size: 12.5px; 
+  margin-bottom: 10px; 
+  margin-left: -10px; 
+
+} 
+
+.y-ship-key::before  { 
+    content: '';
+    background-image: url(https://cdn.discordapp.com/attachments/894460498064601108/894461060499791872/15.png);
+    width: 70px;
+    position:absolute;
+    left: -40px;
+    top: -30px;
+    height:120px;
+    background-size:80%;
+    background-position: 0px;
+     background-repeat:no-repeat;
+     opacity: 0.4;
+    transform: rotate(deg);
+    z-index: 2;
+} 
+.yarrow-key { 
+  margin-right: 5px;
+  padding: 5px; 
+    background-image: linear-gradient(to left, var(--background), var(--bg2));
+    border-radius: 5px; 
+    position: relative; 
+    z-index: 2;
 } 
 
 #love::before {
@@ -785,7 +822,7 @@ text-transform: uppercase;
 }
 
 #fam::before {
-  content: '\a80';
+  content: '\a48';
   font-family: 'starry';
   position: relative; ; 
   font-size:17px;
