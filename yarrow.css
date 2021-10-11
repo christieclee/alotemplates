@@ -22,14 +22,9 @@
    text-decoration: none;
 
     } 
-    
-    .yarrow-wrapper b { 
+  .yarrow-wrapper b { 
       color: var(--haccent);
     } 
-    
-    
-    
-    
  /*toggle*/
   
 
@@ -57,7 +52,8 @@ color: var(--black);
 font: 12px 'nunito', sans-serif; 
   text-transform: lowercase;
   position: relative; 
-  top:-460px;
+/*  top:-460px;*/
+  top: 0px;
   left: 0px; 
   z-index: 8; 
   -webkit-transition: ease-in-out 0.5s;  
@@ -108,7 +104,7 @@ font: 12px 'nunito', sans-serif;
   }
 
 
-.ytoggle-wrap label { 
+.ytoggle-wrap #y-extratoggle+label { 
  position: absolute; 
  right: 0px; 
 bottom: 0px;
@@ -121,13 +117,72 @@ height: 40px;
     border-radius: 10px 0px 0px 0px ;
 z-index: 11;
 }
- 
 
 
-.ytoggle-wrap input[type=checkbox]:checked ~ label {
-color: var(--hmain);
-}
-    
+.y-chartoggle #rel-toggle+label { 
+ font: 10px 'Playfair Display', serif;
+ font-weight: 900;
+ color: var(--hmain);
+ text-shadow: 1px 1px var(--grey);
+ position: absolute;
+ text-transform: uppercase;
+bottom:30px;
+ left:90px;
+z-index: 5;
+ background: var(--background);
+ width: 100%;
+} 
+
+
+#y-reltitle { 
+  font-size: 22px;
+} 
+
+.y-rel2 {
+  position: absolute;
+  right: -450px;
+  top: 50px;
+ -webkit-transition: ease-in-out 0.5s;  
+   -ms-transition: ease-in-out 0.5s;  
+   -moz-transition: ease-in-out 0.5s;  
+   -o-transition: ease-in-out 0.5s;  
+
+} 
+
+.y-chartoggle input[type=checkbox]:checked ~ .y-rel2 { 
+
+  top: 50px;
+right:65px; 
+  z-index: 10; 
+  opacity: 1;
+ -webkit-transition: ease-in-out 0.5s;  
+   -ms-transition: ease-in-out 0.5s;  
+   -moz-transition: ease-in-out 0.5s;  
+   -o-transition: ease-in-out 0.5s;  
+  }
+
+
+
+.y-info-scroll#y-relscroll { 
+    height: 300px;
+  width:350px; 
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+} 
+
+
+.y-chartoggle input[type=checkbox]:checked ~ .yarrow-extras { 
+  top: -500px;
+
+  z-index: 10; 
+  opacity: 1;
+ -webkit-transition: ease-in-out 0.5s;  
+   -ms-transition: ease-in-out 0.5s;  
+   -moz-transition: ease-in-out 0.5s;  
+   -o-transition: ease-in-out 0.5s;  
+  }
+
     
     
 /*top bar*/    
@@ -516,6 +571,10 @@ z-index: 2;
  position: absolute; 
  top: 0px;
  left: 0px; 
+  -webkit-transition: ease-in-out 0.5s;  
+   -ms-transition: ease-in-out 0.5s;  
+   -moz-transition: ease-in-out 0.5s;  
+   -o-transition: ease-in-out 0.5s;  
 } 
 
 .yarrow-extras li { 
@@ -569,20 +628,30 @@ margin:0px  3px;
 
 .y-info { 
   position: absolute;
-  padding: 10px;
+  padding: 15px;
   border-radius: 5px; 
   background-color: var(--bg2) ;
-  
-  
+  font-size: 14px;
+  overflow:hidden;
+  text-align:justify;
+  line-height: 19px;
+
 } 
 
 .y-info-scroll { 
-
     overflow-y: scroll; 
   overflow-x:hidden;
-  
+    text-align:justify;
+    width: 205px; 
+    left: 5px ;
+
 } 
 
+.y-info li { 
+    display: inline;
+    display: justify;
+    
+} 
 
 
 .y-info-scroll::-webkit-scrollbar { width: 0px;  }
@@ -598,33 +667,36 @@ margin:0px  3px;
 
 
 .y-info#y-info1 { 
-  width:210px; 
-  height: 70px;
+  width:200px; 
+  height: 150px;
   top: 35px;
   left: 25px;
 } 
 
 .y-info-scroll#y-scroll1 { 
-  height: 70px;
+ width:200px; 
+  height: 150px;
 } 
 
 .y-title#y-title2 { 
- right:120px;
- top: 25px;
+ right:110px;
+ top: 45px;
  z-index: 3;
 } 
 
 
  .y-info#y-info2{ 
-  width:150px; 
-  height: 75px;
-  top: 50px;
+  width:140px; 
+  height: 130px;
+  top: 70px;
   right:45px;
   
 } 
 
 .y-info-scroll#y-scroll2 { 
-    height: 75px;
+    height:125px;
+width: 130px;
+text-align: left;
 
 } 
 
@@ -635,49 +707,27 @@ margin:0px  3px;
 .y-title#y-title3 { 
  position: absolute; 
  left:55px;
- top:135px;
+ top:225px;
  text-transform: uppercase;
  z-index: 5;
 } 
 
 
  .y-info#y-info3 { 
-  width:305px; 
-  height: 60px;
-  top:160px;
-  left: 75px;
+  width:315px; 
+  height: 100px;
+  top:250px;
+  left: 80px;
   z-index: 4;
+
   
 } 
 
-.y-info-scroll#y-scroll3 { 
-    height: 60px;
-
-} 
-
-.y-title#y-reltitle { 
- right:20px;
- top:250px;
- padding-left: 5px;
- background: var(--background);
- z-index: 2;
-} 
 
 
-.y-rel2 {
-  position: absolute;
-  width:410px; 
-  height: 100px;
-  bottom:20px;
-  right: 20px;
-  overflow-y: scroll; 
-  overflow-x:hidden;
-  padding: 10px;
-  display: inline-flex;
-  flex-wrap: wrap;
 
 
-} 
+
 
 
  .y-rel2::-webkit-scrollbar { width: 0px;  }
