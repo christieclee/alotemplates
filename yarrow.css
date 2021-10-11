@@ -25,59 +25,17 @@
   .yarrow-wrapper b { 
       color: var(--haccent);
     } 
- /*toggle*/
+    
+    
+
+    
+ /*toggled divs*/
   
 
 .ytoggle-wrap input[type=checkbox] { display: none;}
 
- .yarrow-content { 
-  overflow: hidden; 
-    width: 530px;
-    height: 470px; 
-   position: relative; 
-   z-index: 7;
-
-  }
-
-.yarrow-toggle { 
- width:480px;
- height:420px;
- margin: 20px; 
- border: 4px double var(--grey);
-background: var(--background);
-overflow: hidden;
-list-style: none;
-color: var(--black);
-font: 12px 'nunito', sans-serif; 
-  text-transform: lowercase;
-  position: relative; 
-  top:-460px;
-  left: 0px; 
-  z-index: 8; 
-  -webkit-transition: ease-in-out 0.5s;  
-   -ms-transition: ease-in-out 0.5s;  
-   -moz-transition: ease-in-out 0.5s;  
-   -o-transition: ease-in-out 0.5s;  
-}
-
-  .yarrow-timeline { 
- border: 4px double var(--grey);
- margin: 20px; 
- width:480px;
- height:420px;
- position: absolute; 
- overflow-y: scroll; 
-  overflow-x:hidden;
-  z-index: 6;
-  top: 0px;
-  left:0px;
-
-  -webkit-transition: ease-in 0.6s;  
-   -ms-transition: ease-in 0.6s;  
-   -moz-transition: ease-in 0.6s;  
-   -o-transition: ease-in 0.6s;  
-  } 
-  
+/*toggle main divs*/
+ 
 
 .yarrow-content input[type=checkbox]:checked ~ .yarrow-toggle { 
   top: 0px;
@@ -102,36 +60,7 @@ font: 12px 'nunito', sans-serif;
   }
 
 
-.ytoggle-wrap #y-extratoggle+label { 
- position: absolute; 
- right: 0px; 
-bottom: 0px;
-width: 40px;
-height: 40px;
-    font-size: 35px;
-    color: var(--white);
-    padding: 10px 10px 0px 10px ; 
-    background: var(--haccent);
-    border-radius: 10px 0px 0px 0px ;
-z-index: 11;
-}
-
-
-.y-chartoggle #rel-toggle+label { 
- font: 10px 'Playfair Display', serif;
- font-weight: 900;
- color: var(--hmain);
- text-shadow: 1px 1px var(--grey);
- position: absolute;
- text-transform: uppercase;
-bottom:30px;
- left:90px;
-z-index: 5;
- background: var(--background);
- width: 100%;
-} 
-
-
+/*toggle extras and ships*/
 
 .y-chartoggle input[type=checkbox]:checked ~ .y-rel2 { 
 
@@ -291,7 +220,34 @@ transform: rotate(-60deg);
   
   /*timeline*/
   
+.yarrow-content { 
+  overflow: hidden; 
+    width: 530px;
+    height: 470px; 
+   position: relative; 
+   z-index: 7;
 
+  }
+
+
+  .yarrow-timeline { 
+ border: 4px double var(--grey);
+ margin: 20px; 
+ width:480px;
+ height:420px;
+ position: absolute; 
+ overflow-y: scroll; 
+  overflow-x:hidden;
+  z-index: 6;
+  top: 0px;
+  left:0px;
+
+  -webkit-transition: ease-in 0.6s;  
+   -ms-transition: ease-in 0.6s;  
+   -moz-transition: ease-in 0.6s;  
+   -o-transition: ease-in 0.6s;  
+  } 
+  
   .yarrow-timeline::-webkit-scrollbar { width: 0px;  }
  .yarrow-timeline::-webkit-scrollbar-track { background:; display: none; }
  .yarrow-timeline::-webkit-scrollbar-thumb { background: ; border: 0; }
@@ -531,7 +487,26 @@ z-index: 2;
 
 
 /*char extra*/
-
+.yarrow-toggle { 
+ width:480px;
+ height:420px;
+ margin: 20px; 
+ border: 4px double var(--grey);
+background: var(--background);
+overflow: hidden;
+list-style: none;
+color: var(--black);
+font: 12px 'nunito', sans-serif; 
+  text-transform: lowercase;
+  position: relative; 
+  top:-460px;
+  left: 0px; 
+  z-index: 8; 
+  -webkit-transition: ease-in-out 0.5s;  
+   -ms-transition: ease-in-out 0.5s;  
+   -moz-transition: ease-in-out 0.5s;  
+   -o-transition: ease-in-out 0.5s;  
+}
 
 .yarrow-extras { 
    width:450px;
@@ -688,8 +663,6 @@ text-align: left;
   top:250px;
   left: 80px;
   z-index: 4;
-
-  
 } 
 
 
@@ -716,7 +689,6 @@ right: -450px;
   flex-wrap: wrap;
   flex-grow: 1;
   align-content: flex-start;
-
 } 
 
 
@@ -751,6 +723,8 @@ right: -450px;
   overflow-x: scroll;
 } 
 
+/*ship keys*/
+
 .y-ship-key { 
   width:350px; 
   top: 0px; 
@@ -783,6 +757,8 @@ right: -450px;
     position: relative; 
     z-index: 2;
 } 
+
+/*ship icons*/ 
 
 #love::before {
   content: '\a97';
@@ -831,7 +807,7 @@ right: -450px;
     margin-right: 5px;
 }
 
-/*color*/
+/*chars*/
   
   #alec { 
   --hmain: #9e6679; 
