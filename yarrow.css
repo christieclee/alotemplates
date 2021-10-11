@@ -807,6 +807,11 @@ right: -500px;
     margin-right: 5px;
 }
 
+.yarrow-rel.npc {
+   filter: grayscale(1);
+   color: var(--grey);
+}
+
 /*chars*/
   
   #alec { 
