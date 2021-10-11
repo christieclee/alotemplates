@@ -416,14 +416,14 @@ line-height: 0px!important;
     
 .yarrow-threads { 
   text-align: left;
-  width: 430px;
-  padding:0px 20px 0px 20px;
+  width: 410px;
   list-style: none;
   counter-reset: code-counter;
   font:12px 'Nunito', sans-serif;
 display: inline-block;
 z-index: 2;
-margin: 15px 0px 30px;
+margin: 15px 0px 15px;
+
   } 
   
     
@@ -431,7 +431,7 @@ margin: 15px 0px 30px;
 height: auto;
 position: relative;
 padding: 15px 0px;
-margin-bottom: 5px;
+margin-left: 20px; 
 z-index: 2;
 } 
 
