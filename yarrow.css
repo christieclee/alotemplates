@@ -50,7 +50,7 @@
   
 .yarrow-content   input[type=checkbox]:checked ~ .yarrow-timeline { 
   top:0px;
-  left:-600px;
+  left:-700px;
   z-index: 10; 
   opacity: 1;
  -webkit-transition: ease-in-out 0.5s;  
@@ -499,7 +499,7 @@ color: var(--black);
 font: 12px 'nunito', sans-serif; 
   text-transform: lowercase;
   position: relative; 
-  top:-460px;
+  top:-500px;
   left: 0px; 
   z-index: 8; 
   -webkit-transition: ease-in-out 0.5s;  
@@ -675,7 +675,7 @@ text-align: left;
 
 .y-rel2 {
   position: absolute;
-right: -450px; 
+right: -500px; 
   top: 50px;
  z-index: 8;
  -webkit-transition: ease-in-out 0.5s;  
