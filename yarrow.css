@@ -689,6 +689,7 @@ right: -500px;
   flex-wrap: wrap;
   flex-grow: 1;
   align-content: flex-start;
+
 } 
 
 
@@ -710,17 +711,19 @@ right: -500px;
   height: 15px;
   flex-grow: 1;
   align-items: baseline;  
- 
+   position: relative; 
+  z-index: 4;
 } 
 
 .y-shipscroll { 
-  height: 300px;
+  height:245px;
   width:350px; 
   display: inline-flex;
   flex-wrap: wrap;
   flex-grow: 1;
   align-content: flex-start;
   overflow-x: scroll;
+
 } 
 
 /*ship keys*/
@@ -730,24 +733,24 @@ right: -500px;
   top: 0px; 
   font-size: 12.5px; 
   margin-bottom: 20px; 
-  margin-left: -10px; 
+  margin-left: -20px; 
 
 } 
 
-.y-ship-key::before  { 
+.y-shipscroll::after  { 
     content: '';
-    background-image: url(https://cdn.discordapp.com/attachments/894460498064601108/894461060499791872/15.png);
+    background-image: url(https://cdn.discordapp.com/attachments/894460498064601108/897348757794988062/23.png);
     width: 70px;
     position:absolute;
-    left: -40px;
-    top: -30px;
-    height:120px;
+    right:130px;
+    bottom: -60px;
+    height:130px;
     background-size:80%;
     background-position: 0px;
      background-repeat:no-repeat;
-     opacity: 0.4;
-    transform: rotate(deg);
-    z-index: 2;
+     opacity: 0.7;
+  transform: scaley(-1) rotate(95deg);
+    z-index: 2 ;
 } 
 .yarrow-key { 
   margin-right: 5px;
