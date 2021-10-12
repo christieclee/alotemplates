@@ -1,37 +1,4 @@
-/*toggle labels*/     
-.ytoggle-wrap #ya-y-extratoggle+label { 
- position: absolute; 
- right: 0px; 
-bottom: 0px;
-width: 40px;
-height: 40px;
-font-size: 35px;
-color: var(--white);
-padding: 10px 10px 0px 10px ; 
-background: var(--haccent);
-border-radius: 10px 0px 0px 0px ;
-z-index: 11;
-}
 
-
-.y-chartoggle #ya-rel-toggle+label { 
- font: 10px 'Playfair Display', serif;
- font-weight: 900;
- color: var(--hmain);
- text-shadow: 1px 1px var(--grey);
- position: absolute;
- text-transform: uppercase;
-bottom:30px;
- left:90px;
- z-index: 5;
- background: var(--background);
- width: 100%;
-} 
-</style>
-
-[/dohtml]
-
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,900&display=swap');
 @import "//christieclee.github.io/highalo/high/high.css";  
   .yarrow-wrapper{ 
