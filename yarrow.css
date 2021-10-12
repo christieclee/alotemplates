@@ -467,7 +467,7 @@ z-index: 2;
   line-height: 15px;
   position: relative; 
   font-size: 13px;
-
+text-transform: lowercase;
 } 
 
 
@@ -883,7 +883,7 @@ right: -500px;
   
   #rhys {
 --hmain: #7091a9;
---haccent: #4a6850;
+--haccent: #59755f;
  --y-img:  url(https://cdn.discordapp.com/attachments/824527081806364722/851947599439331378/6.png);
   --name: 'rhys p.';
   
@@ -904,7 +904,7 @@ right: -500px;
 } 
 
  #yusuf { 
- --hmain: #b74f3d; 
+ --hmain: #b75e4e; 
 --haccent: #da9b63;
  --y-img:  url(https://cdn.discordapp.com/attachments/378633932754780170/877052284972961874/yusuf1.png);
   --name: 'yusuf a.';
