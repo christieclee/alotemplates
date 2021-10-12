@@ -593,7 +593,7 @@ margin:0px  3px;
 
 .y-info li { 
     display: inline;
-    display: justify;
+    text-align: justify;
     
 } 
 
@@ -658,7 +658,7 @@ text-align: left;
 
 
  .y-info#y-info3 { 
-  width:315px; 
+  width:310px; 
   height: 100px;
   top:250px;
   left: 80px;
@@ -729,7 +729,7 @@ right: -500px;
   width:350px; 
   top: 0px; 
   font-size: 12.5px; 
-  margin-bottom: 10px; 
+  margin-bottom: 20px; 
   margin-left: -10px; 
 
 } 
@@ -824,7 +824,7 @@ right: -500px;
   
     #darius { 
 --hmain: #b86837; 
---haccent: #2e676e;
+--haccent: #417b82;
   --y-img:  url(https://cdn.discordapp.com/attachments/867661284391780392/867661330126340156/3.png);
   --name: 'darius b.'
     } 
