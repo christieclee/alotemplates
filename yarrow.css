@@ -180,7 +180,7 @@ background-size: 43%;
   } 
   
   .yarrow-count { 
-    font:14px 'Nunito', sans-serif;
+    font:16px 'Nunito', sans-serif;
     text-transform: lowercase;
       font-style: normal;
       position: absolute; 
@@ -189,7 +189,7 @@ background-size: 43%;
       color: var(--white);
     border: 1px solid var(--haccent);
     padding: 10px 20px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     border-radius: 5px;
   } 
   
@@ -201,18 +201,18 @@ font-weight: 600;
   
  .y-leaves { 
    position: absolute;
-    background-image: url(https://cdn.discordapp.com/attachments/894460498064601108/894460989330829322/17.png);
-background-size: 45%;
+    background-image: url(https://cdn.discordapp.com/attachments/894460498064601108/894479326890819624/7.png);
+background-size: 60%;
     background-position: 0px;
    height: 100px; 
    width: 90px; 
-   top: -40px; 
+   top: -15px; 
    right: -33px; 
    background-repeat:no-repeat;
    z-index:5;
 
 float: right; 
-transform: rotate(-60deg);
+transform: rotate(-60deg) scalex(-1);
   } 
 
   
