@@ -1,0 +1,185 @@
+@import "//christieclee.github.io/highalo/high/high.css";  
+
+    .bramble-wrapper { 
+    --white: #ffffff;
+    --shadow: #bbbbbb;
+    --background: #f5f4f5;
+    --backgroundt: #f3f2f380;
+    --shadow2: #dcdcdc;
+    --black: #3f3f3f;
+      width: 450px;
+      background: var(--background);
+      min-height: 200px;
+      font-family: 'Nunito', Sans-serif;
+      position: relative; 
+      margin: 30px 0px;
+      display: inline-block;
+      box-shadow: 3px 3px 3px  rgba(232, 228, 228, 0.9);
+       -webkit-text-size-adjust: none;
+
+    } 
+    
+    .bramble-wrapper b { 
+      color: var(--hmain);
+    } 
+
+.bramble-date { 
+  font:12px 'Spartan', sans-serif; 
+  color: var(--hmain);
+  letter-spacing: 1px; 
+  position: absolute; 
+  left: 40px; 
+  top: 40px; 
+  text-align: left;
+  line-height: 0px;
+     font-weight: 500;
+} 
+
+.bramble-date::after { 
+  content: '.';
+  font-size:40px;
+  color: var(--haccent);
+  position: relative; 
+  line-height: 10px; 
+  margin-left: -5px; 
+  font-family: 'nunito', sans-serif;
+} 
+
+.bramble-text { 
+  font-size: 15px; 
+   text-align: justify;
+line-height:24px;
+margin: 105px 70px 0px;  
+color: var(--black);
+} 
+
+.bramble-bottom { 
+position: relative; 
+margin-top: 30px; 
+width: 100%;
+margin-bottom:20px; 
+min-height: 80px; 
+display: flex;
+ align-items: center;
+}
+
+.bramble-icon { 
+  font-size: 45px;
+  position: absolute;  
+  left: 40px; 
+  color: var(--haccent);
+
+} 
+.bramble-dot { 
+  height: 10px; 
+  width: 10px; 
+  border-radius: 100%;
+  background: var(--haccent);
+  float: right; 
+  position: relative; 
+  top: 35px; 
+  left: 5px; 
+} 
+
+.bramble-dot2 { 
+  height: 10px; 
+  width: 10px; 
+  border-radius: 100%;
+  background: var(--hmain);
+  float: right; 
+  position: relative; 
+  top: 35px; 
+  left: 5px; 
+  margin-right: 5px ;
+  
+} 
+
+.bramble-tag { 
+   font: 11px 'Spartan', sans-serif;
+  text-align: right;
+   color: var(--black);
+   width: 300px; 
+   position: relative;
+left: 110px;  
+top: 10px;
+} 
+ .bramble-tag a { 
+      font: 10px 'Spartan', sans-serif;
+      text-decoration: none;
+      color: var(--hmain);
+      text-transform: uppercase;
+        font-weight: 500;
+    } 
+    
+    .bramble-tag a:before { 
+      content: '#';
+      color: var(--haccent);
+      margin-right: 2px;
+    } 
+
+#high { 
+  --hmain: #767793; 
+  --haccent:#9e7d6f;
+
+} 
+
+#character { 
+ --hmain: #767793; 
+  --haccent:#9e7d6f;
+} 
+
+#darius { 
+--hmain: #c48858; 
+--haccent: #447e80;
+
+  } 
+
+#dom { 
+--hmain: #5E6E82; 
+--haccent: #af9c9e;
+} 
+
+
+  #leon { 
+--hmain: #8f3d41; 
+--haccent: #738895;
+
+} 
+
+
+#marko { 
+--hmain: #D28158;
+--haccent: #89b9b1;
+} 
+  
+ #paris { 
+--hmain: #996178;
+--haccent: #a5a3b8;
+
+} 
+
+
+ #yusuf { 
+ --hmain: #b7412d; 
+--haccent: #da9b63;
+
+} 
+
+#rook{ 
+--hmain: #7a9785;
+--haccent: #8a7189;
+
+} 
+
+  #lissy {
+--hmain: #8a9377;
+--haccent: #dc9d81;
+
+} 
+
+#rhys {
+--hmain: #7091a9;
+--haccent: #4a6850;
+
+}
+  
