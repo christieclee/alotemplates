@@ -32,7 +32,7 @@
 
 .bramble-date { 
   font:14px 'Open Sans', sans-serif; 
-  color: var(--hmain);
+  color: var(--haccent);
   letter-spacing: 1px; 
   position: absolute; 
   left: 40px; 
@@ -46,7 +46,7 @@
 .bramble-date::after { 
   content: '.';
   font-size:40px;
-  color: var(--haccent);
+  color: var(--hmain);
   position: relative; 
   line-height: 10px; 
   margin-left: -5px; 
