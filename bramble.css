@@ -57,7 +57,7 @@ color: var(--black);
 position: relative; 
 margin-top: 30px; 
 width: 100%;
-margin-bottom:20px; 
+margin-bottom:30px; 
 min-height: 80px; 
 display: flex;
  align-items: center;
@@ -89,7 +89,7 @@ display: flex;
   float: right; 
   position: relative; 
   top: 35px; 
-  left: 0px; 
+  left: 4px; 
   margin-right: 5px ;
   
 } 
@@ -182,4 +182,3 @@ top: 10px;
 --haccent: #4a6850;
 
 }
-  
