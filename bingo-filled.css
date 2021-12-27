@@ -113,7 +113,7 @@ width:100px;
 height:100px;
 border-radius:100%;
 opacity:0.5;
-color: var(--main);
+color: var(--group1);
 transform: rotate(-10deg);
 text-shadow: -1px -1px 0 var(--white), 1px -1px 0 var(--white), -1px 1px 0 var(--white), 1px 1px 0 var(--white);
 
