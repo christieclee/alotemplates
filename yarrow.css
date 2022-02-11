@@ -919,3 +919,15 @@ right: -500px;
     background-size: 100%; 
     background-position: 5px 0px;
   } 
+
+#june { 
+--hmain: #908f7d;
+--haccent: #bbaea9;
+ --y-img:  url(https://cdn.discordapp.com/attachments/941232609378316318/941232694518480916/7.png);
+  --name: 'june l.';
+} 
+
+ #june .yarrow-image {
+    background-size: 101%; 
+    background-position: 0px -10px;
+  } 
