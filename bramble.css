@@ -28,6 +28,7 @@
      text-decoration: none;
      color: var(--haccent);
      border-bottom: 1px solid var(--hmain);
+        font-weight: 600; 
     } 
 
 .bramble-date { 
