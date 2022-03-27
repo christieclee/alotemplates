@@ -122,7 +122,7 @@ height:55px;
     
 
 .dogdays { 
- font: 28px 'Roboto Condensed', sans-serif; 
+ font: 25px 'Roboto Condensed', sans-serif; 
 color:rgba(var(--hmain), 0.5);
 text-transform: uppercase; 
 position: absolute;
