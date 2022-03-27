@@ -114,10 +114,11 @@ height:55px;
     
      .dog-tags a:before { 
       content: '\a137';
-      color: var(--haccent);
+      color: rgba(var(--hmain), 0.7);
       margin-right: 2px;
        font-family: 'Starry';
     }   
+    
     
 
 .dogdays { 
