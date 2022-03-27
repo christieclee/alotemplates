@@ -19,8 +19,7 @@
 } 
 
 .dogwood-wrapper i { 
-    font-weight: 600;
-    color: rgba(var(--black), 0.5);
+    font-weight: 700;
 } 
 
 .dogwood-top { 
@@ -73,6 +72,12 @@ z-index: 5;
   line-height:25px;
     color:rgba(var(--black), 1);
 
+} 
+
+
+.dogwood-body i { 
+    font-weight: 600;
+    color: rgba(var(--black), 0.5);
 } 
 
 .dogwood-body b { 
