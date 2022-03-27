@@ -54,7 +54,7 @@
 
 .dog-icon { 
 font-size:40px; 
-color:rgba(var(--hmain), 0.5);
+color:rgba(var(--haccent), 0.5);
 text-transform: uppercase; 
 position: absolute;
 bottom:10px; 
@@ -122,7 +122,7 @@ height:55px;
 
 .dogdays { 
  font: 28px 'Roboto Condensed', sans-serif; 
-color:rgba(var(--haccent), 0.5);
+color:rgba(var(--hmain), 0.5);
 text-transform: uppercase; 
 position: absolute;
 top: 65px; 
@@ -134,6 +134,7 @@ right: 10px;
   font-family: 'Starry';
   position: relative; 
   font-size: 16px; 
+  color: rgba(var(--haccent), 0.5);
 } 
 
 #high { 
