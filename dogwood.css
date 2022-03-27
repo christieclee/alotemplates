@@ -1,0 +1,202 @@
+@import "//christieclee.github.io/highalo/high/high.css";  
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.dogwood-wrapper { 
+    --white: 248, 248, 248;
+    --shadow: 187, 187, 187;
+    --background: 235, 235, 235;
+    --black: 63, 63, 63;
+      width: 450px;
+   background:rgba(var(--white), 0.7);
+      min-height: 200px;
+      font-family: 'Nunito', Sans-serif;
+      position: relative; 
+      margin: 30px auto;
+      display: inline-block;
+      box-shadow: 3px -3px 2px  rgba(205, 205, 205, 0.2);
+      border: 1px solid rgba(var(--shadow), 0.2);
+       -webkit-text-size-adjust: none;
+} 
+
+.dogwood-wrapper i { 
+    font-weight: 700;
+} 
+
+.dogwood-top { 
+  height: 100px; 
+  background:rgba(var(--hmain), 0.08);
+  overflow: hidden;
+} 
+
+.dogwood-gradient { 
+  width: 130px; 
+  height: 100px;
+  background:rgba(var(--hmain), 0.2);
+  float: left;
+} 
+.dogwood-grad { 
+  width: 130px;
+  height: 80px;
+   background:rgba(var(--hmain), 0.4);
+} 
+
+.dogwood-grad2 { 
+  width: 130px;
+  height: 60px;
+   background:rgba(var(--hmain), 0.6);
+} 
+
+.dogwood-grad3 { 
+  width: 130px;
+  height: 40px;
+   background:rgba(var(--hmain), 0.7);
+} 
+
+.dog-icon { 
+font-size:40px; 
+color:rgba(var(--hmain), 0.3);
+text-transform: uppercase; 
+position: absolute;
+bottom:10px; 
+right: 10px; 
+z-index: 5; 
+} 
+
+
+.dogwood-body { 
+  min-height: 100px; 
+  font-size:15px; 
+ margin:  10px 20px 0px;   
+ padding: 40px;
+ text-align: justify;
+  line-height:25px;
+    color:rgba(var(--black), 1);
+
+} 
+
+.dogwood-body b { 
+  font-weight: 800;
+  color: rgba(var(--hmain), 0.7);
+} 
+
+    .dogwood-body u { 
+     font-style: italic;
+     text-decoration: none;
+      color: rgba(var(--haccent), 0.8);
+     border-bottom: 1px solid rgba(var(--hmain), 0.8);
+        font-weight: 600; 
+    } 
+
+.dogwood-bottom { 
+height:55px; 
+
+} 
+
+.dog-tags { 
+ font:12px 'Roboto Condensed', sans-serif; 
+  text-align: left;
+  width: 280px; 
+  position: absolute; 
+ left: 20px; 
+  bottom: 10px; 
+  color: rgba(var(--black), 0.5);
+
+} 
+
+ .dog-tags a { 
+  font: 11px 'Nunito', sans-serif;
+  text-decoration: none;
+  color: rgba(var(--haccent), 0.6);
+  text-transform: uppercase;
+  font-weight: 600;
+
+    } 
+    
+     .dog-tags a:before { 
+      content: '\a137';
+      color: var(--haccent);
+      margin-right: 2px;
+       font-family: 'Starry';
+    }   
+    
+
+.dogdays { 
+ font: 28px 'Roboto Condensed', sans-serif; 
+color:rgba(var(--haccent), 0.5);
+text-transform: uppercase; 
+position: absolute;
+top: 65px; 
+right: 10px; 
+} 
+
+.dogdays::after { 
+  content: '\a137';
+  font-family: 'Starry';
+  position: relative; 
+  font-size: 16px; 
+} 
+
+#high { 
+  --hmain: 118, 119, 147; 
+  --haccent:158, 125, 111;
+
+} 
+
+#darius { 
+  --hmain: 68, 126, 128;
+--haccent: 196, 136, 88; 
+
+  } 
+
+#dom { 
+--hmain: 94, 110, 130; 
+--haccent: 175, 156, 158;
+} 
+
+
+  #leon { 
+--hmain: 143, 61, 65; 
+--haccent:115, 136, 149;
+
+} 
+
+
+#marko { 
+--hmain: 195, 120, 85;
+--haccent: 137, 185, 177;
+} 
+  
+  
+ #paris { 
+--hmain: 153, 97, 120;
+--haccent: 165, 163, 184;
+
+} 
+
+
+ #yusuf { 
+ --hmain: 183, 65, 45; 
+--haccent:218, 155, 99;
+
+} 
+
+  #lissy {
+--hmain: 220, 157, 129;
+--haccent: 138, 147, 119;
+} 
+
+#rhys {
+--hmain: 74, 104, 80;
+--haccent: 112, 145, 169;
+}
+
+
+#elli { 
+ --hmain: 74, 97, 110;
+--haccent: 191, 166, 125;
+  }
+
+#june {
+--hmain: 141, 158, 158;
+--haccent: 187, 153, 153;
+}
