@@ -54,7 +54,7 @@
 
 .dog-icon { 
 font-size:40px; 
-color:rgba(var(--hmain), 0.3);
+color:rgba(var(--hmain), 0.5);
 text-transform: uppercase; 
 position: absolute;
 bottom:10px; 
@@ -99,16 +99,16 @@ height:55px;
   position: absolute; 
  left: 20px; 
   bottom: 10px; 
-  color: rgba(var(--black), 0.5);
+  color: rgba(var(--black), 0.7);
 
 } 
 
  .dog-tags a { 
   font: 11px 'Nunito', sans-serif;
   text-decoration: none;
-  color: rgba(var(--haccent), 0.6);
+  color: rgba(var(--haccent), 0.7);
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
 
     } 
     
@@ -165,7 +165,6 @@ right: 10px;
 --hmain: 195, 120, 85;
 --haccent: 137, 185, 177;
 } 
-  
   
  #paris { 
 --hmain: 153, 97, 120;
