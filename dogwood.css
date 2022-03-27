@@ -31,25 +31,25 @@
 .dogwood-gradient { 
   width: 130px; 
   height: 100px;
-  background:rgba(var(--hmain), 0.2);
+  background:rgba(var(--hmain), 0.1);
   float: left;
 } 
 .dogwood-grad { 
   width: 130px;
   height: 80px;
-   background:rgba(var(--hmain), 0.4);
+   background:rgba(var(--hmain), 0.2);
 } 
 
 .dogwood-grad2 { 
   width: 130px;
   height: 60px;
-   background:rgba(var(--hmain), 0.6);
+   background:rgba(var(--hmain), 0.3);
 } 
 
 .dogwood-grad3 { 
   width: 130px;
   height: 40px;
-   background:rgba(var(--hmain), 0.7);
+   background:rgba(var(--hmain), 0.4);
 } 
 
 .dog-icon { 
@@ -76,7 +76,7 @@ z-index: 5;
 
 .dogwood-body b { 
   font-weight: 800;
-  color: rgba(var(--hmain), 0.7);
+  color: rgba(var(--hmain), 0.8);
 } 
 
     .dogwood-body u { 
@@ -193,7 +193,7 @@ right: 10px;
 
 #elli { 
  --hmain: 74, 97, 110;
---haccent: 191, 166, 125;
+--hmainv: 191, 166, 125;
   }
 
 #june {
