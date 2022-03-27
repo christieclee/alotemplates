@@ -144,60 +144,60 @@ right: 10px;
 
 } 
 
-#darius { 
+#db { 
   --hmain: 68, 126, 128;
 --haccent: 196, 136, 88; 
 
   } 
 
-#dom { 
+#dh { 
 --hmain: 94, 110, 130; 
 --haccent: 175, 156, 158;
 } 
 
 
-  #leon { 
+  #lb { 
 --hmain: 143, 61, 65; 
 --haccent:115, 136, 149;
 
 } 
 
 
-#marko { 
+#mj { 
 --hmain: 195, 120, 85;
 --haccent: 137, 185, 177;
 } 
   
- #paris { 
+ #pk { 
 --hmain: 153, 97, 120;
 --haccent: 165, 163, 184;
 
 } 
 
 
- #yusuf { 
+ #ya { 
  --hmain: 183, 65, 45; 
 --haccent:218, 155, 99;
 
 } 
 
-  #lissy {
+  #fb {
 --hmain: 220, 157, 129;
 --haccent: 138, 147, 119;
 } 
 
-#rhys {
+#rp {
 --hmain: 74, 104, 80;
 --haccent: 112, 145, 169;
 }
 
 
-#elli { 
+#es { 
  --hmain: 74, 97, 110;
 --haccent: 191, 166, 125;
   }
 
-#june {
+#jl {
 --hmain: 141, 158, 158;
 --haccent: 187, 153, 153;
 }
