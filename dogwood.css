@@ -4,7 +4,7 @@
 .dogwood-wrapper { 
     --white: 248, 248, 248;
     --shadow: 187, 187, 187;
-    --background: 235, 235, 235;
+    --background: 141, 158, 158;
     --black: 63, 63, 63;
       width: 450px;
    background:rgba(var(--white), 0.7);
