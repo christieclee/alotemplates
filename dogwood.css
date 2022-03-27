@@ -24,7 +24,7 @@
 
 .dogwood-top { 
   height: 100px; 
-  background:rgba(var(--hmain), 0.08);
+  background:rgba(var(--background), 0.1);
   overflow: hidden;
 } 
 
