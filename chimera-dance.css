@@ -30,12 +30,11 @@
   margin-top: 10px; 
   width: 400px; 
   position: absolute;
-
-font-style: italic;
+  font-style: italic;
 }
 
 .ch-sparkle1 { 
-  height: 4px;
+  height:3px;
   background: linear-gradient(to right, var(--group2-rgb) -25%, var(--group1-rgb));
   position: absolute; 
   top:80px;
@@ -49,9 +48,8 @@ font-style: italic;
   color: var(--group2-rgb);
   font-size: 32px; 
   position: absolute; 
-  right:-35px; 
-  top: -10px; !important
-
+  right:-40px; 
+  top: -12px; !important
 } 
 
 
@@ -64,7 +62,6 @@ font-style: italic;
   left:20px; 
   bottom: 50px; 
   transform: rotate(-10deg);
-  
 } 
 
 .ch-heart2::after { 
@@ -85,7 +82,7 @@ font-style: italic;
   font-size: 17px; 
   position: absolute; 
   left:65px; 
-  bottom: 70px; 
+  bottom: 65px; 
   transform: rotate(0deg);
 } 
 
