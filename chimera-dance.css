@@ -40,8 +40,7 @@ font-style: italic;
   font-size: 32px; 
   position: absolute; 
   right:30px; 
-  top: 70px; 
-  transform: rotate(0deg);
+  top: 60px; !important
 } 
 
 
