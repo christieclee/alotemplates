@@ -41,6 +41,7 @@ font-style: italic;
   position: absolute; 
   right:30px; 
   top: 60px; !important
+  transform: rotate(0deg);
 } 
 
 
@@ -74,7 +75,7 @@ font-style: italic;
   font-size: 17px; 
   position: absolute; 
   left:65px; 
-  bottom: 65px; 
+  bottom: 70px; 
   transform: rotate(0deg);
 } 
 
@@ -88,17 +89,17 @@ font-style: italic;
 } 
 
 .ch-right { 
-  width: 400px;
+  width: 330px;
   float: left;
   text-align: left;
   position: relative;
-  top: 80px;
-  left: 20px;
-  padding: 20px;
+  top: 90px;
+  left: 110px;
+  padding: 20px 10px;
   font-size: 15px; 
   color: var(--dark);
   line-height: 25px;
- 
+
 } 
 
 .ch-info { 
@@ -111,4 +112,3 @@ font-style: italic;
   font-size: 16px;
   display: inline-block;
 } 
-
