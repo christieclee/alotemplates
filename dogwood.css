@@ -81,7 +81,7 @@ z-index: 5;
 } 
 
 .dogwood-body b { 
-  font-weight: 800;
+  font-weight: 600;
   color: rgba(var(--hmain), 0.8);
 } 
 
