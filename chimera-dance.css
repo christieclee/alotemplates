@@ -29,9 +29,18 @@
   margin-top: 10px; 
   width: 400px; 
   position: absolute;
-border-bottom: 1.75px solid var(--group2-rgb);
+
 font-style: italic;
 }
+
+.ch-sparkle1 { 
+  height: 4px;
+  background: linear-gradient(to right, var(--group2-rgb) -25%, var(--group1-rgb));
+  position: absolute; 
+  top:80px;
+  width: 430px;
+  left: 0px;
+} 
 
 .ch-sparkle1::before { 
   content: '\a137';
@@ -39,8 +48,8 @@ font-style: italic;
   color: var(--group2-rgb);
   font-size: 32px; 
   position: absolute; 
-  right:30px; 
-  top: 60px; !important
+  right:-40px; 
+  top: -12px; !important
   transform: rotate(0deg);
 } 
 
