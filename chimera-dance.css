@@ -12,6 +12,7 @@
   font-family: 'Nunito';
   overflow: hidden;
   position: relative; 
+  line-height: 30px; !important
 
 } 
 
@@ -50,6 +51,7 @@ font-style: italic;
   position: absolute; 
   right:-35px; 
   top: -5px; !important
+
 } 
 
 
@@ -72,7 +74,7 @@ font-style: italic;
   font-size: 30px; 
   position: absolute; 
   left: 60px; 
-  bottom: 20px; 
+  bottom: 30px; 
   transform: rotate(10deg);
 } 
 
