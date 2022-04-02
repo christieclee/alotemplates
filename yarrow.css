@@ -818,13 +818,7 @@ right: -500px;
 
 /*chars*/
   
-  #alec { 
-  --hmain: #9e6679; 
---haccent: #8a9295;
-  --y-img:  url(https://cdn.discordapp.com/attachments/693249041240424470/802074216136179792/17.png);
-  --name: 'alecto v.';
-    
-  }   
+
   
     #darius { 
 --hmain: #b86837; 
@@ -886,8 +880,8 @@ right: -500px;
   } 
   
   #rhys {
---hmain: #7091a9;
---haccent: #59755f;
+--haccent: #c48d99;
+--hmain: #7e9884;
  --y-img:  url(https://cdn.discordapp.com/attachments/824527081806364722/851947599439331378/6.png);
   --name: 'rhys p.';
   
@@ -899,13 +893,6 @@ right: -500px;
   } 
 
 
-#rook{ 
---hmain: #7a9785;
---haccent: #8a7189;
- --y-img:  url(https://cdn.discordapp.com/attachments/455967033675350017/877263627923636285/11.png);
-  --name: 'rook m.';
-  
-} 
 
  #yusuf { 
  --hmain: #b75e4e; 
