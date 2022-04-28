@@ -918,3 +918,15 @@ right: -500px;
     background-size: 101%; 
     background-position: 0px -10px;
   } 
+
+#khalil { 
+--hmain: #7c6d80;
+--haccent: #c38f3d;
+ --y-img:  url(https://cdn.discordapp.com/attachments/862370845598416896/875139799252627527/3.png);
+  --name: 'khalil b.';
+} 
+
+ #khalil .yarrow-image {
+    background-size: 97%; 
+    background-position: 10px -20px;
+  } 
