@@ -1,4 +1,5 @@
- .bee-wrapper { 
+
+  .bee-wrapper { 
       --white: 248, 248, 248;
     --shadow: 187, 187, 187;
     --background: 233, 233, 233;
@@ -129,7 +130,7 @@ background:
   .bee-hp { 
   position: relative; 
   top: 55px;
-  font: 11px 'Playfair Display', sans-serif;
+  font: 11px 'Nunito', sans-serif;
   font-weight: 700;
   color: rgba(var(--black),0.8);
   
