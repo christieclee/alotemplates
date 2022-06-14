@@ -1,0 +1,176 @@
+ .bee-wrapper { 
+      --white: 248, 248, 248;
+    --shadow: 187, 187, 187;
+    --background: 233, 233, 233;
+    --black: 63, 63, 63;
+    
+      width: 470px;
+      background:rgba(var(--background), 1);
+      min-height: 200px;
+      border-radius: 15px 15px 0px 0px;
+      font-family: 'Nunito', Sans-serif;
+      border: 1px solid rgba(var(--shadow), 0.2);
+      position: relative; 
+      overflow: hidden;
+      margin: 20px auto; 
+      margin: 30px 0px ;
+       -webkit-text-size-adjust: none; 
+          } 
+          
+  .bee-wrapper b { 
+    color: rgba(var(--hmain));
+    font-weight: 800;
+    background: 
+      -webkit-linear-gradient(left, rgba(var(--haccent), 1), rgba(var(--haccent), 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } 
+  
+    .bee-wrapper u { 
+    color: rgba(var(--hmain), 0.6);
+    font-weight: 800;
+    text-decoration: none; 
+    border-bottom: 0.7px solid rgba(var(--haccent))
+
+  } 
+  
+  .bee-text a { 
+    text-decoration: none;
+    color: rgba(var(--hmain));
+    font-weight: 600;
+    background: 
+      -webkit-linear-gradient(left, rgba(var(--hmain), 1), rgba(var(--haccent), 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } 
+  
+  .bee-wrapper i { 
+         font-weight: 500;
+  } 
+  
+  .bee-top { 
+   width:420px;
+   position: absolute;
+  }
+  
+  .bee-month { 
+      color: rgba(var(--haccent), 0.7);
+      font-weight: 700;
+  } 
+  .bee-date { 
+    text-align: right;
+    width: 100px;
+    position: absolute; 
+    right: 0px; 
+    top: 40px;
+    font: 27px 'Playfair Display', Sans-serif;
+    line-height: 18px; 
+    color: rgba(var(--shadow), 0.7);
+    text-transform: uppercase; 
+    
+  } 
+
+.bee-body { 
+  position: relative;  
+      z-index: 4;
+      margin: 90px auto 90px; 
+     background: 
+       -webkit-linear-gradient(bottom, rgba(var(--white)), rgba(var(--background)));
+       min-height: 100px; 
+  width:390px; 
+
+} 
+
+.bee-text { 
+      font-size: 15px;
+      padding: 20px 40px 50px;
+      text-align: justify;
+      line-height:25px;
+      color: rgba(var(--black));
+} 
+
+ 
+  .bee-team { 
+    position: relative;   
+    width: 390px;
+    height: 70px; 
+    bottom: 0px; 
+
+  } 
+  
+  .bee-teamtitle { 
+position: absolute;
+font:22.5px 'Playfair Display', Sans-serif;
+text-transform: uppercase;
+bottom: 0px;
+color: rgba(var(--white), 1);
+z-index: 5; 
+padding: 20px 50px 20px 20px; 
+font-weight: 600;
+background:      
+-webkit-linear-gradient(left, rgba(var(--hmain), 0.7), rgba(var(--white), 0.6));
+} 
+  
+  .bee-pkmn { 
+    position: absolute; 
+    right: 0px; 
+    z-index: 5;
+    height: 50px; 
+    display: inline-flex; 
+  } 
+  
+  .bee-pkmn pkmn { 
+    position: relative; 
+    left: -20px;
+    top: -10px;
+  } 
+  
+  .bee-hp { 
+  position: relative; 
+  top: 55px;
+  font: 11px 'Playfair Display', sans-serif;
+  font-weight: 700;
+  color: rgba(var(--black),0.8);
+  
+} 
+
+
+  .bee-bottom { 
+    height: 160px; 
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    background: 
+       -webkit-linear-gradient(left, rgba(var(--hmain), 0.8), rgba(var(--hmain), 0.6));
+ display: flex; 
+  } 
+  
+
+  .bee-tag { 
+    font: 11px 'Nunito', Sans-serif;
+    margin: 30px; 
+    text-align: right;
+    position: absolute; 
+    bottom: 0px; 
+    right: 15px; 
+  background: 
+       -webkit-linear-gradient(left, rgba(var(--background), 1), rgba(var(--white), 0.5));
+       padding:5px; 
+  } 
+  
+  .bee-tag a { 
+    color:  rgba(var(--haccent));
+    text-decoration: none; 
+    font-weight: 600;
+       text-transform: uppercase;
+  } 
+  
+  #fainted { 
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+
+#anise {
+--haccent: 140, 133, 194;
+--hmain: 191, 127, 147;
+}
