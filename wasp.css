@@ -225,6 +225,10 @@ font-size: 13px;
 
 } 
 
+.w-threads b { 
+  color: rgba(var(--hmain));   
+} 
+
 .w-threads li { 
    position: relative;  
    text-align: left; 
