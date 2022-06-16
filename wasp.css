@@ -225,11 +225,11 @@ font-size: 13px;
 
 } 
 
-  .w-threads b { 
+ .w-threads b { 
   color: rgba(var(--haccent));   
   font-weight:700;
+  text-shadow: 1px 1px rgba(var(--shadow), 0.8);
 } 
-
 
 .w-threads li { 
    position: relative;  
