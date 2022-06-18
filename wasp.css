@@ -31,7 +31,7 @@
   } 
   
   .wasp-left { 
-    width: 230px; 
+    width: 210px; 
     position: absolute; 
     top: 50px;
   } 
@@ -161,7 +161,7 @@ opacity: 0.9;
   position: absolute; 
   right: 0px; 
   top: 30px; 
-  width: 340px;
+  width: 365px;
 height: 500px; 
 border-radius: 15px 0px 0px;
     overflow: auto; 
@@ -197,7 +197,7 @@ position: relative;
 .w-month {
 position: relative; 
 font: 40px 'kinda', sans-serif; 
-left:-100px; 
+left:-120px; 
 top: 10px; 
 color: rgba(var(--hmain));
   font-style: italic;  
@@ -217,7 +217,7 @@ margin-left: -10px;
 } 
 
 .w-threads { 
-  width: 300px;
+  width: 330px;
 
   top:60px; 
   left: 20px; 
