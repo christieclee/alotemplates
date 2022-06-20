@@ -11,12 +11,8 @@
     --shadow: 187, 187, 187;
     --background: 233, 233, 233;
     --black: 63, 63, 63;
-    /*priorities    */
-    
-    --high: rgba(var(--hmain), 0.8); 
-    --mid: rgba(var(--hmain), 0.5);  
-    --legendary: rgba(var(--hmain), 0.3); 
-    
+
+
     width: 600px; 
     height: 550px;
     overflow: hidden;
@@ -80,7 +76,7 @@ overflow-x: hidden;
   
   .w-highp { 
     position: relative; 
-    border-left: 10px solid rgba(var(--high), 0.5) ;
+    border-left: 10px solid rgba(var(--hmain), 0.8);
     padding-bottom: 30px; 
  
   } 
@@ -97,7 +93,7 @@ overflow-x: hidden;
   .w-midp { 
     position: relative; 
 
-    border-left: 10px solid rgba(var(--mid), 0.5) ;
+    border-left: 10px solid rgba(var(--hmain), 0.5); 
     padding-bottom: 30px; 
    
   } 
@@ -115,7 +111,7 @@ overflow-x: hidden;
     .w-legendp { 
     position: relative; 
 
-    border-left: 10px solid rgba(var(--legendary), 0.5) ;
+    border-left: 10px solid rgba(var(--hmain), 0.2)  ;
     padding-bottom: 30px; 
   
   } 
