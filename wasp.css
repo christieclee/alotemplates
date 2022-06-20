@@ -13,9 +13,9 @@
     --black: 63, 63, 63;
     /*priorities    */
     
-    --high: 184, 181, 123; 
-    --mid:233, 141, 123; 
-    --legendary: 165, 183, 233; 
+    --high: rgba(var(--hmain), 0.8); 
+    --mid: rgba(var(--hmain), 0.5);  
+    --legendary: rgba(var(--hmain), 0.3); 
     
     width: 600px; 
     height: 550px;
