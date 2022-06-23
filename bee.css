@@ -1,4 +1,3 @@
-
   .bee-wrapper { 
       --white: 248, 248, 248;
     --shadow: 187, 187, 187;
@@ -88,20 +87,21 @@
       text-align: justify;
       line-height:25px;
       color: rgba(var(--black));
+      min-height: 100px; 
 } 
 
  
   .bee-team { 
-    position: relative;   
+    position: absolute;   
     width: 390px;
-    height: 70px; 
+    height: 80px; 
     bottom: 0px; 
-    line-height: 0px; !important
+    line-height: 0px !important; 
   } 
   
   .bee-teamtitle { 
 position: absolute;
-font:22.5px 'Playfair Display', Sans-serif;
+font:22px 'Playfair Display', Sans-serif;
 text-transform: uppercase;
 bottom: 0px;
 color: rgba(var(--white), 1);
@@ -110,6 +110,8 @@ padding: 20px 50px 20px 20px;
 font-weight: 600;
 background:      
 -webkit-linear-gradient(left, rgba(var(--hmain), 0.7), rgba(var(--white), 0.6));
+     -webkit-text-size-adjust: none; 
+     height: 30px; 
 } 
   
   .bee-pkmn { 
@@ -179,5 +181,4 @@ background:
 
 #wen {
 --haccent: 134, 125, 155; 
---hmain: 125, 164, 161;
-}
+--hmain: 125, 164, 161;} 
