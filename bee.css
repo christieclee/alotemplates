@@ -82,8 +82,8 @@
 } 
 
 .bee-text { 
-      font-size: 15px;
-      padding: 20px 40px 50px;
+  font-size: 15px;
+      padding: 20px 40px 110px;
       text-align: justify;
       line-height:25px;
       color: rgba(var(--black));
