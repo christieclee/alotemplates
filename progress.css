@@ -36,6 +36,21 @@ background:-webkit-linear-gradient(var(--group1), var(--group2));
 border-radius: 10px; 
 } 
 
+.p-bar::after { 
+  content: 'Progress';
+  font-family: nunito; 
+  font-weight:700;
+position: relative; 
+top:10px; 
+left: 260px;
+font-size: 16px; 
+text-transform: uppercase; 
+color:var(--light);
+text-shadow: 2px 2px var(--light-rgb);
+font-style: italic;
+
+} 
+
 #gryffindor {
 --bar-unicode:'\a2';
 }
