@@ -22,7 +22,7 @@ background:-webkit-linear-gradient(var(--group1), var(--group2));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 position: relative; 
-bottom: 10px; 
+bottom: 0px; 
 z-index: 5; 
 line-height: 0px !important; 
 } 
