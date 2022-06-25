@@ -1,0 +1,106 @@
+butternut-post bar { 
+display: block;
+width: 100%;
+} 
+
+.butternut-post .p-base { 
+width: 100%;
+height: 10px; 
+background:var(--light-rgb);
+border-radius: 10px; 
+} 
+
+
+.bar-icon::after { 
+content:var(--bar-unicode);
+font-family:'starry';
+font-size: 30px; 
+background:-webkit-linear-gradient(var(--group1), var(--group2));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+position: relative; 
+bottom: 10px; 
+} 
+
+
+.p-bar { 
+display: block;
+height: 10px; 
+background:-webkit-linear-gradient(var(--group1), var(--group2));
+border-radius: 10px; 
+} 
+
+#gryffindor {
+--bar-unicode:'\a2';
+}
+
+#ravenclaw {
+--bar-unicode:'\a23';
+}
+
+#hufflepuff  {
+--bar-unicode:'\a19';
+}
+
+#slytherin {
+--bar-unicode:'\a8';
+}
+
+/*percentages*/ 
+
+#zero { 
+content:var(--bar-unicode);
+width: 5%; 
+} 
+
+.bar-icon#zero { 
+margin-left: 0px; 
+} 
+
+#twenty { 
+content:var(--bar-unicode);
+width: 20%; 
+} 
+
+.bar-icon#twenty { 
+margin-left: 50px; 
+} 
+
+
+#forty { 
+content:var(--bar-unicode);
+width: 40%; 
+} 
+
+.bar-icon#forty { 
+margin-left: 120px; 
+} 
+
+
+#sixty { 
+content:var(--bar-unicode);
+width: 60%; 
+} 
+
+.bar-icon#sixty { 
+margin-left: 190px; 
+} 
+
+#eighty { 
+content:var(--bar-unicode);
+width: 80%; 
+} 
+
+.bar-icon#eighty { 
+margin-left: 260px; 
+} 
+
+
+#one-hundred { 
+content:var(--bar-unicode);
+width: 100%; 
+} 
+
+.bar-icon#one-hundred { 
+margin-left: 330px; 
+} 
