@@ -843,10 +843,17 @@ right: -500px;
   #lissy {
 --hmain: #8a9377;
 --haccent: #dc9d81;
- --y-img:  url(https://cdn.discordapp.com/attachments/853744380828581918/882328978843631646/13.png);
+ --y-img:  url(https://cdn.discordapp.com/attachments/872660353283153960/872660411646877766/1.png);
   --name: 'felicity b.';
     
   } 
+  
+      
+     #lissy .yarrow-image {
+    background-size:110%; 
+    background-position: 0px -10px;
+  } 
+    
 
 
   #leon { 
