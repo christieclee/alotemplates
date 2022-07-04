@@ -33,14 +33,14 @@
   } 
 
   
-  .waspc-title { 
-  font: 55px 'Kinda', serif; 
+.waspc-title { 
+  font: 47px 'Kinda', serif; 
   font-weight: 600; 
   text-transform: uppercase; 
   color: rgba(var(--haccent), 0.9);
   text-align: left;
   position: absolute; 
-  bottom:-25px; 
+  bottom:-15px; 
   left: 5px; 
   font-style: italic;  
   z-index: 3; 
@@ -51,7 +51,7 @@
   .waspc-title i { 
     font-size: 35px; 
     position: relative; 
-    top: -10px; 
+    top: -5px; 
     left: 10px; 
     color: rgba(var(--hmain), 0.8);
   } 
