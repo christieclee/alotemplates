@@ -18,6 +18,7 @@
       border: 1px solid rgba(var(--shadow), 0.2);
        -webkit-text-size-adjust: none;
        overflow: hidden; 
+    
 }
 
 .devour-wrapper i { 
@@ -27,70 +28,74 @@
 
 
 .devour-head { 
-  width: 100px; 
   position: absolute; 
   z-index: 5;
-  height: 100;
-  right: 0px; 
+  height: 90px;
+  left: 0px; 
   top: 0px; 
-  width: 30%; 
+  width: 100%; 
+  background: linear-gradient(
+      90deg,
+      rgba(var(--haccent), 0.1),
+      rgba(var(--hmain), 0.1) 50%
+    );
+  padding: 0px 0px 20px; 
+
 } 
 
 .devour-icon { 
-   width: 80px; 
-   height: 80px; 
-   border-radius: 0px 0px 50px 50px; 
    position: absolute;
-   right: 10px;
+   left: 20px;
    top: px;
 } 
 
 .devour-icon span { 
 background-image:   linear-gradient(
       180deg,
-      rgba(var(--hmain), 0.2),
-      rgba(var(--haccent), 0.3) 100%
+      rgba(var(--hmain), 0.3),
+      rgba(var(--haccent), 0.3) 80%
     );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-font-size:85px; 
+font-size:80px; 
 /*color:rgba(var(--hmain), 0.1);*/
 text-transform: uppercase; 
 position: relative;
 top:15px; 
-right: 10px; 
+
 z-index: 5; 
 } 
 
 .devour-month { 
   font: 18px 'Nunito', sans-serif; 
-  color: rgba(var(--haccent), 0.7);
+  color: rgba(var(--haccent), 0.6);
   position: absolute; 
   top: 55px; 
-  right: 85px; 
+  left: 70px; 
   text-align: right; 
-  width:110%; 
+  width:20%; 
   line-height: 20px;
+   font-weight: 400; 
 } 
 
 .d-month { 
   font-size: 23px; 
   color: rgba(var(--hmain), 0.6);
-  font-weight: 600; 
+  font-weight: 700; 
   
 } 
 
 .devour-wrapper hr#hrtop { 
   border: 0px; 
-  border-bottom: 1px solid rgba(var(--haccent));
+border-bottom: 1px solid rgba(var(--haccent));
   position: relative; 
   top: 70px; 
   z-index: 3;
   opacity:0.5;
-  width: 340px; 
-  left: -80px; 
+  width: 300px; 
+  left: 90px; 
 } 
 
 
@@ -110,7 +115,7 @@ right: 0px;
 .devour-text { 
   font-size: 15.5px; 
   min-height: 50px; 
- margin:  80px 20px 0px;   
+ margin:  100px 20px 0px;   
  padding: 50px 50px 30px;
  text-align: justify;
   line-height:25px;
