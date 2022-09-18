@@ -1,4 +1,6 @@
 @import "//christieclee.github.io/highalo/high/high.css";  
+/*<link href="//christieclee.github.io/alotemplates/devour.css" rel="stylesheet">*/
+
 
 .devour-wrapper {
     --white: 255, 255, 253;
@@ -6,7 +8,7 @@
     --background: 247, 247, 247;
     --black: 63, 63, 63;
       width: 450px;
-   background:rgba(var(--background));
+   background:rgba(var(--background), 0.7);
       min-height: 200px;
       font-family: 'Nunito', Sans-serif;
       position: relative; 
@@ -87,7 +89,8 @@ z-index: 5;
   top: 70px; 
   z-index: 3;
   opacity:0.5;
-  width: 500px; 
+  width: 340px; 
+  left: -80px; 
 } 
 
 
