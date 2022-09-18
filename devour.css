@@ -1,0 +1,155 @@
+@import "//christieclee.github.io/highalo/high/high.css";  
+
+.devour-wrapper {
+    --white: 255, 255, 253;
+    --shadow: 187, 187, 187;
+    --background: 247, 247, 247;
+    --black: 63, 63, 63;
+      width: 450px;
+   background:rgba(var(--background));
+      min-height: 200px;
+      font-family: 'Nunito', Sans-serif;
+      position: relative; 
+      margin: 30px auto;
+      display: inline-block;
+      box-shadow: 3px -3px 2px  rgba(205, 205, 205, 0.2);
+      border: 1px solid rgba(var(--shadow), 0.2);
+       -webkit-text-size-adjust: none;
+       overflow: hidden; 
+}
+
+.devour-wrapper i { 
+    font-weight: 700;
+    opacity: 0.7;
+} 
+
+
+.devour-head { 
+  background: rgba(var(--background));
+  width: 100px; 
+  position: absolute; 
+  z-index: 5;
+  height: 100;
+  right: 0px; 
+  top: 0px; 
+  width: 30%; 
+} 
+
+.devour-icon { 
+/*background:  linear-gradient(
+      180deg,
+      rgba(var(--background)),
+      rgba(var(--background)) 100%
+    );*/
+   width: 80px; 
+   height: 80px; 
+   border-radius: 0px 0px 50px 50px; 
+   position: absolute;
+   right: 10px;
+   top: px;
+} 
+
+.devour-icon span { 
+font-size:85px; 
+color:rgba(var(--hmain), 0.1);
+text-transform: uppercase; 
+position: relative;
+top:15px; 
+right: 10px; 
+z-index: 5; 
+} 
+
+.devour-month { 
+  font: 18px 'Nunito', sans-serif; 
+  color: rgba(var(--haccent), 0.7);
+  position: absolute; 
+  top: 55px; 
+  right: 85px; 
+  text-align: right; 
+  width:110%; 
+  line-height: 20px;
+} 
+
+.d-month { 
+  font-size: 23px; 
+  color: rgba(var(--hmain), 0.6);
+  font-weight: 600; 
+  
+} 
+
+.devour-wrapper hr#hrtop { 
+  border: 0px; 
+  border-bottom: 1px solid rgba(var(--haccent));
+  position: relative; 
+  top: 70px; 
+  z-index: 3;
+  opacity:0.5;
+} 
+
+
+.devour-wrapper hr#hrbottom { 
+  border: 0px; 
+  border-bottom: 1px solid rgba(var(--hmain));
+  position: absolute; 
+  bottom:55px; 
+  z-index: 3;
+  opacity:0.5;
+width: 100px; 
+right: 0px; 
+
+
+} 
+
+.devour-text { 
+  font-size: 15.5px; 
+  min-height: 50px; 
+ margin:  80px 20px 0px;   
+ padding: 50px 50px 30px;
+ text-align: justify;
+  line-height:25px;
+  color:rgba(var(--black), 1); 
+} 
+
+.devour-text b { 
+  font-weight: 700;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+
+.devour-text u { 
+     font-style: italic;
+     text-decoration: none;
+      color: rgba(var(--haccent), 0.8);
+     border-bottom: 1px solid rgba(var(--hmain), 0.8);
+        font-weight: 600; 
+    } 
+    
+    .devour-tag { 
+        font-size: 12px; 
+  min-height: 40px;   
+ padding: 0px 0px 30px 0px;   
+ text-align: right;
+  line-height:5px;
+  color:rgba(var(--black), 0.7); 
+  position: relative; 
+  left: -25px; 
+top: 0px;
+width: 60%;
+    } 
+    
+     .devour-tag a { 
+  font: 12px 'Nunito', sans-serif;
+  text-decoration: none;
+  color: rgba(var(--haccent), 0.7);
+  text-transform: ;
+  font-weight: 700;
+
+    } 
+    
+         .devour-tag a:after { 
+      content: '.';
+      color: rgba(var(--haccent), 0.7);
+      margin-right: 2px;
+
+    }   
+    
