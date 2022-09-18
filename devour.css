@@ -25,7 +25,6 @@
 
 
 .devour-head { 
-  background: rgba(var(--background));
   width: 100px; 
   position: absolute; 
   z-index: 5;
@@ -88,6 +87,7 @@ z-index: 5;
   top: 70px; 
   z-index: 3;
   opacity:0.5;
+  width: 500px; 
 } 
 
 
@@ -157,3 +157,65 @@ width: 60%;
 
     }   
     
+
+#db { 
+  --hmain: 68, 126, 128;
+--haccent: 196, 136, 88; 
+
+  } 
+
+#dh { 
+--hmain: 94, 110, 130; 
+--haccent: 175, 156, 158;
+} 
+
+
+  #lb { 
+--hmain: 143, 61, 65; 
+--haccent:115, 136, 149;
+
+} 
+
+
+#mj { 
+--hmain: 195, 120, 85;
+--haccent: 137, 185, 177;
+} 
+  
+ #pk { 
+--hmain: 153, 97, 120;
+--haccent: 165, 163, 184;
+
+} 
+
+
+ #ya { 
+ --hmain: 183, 65, 45; 
+--haccent:218, 155, 99;
+} 
+
+  #fb {
+--hmain: 209, 149, 123;
+--haccent: 138, 147, 119;
+} 
+
+#rp {
+  --hmain: 98, 117, 89;
+  --haccent: 192, 125, 142;
+}
+
+
+#es { 
+ --hmain: 74, 97, 110;
+--haccent: 191, 166, 125;
+  }
+
+#jl {
+--hmain: 132, 148, 148;
+--haccent: 187, 153, 153;
+}
+
+#kb {
+--haccent: 195, 143, 61;
+--hmain: 86, 132, 105;
+}
