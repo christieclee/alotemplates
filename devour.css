@@ -36,11 +36,6 @@
 } 
 
 .devour-icon { 
-/*background:  linear-gradient(
-      180deg,
-      rgba(var(--background)),
-      rgba(var(--background)) 100%
-    );*/
    width: 80px; 
    height: 80px; 
    border-radius: 0px 0px 50px 50px; 
@@ -50,8 +45,17 @@
 } 
 
 .devour-icon span { 
+background-image:   linear-gradient(
+      180deg,
+      rgba(var(--hmain), 0.2),
+      rgba(var(--haccent), 0.3) 100%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 font-size:85px; 
-color:rgba(var(--hmain), 0.1);
+/*color:rgba(var(--hmain), 0.1);*/
 text-transform: uppercase; 
 position: relative;
 top:15px; 
