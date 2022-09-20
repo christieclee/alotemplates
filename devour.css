@@ -20,12 +20,16 @@
     
 }
 
-
 .devour-wrapper i { 
     font-weight: 700;
-    opacity: 0.7;
+    opacity: 0.9;
 } 
 
+    .devour-wrapper a { 
+  text-decoration: none;
+  color: rgba(var(--hmain), 1);
+
+    } 
 
 .devour-head { 
   position: absolute; 
@@ -59,11 +63,12 @@ background-image:   linear-gradient(
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-font-size:80px; 
+font-size:75px; 
 /*color:rgba(var(--hmain), 0.1);*/
 text-transform: uppercase; 
 position: relative;
 top:15px; 
+
 z-index: 5; 
 } 
 
@@ -72,7 +77,7 @@ z-index: 5;
   color: rgba(var(--haccent), 0.6);
   position: absolute; 
   top: 55px; 
-  left: 70px; 
+  left: 60px; 
   text-align: right; 
   width:20%; 
   line-height: 20px;
@@ -204,6 +209,14 @@ width: 60%;
   #fb {
 --hmain: 209, 149, 123;
 --haccent: 138, 147, 119;
+} 
+
+#fb .devour-icon span { 
+ -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
 } 
 
 #rp {
