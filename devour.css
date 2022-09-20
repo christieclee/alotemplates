@@ -1,5 +1,4 @@
 @import "//christieclee.github.io/highalo/high/high.css";  
-/*<link href="//christieclee.github.io/alotemplates/devour.css" rel="stylesheet">*/
 
 
 .devour-wrapper {
@@ -46,7 +45,7 @@
 
 .devour-icon { 
    position: absolute;
-   left: 20px;
+   left: 30px;
    top: px;
 } 
 
@@ -65,7 +64,6 @@ font-size:80px;
 text-transform: uppercase; 
 position: relative;
 top:15px; 
-
 z-index: 5; 
 } 
 
