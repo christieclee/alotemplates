@@ -49,21 +49,21 @@
 
 .devour-icon { 
    position: absolute;
-   left: 30px;
+   left: 25px;
    top: px;
 } 
 
 .devour-icon span { 
 background-image:   linear-gradient(
       180deg,
-      rgba(var(--hmain), 0.3),
-      rgba(var(--haccent), 0.3) 80%
+      rgba(var(--hmain), 0.2),
+      rgba(var(--haccent), 0.2) 80%
     );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-font-size:75px; 
+font-size:78px; 
 /*color:rgba(var(--hmain), 0.1);*/
 text-transform: uppercase; 
 position: relative;
@@ -80,15 +80,16 @@ z-index: 5;
   left: 60px; 
   text-align: right; 
   width:20%; 
-  line-height: 20px;
+  line-height: 19px;
    font-weight: 400; 
+
 } 
 
 .d-month { 
-  font-size: 23px; 
+  font-size: 25px; 
   color: rgba(var(--hmain), 0.6);
   font-weight: 700; 
-  
+     letter-spacing: 0.75px;
 } 
 
 .devour-wrapper hr#hrtop { 
@@ -100,6 +101,7 @@ border-bottom: 1px solid rgba(var(--haccent));
   opacity:0.5;
   width: 300px; 
   left: 90px; 
+  
 } 
 
 
@@ -211,13 +213,6 @@ width: 60%;
 --haccent: 138, 147, 119;
 } 
 
-#fb .devour-icon span { 
- -moz-transform: scale(-1, 1);
-  -webkit-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
-  transform: scale(-1, 1);
-} 
 
 #rp {
   --hmain: 98, 117, 89;
