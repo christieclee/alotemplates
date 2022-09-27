@@ -97,6 +97,14 @@ width: 40%;
 margin-left: 120px; 
 } 
 
+#fifty { 
+content:var(--bar-unicode);
+width: 50%; 
+} 
+
+.bar-icon#fifty { 
+margin-left: 150px; 
+} 
 
 #sixty { 
 content:var(--bar-unicode);
