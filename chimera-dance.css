@@ -123,7 +123,7 @@
 
 /*messages*/ 
 
-    .task-messages  {   --bg: 244, 244, 244;
+  .task-messages  {   --bg: 244, 244, 244;
     --shadow: 187, 187, 187;
     --background: 232, 232, 232;
     --black: 63, 63, 63;
@@ -151,7 +151,7 @@
     padding: 10px 30px;
     color: rgba(var(--background), 0.5);
     font-weight: 800; 
-    
+    font-size: 17px; 
   } 
   
   .message-from { 
@@ -167,7 +167,7 @@
     position: absolute; 
     right: 0px; 
     bottom: 5px; 
-  
+    font-size: 16px; 
   } 
   
   .message-from::before { 
@@ -176,7 +176,7 @@
     color: rgba(var(--black), 0.3);
   } 
   
- .shoutout { 
+  .shoutout { 
 font-weight: 50; 
 width: 340px; 
 top: 60px; 
@@ -233,5 +233,4 @@ font-size: 16px;
      
     
   } 
-  
   
