@@ -1,4 +1,4 @@
-.bingo-container3 {
+.bingo-container4 {
 font-family: nunito;
 position:relative;
 overflow: hidden;
@@ -16,7 +16,7 @@ text-align:left;
 
 }
 
-.bingo-name3 {
+.bingo-name4 {
 z-index:1;
 padding:20px 25px;
 line-height:45px;
@@ -30,7 +30,7 @@ text-align:left;
 
 }
 
-.bingo-name3 .bingo-word3 { 
+.bingo-name4 .bingo-word3 { 
   font-size: 50px;
 color: var(--main);
 background-image: linear-gradient(var(--group2), var(--group1-rgb));
@@ -42,7 +42,7 @@ font-weight: 700;
 
 } 
 
-.bingo-name3 .bing3 { 
+.bingo-name4 .bing4 { 
   color: var(--white);
   position: absolute; 
   right: 10px; 
@@ -52,7 +52,7 @@ font-weight: 700;
   transform: rotate(0deg);
 } 
 
-.quality-bingo3:before { 
+.quality-bingo4:before { 
 content:'\e90c';
 font-family:'starry';
 line-height:100%;
