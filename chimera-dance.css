@@ -156,7 +156,6 @@
   
   .message-from { 
 
-
     height:30px; 
     border-radius: 0px 0px  40px ;
     display: inline-flex; 
@@ -168,6 +167,7 @@
     right: 0px; 
     bottom: 5px; 
     font-size: 16px; 
+      text-transform: uppercase; 
   } 
   
   .message-from::before { 
