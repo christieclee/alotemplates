@@ -937,3 +937,17 @@ right: -500px;
     background-size: 97%; 
     background-position: 10px -20px;
   } 
+
+ #tibbles { 
+--hmain: #70292b;
+--haccent: #65715b;
+ --y-img:  url(https://cdn.discordapp.com/attachments/1008935259997474907/1008935444920156160/14.png);
+ --name: 'tybalt d.';
+   
+   
+ }
+ 
+  #tibbles .yarrow-image {
+    background-size: 98%; 
+    background-position: 0px 10px;
+  } 
