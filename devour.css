@@ -239,3 +239,12 @@ width: 60%;
 --hmain: 131, 31, 39;
 --haccent: 101, 113, 91;
 }
+
+#rc {
+--hmain: 119, 67, 92;
+--haccent: 200, 134, 97;
+}
+
+#rc .devour-icon span { 
+ transform:         scaleX(-1);
+} 
