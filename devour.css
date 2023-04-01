@@ -17,7 +17,7 @@
       border: 1px solid rgba(var(--shadow), 0.4);
        -webkit-text-size-adjust: none;
        overflow: hidden; 
-    font-family: 'High', sans-serif; 
+
 }
 
 .devour-wrapper i { 
@@ -68,8 +68,8 @@ font-size:78px;
 text-transform: uppercase; 
 position: relative;
 top:15px; 
-
 z-index: 5; 
+        font-family: 'High', sans-serif; 
 } 
 
 .devour-month { 
