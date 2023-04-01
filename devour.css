@@ -17,7 +17,7 @@
       border: 1px solid rgba(var(--shadow), 0.4);
        -webkit-text-size-adjust: none;
        overflow: hidden; 
-    
+    font-family: 'High', sans-serif; 
 }
 
 .devour-wrapper i { 
