@@ -9,7 +9,7 @@
       width: 450px;
    background:rgba(var(--background), 0.7);
       min-height: 200px;
-      font-family: 'Nunito', Sans-serif;
+      font-family: 'Quicksand', Sans-serif;
       position: relative; 
       margin: 30px auto;
       display: inline-block;
@@ -73,7 +73,7 @@ z-index: 5;
 } 
 
 .devour-month { 
-  font: 18px 'Nunito', sans-serif; 
+  font: 18px 'Quicksand', sans-serif; 
   color: rgba(var(--haccent), 0.6);
   position: absolute; 
   top: 55px; 
@@ -156,7 +156,7 @@ width: 60%;
     } 
     
      .devour-tag a { 
-  font: 12px 'Nunito', sans-serif;
+  font: 12px 'Quicksand', sans-serif;
   text-decoration: none;
   color: rgba(var(--haccent), 0.7);
   text-transform: ;
