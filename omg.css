@@ -140,7 +140,7 @@ position: relative;
 
 .hicon { 
   left: 0px; 
-  top:20px; 
+  top:40px; 
 } 
 
 .bottom1 { 
@@ -169,7 +169,7 @@ position: relative;
 } 
 .bottom-tag { 
   position: absolute; 
-  top: 50px; 
+  top: 0px; 
   left:70px; 
   font-size: 13px; 
   text-align: left; 
