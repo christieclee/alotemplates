@@ -6,7 +6,7 @@
     --background: 239, 239, 239;
     --black: 63, 63, 63;
       width: 550px;
-      min-height: 200px;
+      min-height: 100px;
       font-family: 'Quicksand', Sans-serif;
       position: relative; 
       margin: 0px auto;
@@ -30,8 +30,9 @@ padding: 10px 20px;
 .omg-topper { 
   display: inline-block; 
 position: relative; 
-  height: 150px; 
+  height: 140px; 
   width: 100%; 
+  right: 20px; 
   
 } 
 .omg-accent { 
@@ -59,17 +60,15 @@ z-index: 3;
 .omg-sparkle::before { 
   content: '\a137';
   font-family: 'Starry';
-    color: rgba(var(--gray));
-  
-
+  color: rgba(var(--gray));
 } 
 
  .a { 
   position: relative; 
   top: 12px;
   right: 10px; 
-      z-index: 4;
-        font-size: 20px;
+   z-index: 4;
+  font-size: 20px;
 } 
 
 
@@ -113,6 +112,8 @@ padding: 0px 30px;
 width: 380px; 
 color:rgba(var(--black), 0.9); 
 line-height: 25px;
+text-align: justify;
+
 } 
   
   .omg-text b { 
@@ -144,9 +145,10 @@ line-height: 25px;
 .omg-bottom { 
 display: inline-block; 
 position: relative; 
-  height: 150px; 
+  height: 90px; 
   width: 100%; 
 margin-top: 40px; 
+
 }   
 
 .hicon { 
