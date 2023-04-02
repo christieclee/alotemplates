@@ -1,0 +1,258 @@
+@import "//christieclee.github.io/highalo/high/high.css";  
+.omg-wrapper { 
+    --white: 255, 255, 253;
+    --shadow: 187, 187, 187;
+    --background: 239, 239, 239;
+    --black: 63, 63, 63;
+      width: 550px;
+      min-height: 200px;
+      font-family: 'Quicksand', Sans-serif;
+      position: relative; 
+      margin: 30px auto;
+       -webkit-text-size-adjust: none;
+      padding: 20px 30px; 
+    /*to delete
+      box-shadow: 1px -3px 10px  rgba(205, 205, 205, 0.4);
+      border: 1px solid rgba(var(--shadow), 0.4);*/ 
+} 
+
+.omg-gradient { 
+  background: linear-gradient(
+      -180deg,
+      rgba(var(--haccent), 0.1),
+      rgba(var(--background), 0.1) 60%
+    );
+} 
+
+.omg-topper { 
+  display: inline-block; 
+position: relative; 
+  height: 150px; 
+  width: 100%; 
+  
+} 
+.omg-accent { 
+  position: absolute; 
+  right: 110px; 
+} 
+.omg-circle1 { 
+width: 90px;
+height: 90px; 
+border: 1px solid rgba(var(--hmain), 0.8);
+border-radius: 100px; 
+transform: skew(50deg, 0deg);
+position: absolute;
+} 
+.omg-circle2 { 
+width: 90px;
+height: 90px; 
+border: 1px solid rgba(var(--haccent), 0.8);
+border-radius: 100px; 
+transform: skew(40deg, 0deg);
+position: absolute; 
+z-index: 3;
+} 
+  
+.omg-sparkle::before { 
+  content: '\a137';
+  font-family: 'Starry';
+    color: rgba(var(--black));
+    font-size: 20px;
+
+} 
+
+ .a { 
+  position: relative; 
+  top: 12px;
+  right: 10px; 
+      z-index: 4;
+} 
+
+
+ .b { 
+    position: relative; 
+     left: 80px; 
+  top:90px;
+      z-index: 4;
+} 
+
+.omg-date { 
+ font-weight: 700;
+ color: rgba(var(--hmain));
+ position: absolute; 
+ top: 40px; 
+ right: -70px;
+  z-index: 4;
+text-align: right;
+ text-transform: lowercase; 
+} 
+  
+.omg-year { 
+  color: rgba(var(--haccent));
+} 
+  
+.omg-text { 
+position: relative; 
+font-size: 15px; 
+text-align: left; 
+padding: 0px 30px;
+margin-top: -20px; 
+width: 390px; 
+color:rgba(var(--black), 0.9); 
+line-height: 25px;
+} 
+  
+  .omg-text b { 
+  font-weight: 700;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+  .omg-text i { 
+  font-style: italic;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+
+.omg-text u { 
+     font-style: italic;
+     text-decoration: none;
+      color: rgba(var(--haccent), 0.8);
+     border-bottom: 1px solid rgba(var(--hmain), 0.8);
+        font-weight: 600; 
+    } 
+    
+    .omg-text a { 
+    text-decoration: none;
+    color: rgba(var(--hmain), 0.5);
+    font-weight: 600; 
+    } 
+    
+    
+  .omg-bottom { 
+  display: inline-block; 
+position: relative; 
+  height: 150px; 
+  width: 100%; 
+  margin-top: 30;
+  
+}   
+.hicon { 
+  left: 0px; 
+  top: 20px; 
+} 
+
+.bottom1 { 
+  width: 50px; 
+  height: 50px; 
+  transform: skew(-40deg, 0deg);
+} 
+
+.bottom2 { 
+    width:50px; 
+  height: 50px; 
+  transform: skew(-20deg, -10deg);
+} 
+.omg-icon { 
+  font-size: 40px; 
+  position: absolute;
+  top: 20px;
+  left: 10px; 
+  color: rgba(var(--black));
+} 
+.bottom-tag { 
+  position: absolute; 
+  top: 50px; 
+  left:70px; 
+  font-size: 13px; 
+  text-align: left; 
+} 
+.bottom-tag a { 
+  font-weight:600;
+  text-transform: lowercase; 
+  text-decoration: none; 
+  font-size: 13px; 
+  color:rgba(var(--hmain));
+  
+} 
+
+
+.bottom-tag a::before { 
+  content: '#';
+    color:rgba(var(--haccent));
+} 
+
+  #db { 
+    
+
+  --hmain: 68, 126, 128;
+--haccent: 196, 136, 88; 
+
+  } 
+
+#dh { 
+--hmain: 94, 110, 130; 
+--haccent: 175, 156, 158;
+} 
+
+
+  #lb { 
+--hmain: 143, 61, 65; 
+--haccent:115, 136, 149;
+
+} 
+
+
+#mj { 
+--hmain: 195, 120, 85;
+--haccent: 137, 185, 177;
+} 
+  
+ #pk { 
+--hmain: 153, 97, 120;
+--haccent: 165, 163, 184;
+
+} 
+
+
+ #ya { 
+ --hmain: 183, 65, 45; 
+--haccent:218, 155, 99;
+} 
+
+  #fb {
+--hmain: 209, 149, 123;
+--haccent: 138, 147, 119;
+} 
+
+
+#rp {
+  --hmain: 98, 117, 89;
+  --haccent: 192, 125, 142;
+}
+
+
+#es { 
+ --hmain: 74, 97, 110;
+--haccent: 191, 166, 125;
+  }
+
+#jl {
+--hmain: 132, 148, 148;
+--haccent: 187, 153, 153;
+}
+
+#kb {
+--haccent: 195, 143, 61;
+--hmain: 86, 132, 105;
+}
+
+#td {
+--hmain: 131, 31, 39;
+--haccent: 101, 113, 91;
+}
+
+#rc {
+--hmain: 119, 67, 92;
+--haccent: 200, 134, 97;
+}
+
