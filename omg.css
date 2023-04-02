@@ -1,6 +1,7 @@
+
 @import "//christieclee.github.io/highalo/high/high.css";  
 .omg-wrapper { 
-    --white: 255, 255, 253;
+    --gray: 74, 74, 74;
     --shadow: 187, 187, 187;
     --background: 239, 239, 239;
     --black: 63, 63, 63;
@@ -10,19 +11,20 @@
       position: relative; 
       margin: 0px auto;
        -webkit-text-size-adjust: none;
-      padding: 20px 30px; 
+      padding: 0px 0px; 
     /*to delete
       box-shadow: 1px -3px 10px  rgba(205, 205, 205, 0.4);
       border: 1px solid rgba(var(--shadow), 0.4);*/ 
+
 } 
 
 .omg-gradient { 
   background: linear-gradient(
       -180deg,
-      rgba(var(--haccent), 0.1),
-      rgba(var(--background), 0.1) 60%
+      rgba(var(--shadow), 0.2),
+      rgba(var(--background), 0.1) 40%
     );
-
+padding: 10px 20px; 
 } 
 
 .omg-topper { 
@@ -57,8 +59,8 @@ z-index: 3;
 .omg-sparkle::before { 
   content: '\a137';
   font-family: 'Starry';
-    color: rgba(var(--black));
-    font-size: 20px;
+    color: rgba(var(--gray));
+  
 
 } 
 
@@ -67,16 +69,26 @@ z-index: 3;
   top: 12px;
   right: 10px; 
       z-index: 4;
+        font-size: 20px;
 } 
 
 
  .b { 
     position: relative; 
      left: 80px; 
-  top:90px;
-      z-index: 4;
+  top:80px;
+     z-index: 4;
+     font-size: 20px;
 } 
 
+
+ .c { 
+    position: absolute; 
+      z-index: 4;
+    font-size: 12px;
+    left: 0px; 
+    top: 5px; 
+} 
 .omg-date { 
  font-weight: 700;
  color: rgba(var(--hmain));
@@ -97,8 +109,8 @@ text-align: right;
 position: relative; 
 font-size: 15px; 
 text-align: left; 
-padding: 10px 30px;
-width: 390px; 
+padding: 0px 30px;
+width: 380px; 
 color:rgba(var(--black), 0.9); 
 line-height: 25px;
 } 
@@ -138,7 +150,7 @@ margin-top: 40px;
 }   
 
 .hicon { 
-  left: 50px; 
+  left: 20px; 
   top:0px; 
 } 
 
@@ -158,13 +170,14 @@ margin-top: 40px;
 .omg-icon { 
   font-size: 45px; 
   position: absolute;
-  top: 20px;
-  left: 4px; 
-  color: rgba(var(--black));
+  top: 16px;
+  left: 10px; 
+  color: rgba(var(--hmain));
   background-color: rgba(var(--background));
-  width: 60px; 
-  height: 20px; 
+  width: 40px; 
+  height: 40px; 
   z-index: 5;
+
 } 
 .bottom-tag { 
   position: absolute; 
