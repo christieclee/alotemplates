@@ -129,12 +129,13 @@ line-height: 25px;
     } 
     
     
-  .omg-bottom { 
+ .omg-bottom { 
   display: inline-block; 
 position: relative; 
   height: 150px; 
   width: 100%; 
   margin-top: 30;
+  left: 30px; 
   
 }   
 .hicon { 
