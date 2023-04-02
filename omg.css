@@ -85,6 +85,7 @@ z-index: 3;
   z-index: 4;
 text-align: right;
  text-transform: lowercase; 
+ font-size: 18px; 
 } 
   
 .omg-year { 
