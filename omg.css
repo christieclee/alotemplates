@@ -97,7 +97,7 @@ text-align: right;
 position: relative; 
 font-size: 15px; 
 text-align: left; 
-padding: 30px 30px;
+padding: 10px 30px;
 width: 390px; 
 color:rgba(var(--black), 0.9); 
 line-height: 25px;
@@ -134,11 +134,11 @@ display: inline-block;
 position: relative; 
   height: 150px; 
   width: 100%; 
-
+margin-top: 40px; 
 }   
 
 .hicon { 
-  left: 20px; 
+  left: 50px; 
   top:0px; 
 } 
 
@@ -168,7 +168,7 @@ position: relative;
 } 
 .bottom-tag { 
   position: absolute; 
-  top: 20px; 
+  top: 30px; 
   right: 10px; 
   font-size: 13px; 
   text-align: right; 
