@@ -22,6 +22,7 @@
       rgba(var(--haccent), 0.1),
       rgba(var(--background), 0.1) 60%
     );
+
 } 
 
 .omg-topper { 
@@ -96,8 +97,7 @@ text-align: right;
 position: relative; 
 font-size: 15px; 
 text-align: left; 
-padding: 0px 30px;
-margin-top: -20px; 
+padding: 30px 30px;
 width: 390px; 
 color:rgba(var(--black), 0.9); 
 line-height: 25px;
@@ -134,13 +134,12 @@ display: inline-block;
 position: relative; 
   height: 150px; 
   width: 100%; 
-  margin-top: 30;
-  left: 40px; 
+
 }   
 
 .hicon { 
-  left: 0px; 
-  top:40px; 
+  left: 20px; 
+  top:0px; 
 } 
 
 .bottom1 { 
@@ -169,10 +168,10 @@ position: relative;
 } 
 .bottom-tag { 
   position: absolute; 
-  top: 0px; 
-  left:70px; 
+  top: 20px; 
+  right: 10px; 
   font-size: 13px; 
-  text-align: left; 
+  text-align: right; 
 } 
 .bottom-tag a { 
   font-weight:600;
