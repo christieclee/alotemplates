@@ -182,9 +182,9 @@ margin-top: 40px;
 .bottom-tag { 
   position: absolute; 
   top: 30px; 
-  right: 10px; 
+  left: 90px; 
   font-size: 13px; 
-  text-align: right; 
+  text-align: left; 
 } 
 .bottom-tag a { 
   font-weight:600;
