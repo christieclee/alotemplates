@@ -80,12 +80,11 @@ z-index: 3;
      font-size: 20px;
 } 
 
-
- .c { 
+.c { 
     position: absolute; 
       z-index: 4;
     font-size: 12px;
-    left: 0px; 
+    left: -5px; 
     top: 5px; 
 } 
 .omg-date { 
