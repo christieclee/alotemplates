@@ -112,6 +112,7 @@ width: 380px;
 color:rgba(var(--black), 0.9); 
 line-height: 25px;
 text-align: justify;
+top: 10px; 
 
 } 
   
