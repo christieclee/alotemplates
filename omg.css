@@ -1,4 +1,3 @@
-
 @import "//christieclee.github.io/highalo/high/high.css";  
 .omg-wrapper { 
     --gray: 93, 93, 93;
@@ -97,10 +96,13 @@ z-index: 3;
 text-align: right;
  text-transform: lowercase; 
  font-size: 18px; 
+ width: 90px; 
 } 
   
 .omg-year { 
   color: rgba(var(--haccent));
+position: absolute;
+right: 0px; 
 } 
   
 .omg-text { 
@@ -175,11 +177,12 @@ margin-top: 50px;
   top: 16px;
   left: 10px; 
   color: rgba(var(--hmain));
-  background-color: rgba(var(--background));
-  width: 40px; 
-  height: 40px; 
+  background-color: rgba(var(--background), 0.6);
+  width: 30px; 
+  height: 30px; 
   z-index: 5;
 opacity: 0.8;
+
 
 } 
 .bottom-tag { 
