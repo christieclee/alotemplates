@@ -1,3 +1,28 @@
+#yewtoggle-wrap #db-y-toggle+label { 
+ position: absolute; 
+ right:45px;
+ top: 50px; 
+ color: rgba(var(--white),1);
+ text-shadow: 1px 1px rgba(var(--hmain),0.9);
+ font-size: 17px; 
+ z-index: 11;
+ text-align: left; 
+ width: 90px; 
+ height: 20px; 
+   -webkit-transition: ease-in-out 0.5s;  
+   -ms-transition: ease-in-out 0.5s;  
+   -moz-transition: ease-in-out 0.5s;  
+   -o-transition: ease-in-out 0.5s;
+}
+
+
+  
+</style>
+
+[/dohtml]
+
+
+<style> 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Yeseva+One&display=swap');
 @import "//christieclee.github.io/highalo/high/high.css";  
 @import "//christieclee.github.io/highalo/starry/starry.css";  
@@ -671,12 +696,11 @@ font:12px 'Quicksand', sans-serif;
   min-height: 40px;
   padding:5px 10px 0px 10px;
   z-index: 2;
-  flex-grow: 1;
   align-items: baseline;  
    position: relative; 
    margin:5px;
    left: -10px;
-   width:180px;
+   width:350px;
 
 } 
 
@@ -689,22 +713,20 @@ font:12px 'Quicksand', sans-serif;
   z-index: 4; 
   text-shadow: 1px 1px var(--grey);
   font: 15px 'Abril Fatface', serif;
-  padding: 10px;
+  padding: 5px 5px 5px 7px;
   border-radius: 100%;
   position: relative; ; 
   display: inline-flex;
   flex-wrap: wrap;  
   height: 20px;
-  width: 18px;
+  width: 20px;
   text-align: center; 
 }
 
 .thread-link { 
   position: relative; 
-  font: 20px 'Abril Fatface', serif;
+  font: 18px 'Abril Fatface', serif;
  text-transform: uppercase; 
- color: rgba(var(--hmain), 0.9);
-text-shadow: 1px 1px rgba(var(--white));
 left: 5px; 
 top: 0px; 
 } 
@@ -714,7 +736,7 @@ top: 0px;
   line-height: 18px;
   font-size: 12.5px;
 text-transform: lowercase;
-padding: 0px 10px 0px 10px; 
+padding: 10px 10px 0px 10px; 
 left: 40px; 
 margin-top: -10px; 
 width: 290px;
@@ -738,6 +760,7 @@ text-align: left;
  .yew-threads a { 
  color: rgba(var(--hmain), 0.9);
 text-shadow: 1px 1px rgba(var(--white));
+
 }   
 
 .thread-info b { 
@@ -874,3 +897,4 @@ top: 0px;
    filter: grayscale(1);
    color: var(--grey);
 }
+ 
