@@ -372,6 +372,10 @@ right:30px;
 top: 15px;
 } 
 
+.y-info-inner3 li b { 
+  text-transform: lowercase; 
+} 
+
 .wandicon { 
 	color: rgba(var(--white), 0.8);
 	position: absolute;
@@ -387,6 +391,8 @@ top: 15px;
 	background: linear-gradient(to top, rgba(var(--hmain), 0.5), rgba(var(--hmain),0.2));
 	border-radius: 100px; margin:30px 15px; 
 } 
+
+
 
 /**claims & skills**/ 
 
