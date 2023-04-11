@@ -717,6 +717,7 @@ width: 290px;
 text-align: left; 
   background-image: linear-gradient(to bottom, rgba(var(--white), 0.4), rgba(var(--white),0.1));
   z-index: 6;
+	  display: inline-block;
 } 
 
 .thread-info u { 
