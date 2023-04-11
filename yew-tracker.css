@@ -348,7 +348,9 @@ margin:0px 0px;
   border: 0.75px solid rgba(var(--white)) ;
 
 } 
-
+.y-info-inner b { 
+  text-transform: lowercase; 
+} 
 
 /**wand**/ 
 
