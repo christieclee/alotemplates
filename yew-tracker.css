@@ -723,10 +723,12 @@ text-align: left;
 
 } 
 
+
 .thread-info u::before { 
  content: '#'; 
  color: rgba(var(--haccent));
    font-weight: 600;
+   margin-left: 5px;
 }
  
  .yew-threads a { 
