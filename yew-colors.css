@@ -1,0 +1,154 @@
+/*colors*/ 
+  
+  #db {
+  --hmain: 68, 126, 128;
+--haccent: 196, 136, 88; 
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1064801871161724958/darius3.png);
+}
+
+  #db  .yew-image2 { 
+    background-size:290%;
+     background-position: -110px 0px;
+} 
+
+#dh { 
+--hmain: 94, 110, 130; 
+--haccent: 175, 156, 158;
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1064804889311580160/dom.png);
+} 
+  #dh   .yew-image2 { 
+    background-size:280%;
+     background-position: -120px -0px;
+      transform: scaleX(-1);
+} 
+
+#es { 
+ --hmain: 74, 97, 110;
+--haccent: 191, 166, 125;
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1064818322476126248/ellis2.png);
+  }
+  
+  #es   .yew-image2 { 
+    background-size:280%;
+     background-position: -50px -40px;
+} 
+
+  #fb {
+--hmain: 183, 123, 98;
+--haccent: 138, 147, 119;
+--bg-image: url(https://64.media.tumblr.com/1a4f82c2a088bf99f80c32a43dfddd4f/tumblr_pb2d5kQB8C1vuopd7o1_1280.png);
+} 
+
+#fb   .yew-image2 { 
+    background-size:550%;
+     background-position: -130px -0px;
+     border-radius: 10px; 
+  
+} 
+
+#jl {
+--hmain: 132, 148, 148;
+--haccent: 187, 153, 153;
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1065168126196580402/june4.png);
+}
+
+  #jl   .yew-image2 { 
+    background-size:330%;
+     background-position: -120px 0px;
+     border-radius: 10px; 
+
+} 
+
+#kb {
+--haccent: 195, 143, 61;
+--hmain: 86, 132, 105;
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1065169488611389460/khalil.png);
+}
+
+
+  #kb   .yew-image2 { 
+    background-size:250%;
+     background-position: -40px -0px;
+     border-radius: 10px; 
+  
+} 
+
+  #lb { 
+--hmain: 143, 61, 65; 
+--haccent:115, 136, 149;
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1065170691151888405/leonbig.png);
+} 
+  #lb   .yew-image2 { 
+    background-size:320%;
+     background-position: -85px -30px;
+     border-radius: 10px; 
+  
+} 
+
+ #pk { 
+--hmain: 153, 97, 120;
+--haccent: 165, 163, 184;
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1065171718534090752/paris.png);
+} 
+  #pk   .yew-image2 { 
+    background-size:260%;
+     background-position: -90px -0px;
+     border-radius: 10px; 
+  
+} 
+
+
+  #rc { 
+    --hmain: 119, 67, 92;
+--haccent: 200, 134, 97;
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1065173463029010483/ravi.png);
+} 
+
+#rc   .yew-image2 { 
+    background-size:308%;
+     background-position: -160px 0px;
+      transform: scaleX(-1);
+  background-repeat:no-repeat;
+} 
+
+
+#rp {
+  --hmain: 98, 117, 89;
+  --haccent: 192, 125, 142;
+  --bg-image: url(https://cdn.discordapp.com/attachments/824527081806364722/824527120221995058/3.png);
+}
+
+
+#rp   .yew-image2 { 
+    background-size:110%;
+     background-position: -20px -60px;
+     border-radius: 10px; 
+  
+} 
+
+
+#td {
+--hmain: 131, 31, 39;
+--haccent: 101, 113, 91;
+--bg-image: url(https://cdn.discordapp.com/attachments/1008935259997474907/1008935385147117658/3.png);
+}
+
+
+  #td   .yew-image2 { 
+    background-size:105%;
+     background-position: -10px -50px;
+     border-radius: 10px; 
+  }
+
+ #ya { 
+ --hmain: 183, 65, 45; 
+--haccent:218, 155, 99;
+--bg-image: url(https://cdn.discordapp.com/attachments/378633932754780170/1003043468525969498/yusufff2.png);
+} 
+
+#ya   .yew-image2 { 
+    background-size:110%;
+     background-position: -20px -60px;
+     border-radius: 10px; 
+  
+} 
