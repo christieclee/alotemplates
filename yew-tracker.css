@@ -403,7 +403,6 @@ top: 15px;
   padding: 5px; 
 overflow: hidden;
 position: absolute;
-
 } 
 
 .claimicon { 
@@ -426,7 +425,9 @@ position: relative;
   position: absolute; 
   top:0px; 
   left: 15px; 
-  font-size:11px; 
+  font-size:12px; 
+  font-weight: 700;
+text-shadow: 1px 1px rgba(var(--white));
   overflow-x: scroll;
 
 }  
@@ -458,6 +459,7 @@ text-shadow: 1px 1px rgba(var(--white));
 position: absolute; 
  background: rgba(var(--white), 0.4); 
    padding: 10px; 
+   font-weight: 700;
 } 
 
 .skills { 
@@ -473,7 +475,8 @@ left: 10px;
 } 
 
 .skills-title { 
-  font-size: 12px;
+  font-size: 12px;font-weight: 700;
+text-shadow: 1px 1px rgba(var(--white));
 } 
 
 .skill-bar { 
@@ -871,4 +874,3 @@ top: 0px;
    filter: grayscale(1);
    color: var(--grey);
 }
- 
