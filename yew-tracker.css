@@ -32,7 +32,7 @@
 #yewtoggle-wrap input[type=checkbox] { display: none ;}
 
 /*toggle main divs*/
- 
+
 #yewtoggle-wrap input[type=checkbox]:checked ~ .yew-right { 
   top:300px; 
   left: 20px;
@@ -307,6 +307,7 @@ top: 15px;
    -o-transition: ease-in-out 0.7s; 
    transition-delay: 0.3s;
 
+
 } 
 
 .yew-info li { 
@@ -546,23 +547,7 @@ position: relative;
   padding-left: 20px;
   } 
 
-  .yew-months-background { 
-/*background-image: url(https://i.pinimg.com/564x/a1/ab/45/a1ab45fa2d66e6c331163ef0afb52c6a.jpg);*/
-    height: 30px;
-    width: 235px; 
-    padding: 10px; 
-    background-size:100%; 
-   background-position:center;
-  background-repeat:no-repeat;
-  background-position: -20px -310px;
-    position: absolute; 
-   bottom:0px;
-   left: 0px ;
-z-index: 3; 
-filter: grayscale(100%);
-opacity: 0.4;
-mix-blend-mode: overlay;
-  } 
+
   
 .y-season::before { 
   color: rgba(var(--hmain),0.8);
@@ -651,6 +636,7 @@ background: rgba(var(--white),0.5);
   left:0px;
   border-radius: 10px;
 padding: 10px; 
+
   } 
   
   .yew-timeline-border { 
@@ -660,6 +646,7 @@ height:450px;
 
     z-index: 4;
    overflow-y: scroll;
+   overflow-x: hidden; 
   } 
   .yew-timeline-border::-webkit-scrollbar { width: 0px;  }
  .yew-timeline-border::-webkit-scrollbar-track { background:; display: none; }
@@ -668,28 +655,26 @@ height:450px;
 
 .yew-threads { 
 text-align: left;
-width:400px;
  list-style: none;
 counter-reset: code-counter;
 font:12px 'Quicksand', sans-serif;
   display: inline-flex;
   flex-wrap: wrap;
-  flex-grow: 1;
   align-content: flex-start;
-  margin: 0px 0px 15px 15px;
+  margin: 10px 0px 15px 15px;
 } 
 
 .yew-threads li { 
-  min-height: 50px;
-  padding:15px 10px 0px 10px;
+  min-height: 40px;
+  padding:5px 10px 0px 10px;
   z-index: 2;
   flex-grow: 1;
   align-items: baseline;  
    position: relative; 
    margin:5px;
-   top: 0px;
    left: -10px;
    width:180px;
+
 } 
 
 .yew-threads li::before { 
@@ -711,7 +696,7 @@ font:12px 'Quicksand', sans-serif;
   text-align: center; 
 }
 
-.thread-name { 
+.thread-link { 
   position: relative; 
   font: 20px 'Abril Fatface', serif;
  text-transform: uppercase; 
@@ -729,14 +714,16 @@ text-transform: lowercase;
 padding: 0px 10px 0px 10px; 
 left: 40px; 
 margin-top: -10px; 
-width: 300px;
+width: 290px;
 display:block;  
-text-align: right; 
+text-align: left; 
+
 } 
 
 .thread-info u { 
   text-decoration: none; 
   margin-left: 10px;
+  
 } 
 
 .thread-info u::before { 
@@ -746,7 +733,8 @@ text-align: right;
 }
  
  .yew-threads a { 
-color: rgba(var(--black),0.8);
+ color: rgba(var(--hmain), 0.9);
+text-shadow: 1px 1px rgba(var(--white));
 }   
 
 .thread-info b { 
@@ -790,7 +778,7 @@ top: 10px;
 .y-shipscroll::-webkit-scrollbar-track { background:; display: none; }
 .y-shipscroll::-webkit-scrollbar-thumb { background: ; border: 0; }
 
-.yew-rel { 
+.yarrow-rel { 
   background: rgba(var(--white),0.5);
   padding: 5px;
   border-radius: 5px; 
@@ -883,3 +871,4 @@ top: 0px;
    filter: grayscale(1);
    color: var(--grey);
 }
+ 
