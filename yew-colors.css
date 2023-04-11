@@ -1,5 +1,6 @@
 /*colors*/ 
   
+   
   #db {
   --hmain: 68, 126, 128;
 --haccent: 196, 136, 88; 
@@ -7,8 +8,8 @@
 }
 
   #db  .yew-image2 { 
-    background-size:290%;
-     background-position: -110px 0px;
+    background-size: cover;
+     background-position: -100px 0px;
 } 
 
 #dh { 
@@ -85,6 +86,18 @@
   
 } 
 
+ #mj { 
+--hmain: 195, 120, 85;
+--haccent: 137, 185, 177;
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1095414819919769701/marko.png);
+} 
+  #mj   .yew-image2 { 
+    background-size:280%;
+     background-position: -130px -0px;
+     border-radius: 10px; 
+  
+} 
+
  #pk { 
 --hmain: 153, 97, 120;
 --haccent: 165, 163, 184;
@@ -94,9 +107,7 @@
     background-size:260%;
      background-position: -90px -0px;
      border-radius: 10px; 
-  
 } 
-
 
   #rc { 
     --hmain: 119, 67, 92;
@@ -115,40 +126,40 @@
 #rp {
   --hmain: 98, 117, 89;
   --haccent: 192, 125, 142;
-  --bg-image: url(https://cdn.discordapp.com/attachments/824527081806364722/824527120221995058/3.png);
+  --bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1095420367662755920/rhhys2.png);
 }
 
 
 #rp   .yew-image2 { 
-    background-size:110%;
-     background-position: -20px -60px;
+    background-size: ;
+     background-position: -190px 0px;
      border-radius: 10px; 
-  
+
 } 
 
 
 #td {
 --hmain: 131, 31, 39;
 --haccent: 101, 113, 91;
---bg-image: url(https://cdn.discordapp.com/attachments/1008935259997474907/1008935385147117658/3.png);
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1095405452877123735/tybalt3.png);
 }
 
 
   #td   .yew-image2 { 
-    background-size:105%;
-     background-position: -10px -50px;
+    background-size: cover;
+     background-position: -130px 20px;
      border-radius: 10px; 
   }
 
  #ya { 
  --hmain: 183, 65, 45; 
 --haccent:218, 155, 99;
---bg-image: url(https://cdn.discordapp.com/attachments/378633932754780170/1003043468525969498/yusufff2.png);
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1095420085612580884/yusuf.png);
 } 
 
 #ya   .yew-image2 { 
-    background-size:110%;
-     background-position: -20px -60px;
+    background-size:500px;
+     background-position: -170px 0px;
      border-radius: 10px; 
-  
-} 
+        transform: scaleX(-1)
+}
