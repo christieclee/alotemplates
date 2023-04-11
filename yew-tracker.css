@@ -337,6 +337,8 @@ margin:0px 0px;
   overflow: hidden;
    background:rgba(var(--white), 0.5);
    padding: 10px; 
+   font-size: 14px;
+   line-height: 20px;
 } 
 
 .y-info-inner{ 
@@ -392,8 +394,6 @@ top: 15px;
 	border-radius: 100px; margin:30px 15px; 
 } 
 
-
-
 /**claims & skills**/ 
 
 .yew-claims { 
@@ -448,7 +448,6 @@ height: 120px;
 .y-info-inner2 li::before { 
   content: '';
 } 
-
 
 .yew-skills { 
 right: 0px; 
@@ -625,6 +624,11 @@ left: 160px;
 
 .y-season#summer::before { 
   content: '\a71';
+  font-family: 'Starry'; 
+}
+
+.y-season#past::before { 
+  content: '\e90d';
   font-family: 'Starry'; 
 }
 
@@ -879,4 +883,3 @@ top: 0px;
    filter: grayscale(1);
    color: var(--grey);
 }
- 
