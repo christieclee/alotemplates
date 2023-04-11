@@ -451,10 +451,9 @@ position: relative;
   top:0px; 
   left: 15px; 
   font-size:12px; 
-  font-weight: 700;
 text-shadow: 1px 1px rgba(var(--white));
   overflow-x: scroll;
-
+font-weight: 500;
 }  
 
 .y-info-inner2.claims { 
@@ -484,7 +483,6 @@ text-shadow: 1px 1px rgba(var(--white));
 position: absolute; 
  background: rgba(var(--white), 0.4); 
    padding: 10px; 
-   font-weight: 700;
 } 
 
 .skills { 
@@ -500,8 +498,9 @@ left: 10px;
 } 
 
 .skills-title { 
-  font-size: 12px;font-weight: 700;
+  font-size: 12px; 
 text-shadow: 1px 1px rgba(var(--white));
+font-weight: 500;
 } 
 
 .skill-bar { 
