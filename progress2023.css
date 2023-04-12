@@ -1,0 +1,12 @@
+.progress-icon::before { 
+content:'\a137';
+font-family:'starry';
+font-size: 25px; 
+background:-webkit-linear-gradient(rgba(var(--group1)), rgba(var(--group2)));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+position: relative; 
+bottom: 10px; 
+z-index: 5; 
+line-height: 0px !important; 
+} 
