@@ -1,12 +1,117 @@
-.progress-icon::before { 
-content:'\a137';
-font-family:'starry';
-font-size: 25px; 
-background:-webkit-linear-gradient(rgba(var(--group1)), rgba(var(--group2)));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.butternut-post bar { 
+
+font-family: 'Starry';
+display: block;
+width: 100%;
+margin-top: 20px; 
+} 
+
+.e-base { 
+width: 100%;
+height: 10px; 
+background: rgba(var(--lgray));
+border-radius: 10px; 
+margin-top: 10px;
+} 
+
+.e-bar { 
+display: block;
+height: 10px; 
+background:linear-gradient(to right, rgba(var(--group2), 0.5), rgba(var(--group2), 1));
+border-radius: 10px; 
+} 
+
+.e-bar::after { 
+  content: 'Progress';
+  font-family: 'Magic Retro'; 
 position: relative; 
-bottom: 10px; 
-z-index: 5; 
-line-height: 0px !important; 
+top:10px; 
+left: 260px;
+font-size: 30px; 
+text-transform: capitalize;
+color:rgba(var(--group1));
+text-shadow: 1px -2px rgba(var(--lgray));
+} 
+
+#gryffindor {
+--bar-unicode:'\a2';
+}
+
+#ravenclaw {
+--bar-unicode:'\a23';
+}
+
+#hufflepuff  {
+--bar-unicode:'\a19';
+}
+
+#slytherin {
+--bar-unicode:'\a8';
+}
+
+/*percentages*/ 
+
+#zero { 
+content:var(--bar-unicode);
+width: 5%; 
+} 
+
+.progress-icon#zero { 
+margin-left: 0px; 
+} 
+
+#twenty { 
+content:var(--bar-unicode);
+width: 20%; 
+} 
+
+.progress-icon#twenty { 
+margin-left: 70px; 
+} 
+
+
+#forty { 
+content:var(--bar-unicode);
+width: 40%; 
+} 
+
+.progress-icon#forty { 
+margin-left: 155px; 
+} 
+
+#fifty { 
+content:var(--bar-unicode);
+width: 50%; 
+} 
+
+.progress-icon#fifty { 
+margin-left: 150px; 
+} 
+
+#sixty { 
+content:var(--bar-unicode);
+width: 60%; 
+} 
+
+.progress-icon#sixty { 
+margin-left: 190px; 
+} 
+
+#eighty { 
+content:var(--bar-unicode);
+width: 80%; 
+} 
+
+.progress-icon#eighty { 
+margin-left: 260px; 
+} 
+
+
+#one-hundred { 
+content:var(--bar-unicode);
+width: 100%; 
+} 
+
+.progress-icon#one-hundred { 
+margin-left: 330px; 
 } 
