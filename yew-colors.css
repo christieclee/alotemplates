@@ -122,6 +122,18 @@
   background-repeat:no-repeat;
 } 
 
+#rl {
+--haccent: 185, 195, 163;
+--hmain: 145, 145, 162;
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1102102587018330192/remy3.png);
+}
+
+#rl   .yew-image2 { 
+    background-size:320px;
+     background-position: -110px 0px;
+     border-radius: 10px; 
+  transform: scaleX(-1)
+}
 
 #rp {
   --hmain: 98, 117, 89;
