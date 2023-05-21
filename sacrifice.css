@@ -1,0 +1,176 @@
+@import "//christieclee.github.io/highalo/high/high.css";  
+
+.sacrifice-wrapper { 
+   --gray: 93, 93, 93;
+    --shadow: 187, 187, 187;
+    --backgroundskin: 239, 239, 239;
+     --background2: 247, 247, 247;
+    --black: 63, 63, 63;
+      width: 500px;
+      min-height: 200px;
+      font-family: 'Quicksand', Sans-serif;
+      position: relative; 
+      margin: 20px;
+       -webkit-text-size-adjust: none;
+      padding: 0px 0px; 
+      box-shadow: 1px -3px 10px  rgba(205, 205, 205, 0.4);
+      border: 1px solid rgba(var(--shadow), 0.4);
+      background: rgba(var(--background2), 0.1);
+      border-radius: 5px;
+      overflow: hidden; 
+} 
+
+.sacrifice-header { 
+height:80px; 
+position: absolute;
+left: 0px;
+width: 94%; 
+text-align: left; 
+overflow: hidden; 
+top: 20px;
+} 
+
+.sacrifice-header2, .sacrifice-header3 { 
+  height:100%;
+  width: 100%; 
+  background: rgba(var(--haccent),0.2);
+display: block; 
+position: absolute;
+
+} 
+
+
+.sacrifice-header3 { 
+ background: rgba(var(--hmain),0.6);
+    width:20%; 
+} 
+
+.sacrifice-accent { 
+  position: absolute; 
+  right: 110px; 
+  top: 10px; 
+} 
+
+.sacrifice-circle1 { 
+width: 90px;
+height: 90px; 
+border: 1px solid rgba(var(--hmain), 0.8);
+border-radius: 100px; 
+transform: skew(60deg, 0deg);
+position: absolute;
+border-right: none; 
+} 
+
+.sacrifice-circle2 { 
+width: 90px;
+height: 90px; 
+border: 1px solid rgba(var(--haccent), 1);
+border-radius: 100px; 
+transform: skew(50deg, 0deg);
+position: absolute; 
+z-index: 3;
+border-right: none; 
+} 
+  
+.sacrifice-sparkle::before { 
+  content: '\e921';
+  font-family: 'Starry';
+  color: rgba(var(--hmain),  0.8);
+  z-index: 2;
+  position: absolute; 
+ /*color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(var(--hmain), 0.7);*/
+  font-size: 16px; 
+} 
+
+ .sparklea { 
+  position: absolute; 
+  top: 13px;
+  right: 38px; 
+   z-index: 4;
+} 
+
+ .sacrifice-i { 
+  position: absolute; 
+  top: 35px;
+  right: 10px; 
+   z-index: 4;
+  font-size: 40px;
+    color: rgba(var(--hmain),  0.8);
+} 
+.sacrifice-date { 
+font-size:20px; 
+text-align: center;
+line-height: 25px; 
+margin-top: 15px;
+color:rgba(var(--backgroundskin),0.3);
+text-transform: uppercase;
+position: relative; 
+z-index: 3; 
+} 
+
+.s-month { 
+  color: rgba(var(--backgroundskin),0.8);
+  font-size:24px; 
+} 
+
+.sacrifice-text { 
+background: rgba(var(--background2),0.7); 
+padding: 30px; 
+margin: 30px; 
+position: relative; 
+margin-top: 130px;
+border-radius: 5px; 
+color: rgba(var(--black), 0.9);
+text-align: left;
+font-size: 15px; 
+text-align: left; 
+line-height: 25px;
+} 
+
+
+ .sacrifice-text b { 
+  font-weight: 700;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+  .sacrifice-text i { 
+  font-style: italic;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+.sacrifice-text u { 
+     font-style: italic;
+     text-decoration: none;
+      color: rgba(var(--haccent), 0.8);
+     border-bottom: 1px solid rgba(var(--hmain), 0.8);
+        font-weight: 600; 
+    } 
+    
+    .sacrifice-text a { 
+    text-decoration: none;
+    color: rgba(var(--hmain), 0.5);
+    font-weight: 600; 
+    } 
+
+.sacrifice-text hr { 
+    border: none;
+    border-bottom: 0.5px solid rgba(var(--haccent)); 
+    padding: 10px; 
+    } 
+
+.sacrifice-tag { 
+  padding: 10px 0px;
+  font-size: 12px; 
+} 
+
+.sacrifice-tag a { 
+font-size: 12px; 
+} 
+
+.sacrifice-tag a::before { 
+  content: '#';
+    color:rgba(var(--haccent));
+    margin-right: 2px; 
+} 
