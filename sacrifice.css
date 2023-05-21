@@ -111,7 +111,7 @@ font-family: 'Quicksand', sans-serif;
 } 
 
 
-.sacrifice-wrapper .s-month { 
+.sacrifice-date .s-month { 
   color: rgba(var(--backgroundskin),0.8);
   font-size:24px; 
   font-weight: 500;
