@@ -107,11 +107,14 @@ color:rgba(var(--backgroundskin),0.3);
 text-transform: uppercase;
 position: relative; 
 z-index: 3; 
+font-family: 'Quicksand', sans-serif;
 } 
 
-.s-month { 
+
+.sacrifice-wrapper .s-month { 
   color: rgba(var(--backgroundskin),0.8);
   font-size:24px; 
+  font-weight: 500;
 } 
 
 .sacrifice-text { 
