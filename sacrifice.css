@@ -85,10 +85,11 @@ border-right: none;
 
  .sparklea { 
   position: absolute; 
-  top: 15px;
+  top: 13px;
   right: 38px; 
    z-index: 4;
 } 
+
 
  .sacrifice-i { 
   position: absolute; 
