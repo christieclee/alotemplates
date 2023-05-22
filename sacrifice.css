@@ -75,7 +75,7 @@ border-right: none;
 } 
   
 .sacrifice-sparkle::before { 
-  content: '\e921';
+  content: '\e920';
   font-family: 'Starry';
   color: rgba(var(--hmain),  0.5);
   z-index: 2;
@@ -85,7 +85,7 @@ border-right: none;
 
  .sparklea { 
   position: absolute; 
-  top: 13px;
+  top: 15px;
   right: 38px; 
    z-index: 4;
 } 
