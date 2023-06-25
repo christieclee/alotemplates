@@ -14,7 +14,7 @@
       position: relative; 
       margin: 20px;
        -webkit-text-size-adjust: none;
-      padding: 0px 0px; 
+      padding: 10px 0px 0px; 
       box-shadow: 1px -3px 10px  rgba(205, 205, 205, 0.4);
       border: 1px solid rgba(var(--shadow), 0.4);
       background: rgba(var(--background2), 0.1);
@@ -29,8 +29,9 @@ left: 0px;
 width: 94%; 
 text-align: left; 
 overflow: hidden; 
-top: 20px;
+top: 30px;
 } 
+
 
 .sacrifice-header2, .sacrifice-header3 { 
   height:100%;
