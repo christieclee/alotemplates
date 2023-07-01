@@ -16,15 +16,13 @@ border-radius: 10px;
   background:linear-gradient(to right, rgba(var(--group2), 0.5), rgba(var(--group2), 1));
 } 
 
-.e-bar3 { 
+#phases .e-bar3 { 
   
   background:linear-gradient(to right, rgba(var(--enemy1), 0.1), rgba(var(--enemy1), 0.7));
 } 
 
 
 .e-bar2::after { 
-  content: '';
-  font-family: 'Magic Retro'; 
 position: relative; 
 top:10px; 
 left: 260px;
@@ -59,8 +57,6 @@ background: rgba(var(--lgray));
 border-radius: 10px; 
 margin-top: 10px;
 float: left; 
-
-
 } 
 
 #phase1 .e-bar3::before { 
@@ -71,9 +67,7 @@ float: left;
 #phase2 .e-bar3::before { 
   content: 'Terror';
   font-family: 'Magic Retro'; 
-  
 }
-
 
 #phase3 .e-bar3::before { 
   content: 'Scream';
@@ -87,8 +81,7 @@ float: left;
     background:linear-gradient(to right, rgba(var(--low), 0.2), rgba(var(--low), 0.6));
 } 
 
-
-.e-bar2 #forty, #fifty, #sixty.e-bar2   { 
+#forty, #fifty, #sixty.e-bar2 { 
     background:linear-gradient(to right, rgba(var(--mid), 0.2), rgba(var(--mid), 0.6));
 } 
 
@@ -110,8 +103,6 @@ float: left;
 --mid: 217,164,21;
 --low: 175,44,44;
 }
-
-
 
 /*percentages*/ 
 
