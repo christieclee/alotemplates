@@ -1,0 +1,164 @@
+.e-base2 { 
+width: 100%;
+height: 10px; 
+background: rgba(var(--lgray));
+border-radius: 10px; 
+margin-top: 10px;
+} 
+
+.e-bar2, .e-bar3 { 
+display: block;
+height: 10px; 
+border-radius: 10px; 
+} 
+
+.e-bar2 { 
+  background:linear-gradient(to right, rgba(var(--group2), 0.5), rgba(var(--group2), 1));
+} 
+
+.e-bar3 { 
+  
+  background:linear-gradient(to right, rgba(var(--enemy1), 0.1), rgba(var(--enemy1), 0.7));
+} 
+
+
+.e-bar2::after { 
+  content: '';
+  font-family: 'Magic Retro'; 
+position: relative; 
+top:10px; 
+left: 260px;
+font-size: 30px; 
+text-transform: capitalize;
+color:rgba(var(--group1));
+text-shadow: 1px -2px rgba(var(--lgray));
+} 
+
+.e-bar3::before { 
+position: relative; 
+top:10px; 
+font-size: 20px; 
+text-transform: capitalize;
+color:rgba(var(--enemy1), 0.8);
+text-shadow: 1px -2px rgba(var(--lgray));
+display: block; 
+width: 100px; 
+} 
+
+
+#health .e-bar2::after { 
+  content: 'Banshee';
+  font-family: 'Magic Retro'; 
+  
+}
+
+.e-base3 { 
+width: 31.6%;
+height: 10px; 
+background: rgba(var(--lgray));
+border-radius: 10px; 
+margin-top: 10px;
+float: left; 
+
+
+} 
+
+#phase1 .e-bar3::before { 
+  content: 'trap';
+   font-family: 'Magic Retro'; 
+}
+
+#phase2 .e-bar3::before { 
+  content: 'Terror';
+  font-family: 'Magic Retro'; 
+  
+}
+
+
+#phase3 .e-bar3::before { 
+  content: 'Scream';
+  font-family: 'Magic Retro'; 
+  
+}
+
+/*health bar color*/ 
+
+#ten, #twenty, #thirty.e-bar2  { 
+    background:linear-gradient(to right, rgba(var(--low), 0.2), rgba(var(--low), 0.6));
+} 
+
+
+.e-bar2 #forty, #fifty, #sixty.e-bar2   { 
+    background:linear-gradient(to right, rgba(var(--mid), 0.2), rgba(var(--mid), 0.6));
+} 
+
+#seventy, #eighty, #ninty, #one-hundred.e-bar2  { 
+    background:linear-gradient(to right, rgba(var(--high), 0.2), rgba(var(--high), 0.6));
+} 
+
+
+
+/*colors*/ 
+
+#phases {
+--enemy1: 175,44,44;
+}
+
+
+#health {
+--high: 56,175,61;
+--mid: 217,164,21;
+--low: 175,44,44;
+}
+
+
+
+/*percentages*/ 
+
+#zero { 
+width: 0%; 
+} 
+
+#ten { 
+width: 10%; 
+} 
+
+
+#twenty { 
+width: 20%; 
+} 
+
+#thirty { 
+width: 30%; 
+} 
+
+
+#forty { 
+width: 40%; 
+} 
+
+#fifty { 
+width: 50%; 
+} 
+
+
+#sixty { 
+width: 60%; 
+} 
+
+#seventy { 
+width: 70%; 
+} 
+
+#eighty { 
+width: 80%; 
+} 
+
+#ninety { 
+width: 90%; 
+} 
+
+
+#one-hundred { 
+width: 100%; 
+} 
