@@ -77,15 +77,15 @@ float: left;
 
 /*health bar color*/ 
 
-#ten, #twenty, #thirty.e-bar2  { 
+#ten, #fifteen, #twenty, #twenty-five, #thirty, #thirty-five.e-bar2  { 
     background:linear-gradient(to right, rgba(var(--low), 0.2), rgba(var(--low), 0.6));
 } 
 
-#forty, #fifty, #sixty.e-bar2 { 
+#forty, #forty-five, #fifty, #fifty-five, #sixty, #sixty-five.e-bar2 { 
     background:linear-gradient(to right, rgba(var(--mid), 0.2), rgba(var(--mid), 0.6));
 } 
 
-#seventy, #eighty, #ninty, #one-hundred.e-bar2  { 
+#seventy, #seventy-five, #eighty, #eighty-five, #ninty, #ninety-five, #one-hundred.e-bar2  { 
     background:linear-gradient(to right, rgba(var(--high), 0.2), rgba(var(--high), 0.6));
 } 
 
@@ -110,17 +110,33 @@ float: left;
 width: 0%; 
 } 
 
+#five { 
+width: 5%; 
+} 
+
 #ten { 
 width: 10%; 
 } 
 
+#fifteen { 
+width: 15%; 
+} 
 
 #twenty { 
 width: 20%; 
 } 
 
+
+#twenty-five { 
+width: 25%; 
+} 
+
 #thirty { 
 width: 30%; 
+} 
+
+#thirty-five { 
+width: 35%; 
 } 
 
 
@@ -128,28 +144,49 @@ width: 30%;
 width: 40%; 
 } 
 
+#forty-five { 
+width: 45%; 
+} 
+
 #fifty { 
 width: 50%; 
 } 
 
+#fifty-five { 
+width: 55%; 
+} 
 
 #sixty { 
 width: 60%; 
+} 
+
+#sixty-five { 
+width: 65%; 
 } 
 
 #seventy { 
 width: 70%; 
 } 
 
+#seventy-five { 
+width: 75%; 
+} 
+
 #eighty { 
 width: 80%; 
+} 
+
+#eighty-five { 
+width: 85%; 
 } 
 
 #ninety { 
 width: 90%; 
 } 
 
-
+#ninety-five { 
+width: 95%; 
+} 
 #one-hundred { 
 width: 100%; 
 } 
