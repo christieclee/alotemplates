@@ -1,0 +1,122 @@
+.bingo-container5 {
+font-family: 'Quicksand';
+position:relative;
+overflow: hidden;
+margin:25px auto;
+width:550px;
+height:575px;
+background:rgba(var(--lgray));
+background: linear-gradient(rgba(var(--group1)) -25%, rgba(var(--dgray)));
+color:rgba(var(--black));
+font-size:12px;
+line-height:17px;
+box-shadow:2px 2px 2px #d3d3d3;
+text-align:left;
+
+}
+
+.bingo-name5 {
+z-index:1;
+padding:20px 25px;
+line-height:45px;
+font-size:40px;
+font-weight:200;
+color:rgba(var(--white));
+width:500px;
+position:relative;
+text-align:left;
+font-family: 'Magic Retro';
+
+}
+
+.bingo-name5 .bingo-word5 { 
+  font-size: 50px;
+color: rgba(var(--white));
+background-image: linear-gradient(rgba(var(--white)), rgba(var(--dgray)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+font-weight: 700; 
+position: relative;
+left: 20px; 
+} 
+
+.bingo-name5 .bing5 { 
+  color: rgba(var(--white));
+  position: absolute; 
+  right: 10px; 
+  font-size: 125px; 
+  top: 3px; 
+  opacity: 0.5; 
+  transform: rotate(0deg);
+
+} 
+
+
+.quality-bingo5:after { 
+  content: '\e91f';
+  font-family:'starry';
+  position: absolute;
+  z-index: 4;
+  top: 50px;
+  left: 10px;
+  color: rgba(var(--white), 0.6);
+  
+} 
+
+.bingo-table {
+position:relative;
+z-index:1;
+margin:-20px 25px 25px;
+background: transparent;
+}
+
+.prompt, .filled {
+position:relative;
+background-image: linear-gradient(rgba(var(--black)) -25%, rgba(var(--black), 0.8));
+border-radius:5px;
+width:130px;
+height:135px;
+padding:0px 15px;
+text-align:center;
+font-size:20px;
+line-height:22px;
+text-transform:lowercase;
+color:rgba(var(--dgray));
+z-index: 2;
+}
+
+.filled:before {
+content:'\e903';
+font-family: starry; 
+position:absolute;
+top:30px;
+left: 15px; 
+font-size: 90px;
+z-index:3;
+margin:25px 10px;
+display:block;
+width:100px;
+height:100px;
+border-radius:100%;
+color: rgba(var(--group1), 0.6);
+transform: rotate(0deg);
+
+}
+
+.prompt a, .filled a {
+z-index:4;
+display:block;
+width:150px;
+height:150px;
+position:absolute;
+top:0px; left:0px;
+}
+
+.prompt .filled, cls {
+display:block;
+font-size:12px;
+line-height:18px;
+color: rgba(var(--group1));
+}
