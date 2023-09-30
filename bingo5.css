@@ -64,6 +64,8 @@ position:relative;
 z-index:1;
 margin:-20px 25px 25px;
 background: transparent;
+  border-collapse: separate
+  
 }
 
 .prompt, .filled {
