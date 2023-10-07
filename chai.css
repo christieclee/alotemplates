@@ -67,7 +67,8 @@ top: 0px;
 }
 
 
-.high { 
+
+.chai-i { 
  font-size: 50px; 
  position: absolute; 
  color: rgba(var(--hmain), 0.7);
