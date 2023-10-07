@@ -1,0 +1,165 @@
+   @import "//christieclee.github.io/highalo/high/high.css";  
+@import "//christieclee.github.io/alotemplates/oc-colors.css";  
+
+
+  .chai-wrapper { 
+   --gray: 93, 93, 93;
+    --shadow: 187, 187, 187;
+    --backgroundskin: 239, 239, 239;
+     --background2: 247, 247, 247;
+    --black: 63, 63, 63;
+      width: 500px;
+      min-height: 200px;
+      font-family: 'Quicksand', Sans-serif;
+      position: relative; 
+      margin: 20px;
+       -webkit-text-size-adjust: none;
+      box-shadow: 1px -3px 10px  rgba(205, 205, 205, 0.4);
+      border: 1px solid rgba(var(--shadow), 0.4);
+      background: rgba(var(--background2), 0.3);
+      border-radius: 5px;
+      display: inline-block;
+      overflow: hidden;
+      border-bottom: 10px solid rgba(var(--hmain), 0.5);
+  } 
+  
+  .chai-top { 
+      padding: 40px; 
+      position: relative; 
+top: 20px; 
+  } 
+  
+.chai-checker1, .chai-checker2 { 
+  height: 40px; 
+  width: 140px;
+  background-size: 40px 40px;
+ background-position: -20 0, 0 20px, 0 0, 0 0, 0 0;
+  background-image: 
+linear-gradient(45deg, rgba(var(--hmain), 0.8) 25%, transparent 25%, transparent 75%, rgba(var(--hmain), 0.8) 75%, rgba(var(--hmain), 0.6)),
+linear-gradient(45deg, rgba(var(--hmain), 0.8) 25%, transparent 25%, transparent 75%, rgba(var(--hmain), 0.8) 75%, rgba(var(--hmain), 0.6)); 
+}
+
+.chai-checker1 { 
+    position: absolute; 
+} 
+
+.chai-checker2 { 
+position: absolute; 
+left: 320px; 
+  background-image: 
+linear-gradient(45deg, rgba(var(--haccent), 0.8) 25%, transparent 25%, transparent 75%, rgba(var(--haccent), 0.8) 75%, rgba(var(--haccent), 0.6)),
+linear-gradient(45deg, rgba(var(--haccent), 0.8) 25%, transparent 25%, transparent 75%, rgba(var(--haccent), 0.8) 75%, rgba(var(--haccent), 0.6)); 
+} 
+
+.chai-checker3 { 
+  height: 20px; 
+  width:500px;
+  background-size: 20px 20px;
+ background-position: -30 0, 0 30px, 0 0, 0 0, 0 0;
+  background-image: 
+linear-gradient(45deg, rgba(var(--gray), 0.1) 25%, transparent 25%, transparent 75%, rgba(var(--gray), 0.1) 75%, rgba(var(--gray), 0.1)),
+linear-gradient(45deg, rgba(var(--gray), 0.1) 25%, transparent 25%, transparent 75%, rgba(var(--gray), 0.1) 75%, rgba(var(--gray), 0.1)); 
+position: absolute; 
+top: 0px; 
+}
+
+
+.high { 
+ font-size: 50px; 
+ position: absolute; 
+ color: rgba(var(--hmain), 0.7);
+left: 222px; 
+top: 15px; 
+  
+}
+
+  .chai-date { 
+  font-size: 15px; 
+  position: absolute;
+  top: 70px; left: 215px;
+  color: rgba(var(--haccent), 0.5);
+  text-align: center; 
+  text-transform: uppercase;
+  font-weight: 600;
+} 
+
+.chai-date:after { 
+  content: '\e91e';
+  font-family: 'Starry';
+  color: rgba(var(--hmain), 0.6);
+  position: absolute; 
+  left:57px; 
+  top: -50px; 
+} 
+
+.chai-date:before { 
+  content: '\e91e';
+  font-family: 'Starry';
+  color: rgba(var(--haccent), 0.6);
+  position: absolute; 
+  left: -15px; 
+  top: -10px; 
+} 
+
+.chai-text { 
+  background: rgba(var(--background2),0.5); 
+padding: 30px; 
+margin: 70px 40px 40px ; 
+position: relative; 
+border-radius: 5px; 
+color: rgba(var(--black), 0.9);
+text-align: left;
+font-size: 15px; 
+text-align: left; 
+line-height: 25px;
+
+     box-shadow: 1px -3px 10px  rgba(205, 205, 205, 0.2);
+} 
+
+  
+ .chai-text b { 
+  font-weight: 700;
+  color: rgba(var(--hmain), 0.8);
+} 
+  
+  
+.chai-text i { 
+  font-style: italic;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+.chai-text u { 
+     font-style: italic;
+     text-decoration: none;
+      color: rgba(var(--haccent), 0.8);
+     border-bottom: 1px solid rgba(var(--hmain), 0.8);
+        font-weight: 600; 
+    } 
+    
+    .chai-text a { 
+    text-decoration: none;
+    color: rgba(var(--hmain), 0.5);
+    font-weight: 600; 
+    } 
+    
+    
+    .chai-tag { 
+  padding: 0px 0px 0px;
+  font-size: 12px; 
+  text-align: right; 
+  margin: -10px 40px 30px; 
+  
+} 
+
+.chai-tag a { 
+font-size: 12px; 
+ text-decoration: none;
+ color: rgba(var(--hmain));
+} 
+
+.chai-tag a::before { 
+  content: '#';
+  font-family: 'Starry';
+    color:rgba(var(--haccent));
+    margin-right: 2px; 
+} 
