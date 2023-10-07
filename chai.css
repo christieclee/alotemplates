@@ -80,11 +80,15 @@ top: 15px;
   .chai-date { 
   font-size: 15px; 
   position: absolute;
-  top: 70px; left: 215px;
-  color: rgba(var(--haccent), 0.5);
-  text-align: center; 
+  top: 70px; left: 213px;
+  color: rgba(var(--haccent), 0.4);
+  text-align: left; 
   text-transform: uppercase;
   font-weight: 600;
+} 
+
+.chai-month { 
+    color: rgba(var(--haccent), 0.6);
 } 
 
 .chai-date:after { 
