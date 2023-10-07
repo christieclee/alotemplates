@@ -92,10 +92,9 @@ top: 15px;
   font-family: 'Starry';
   color: rgba(var(--hmain), 0.6);
   position: absolute; 
-  left:57px; 
+  left:63px; 
   top: -50px; 
 } 
-
 .chai-date:before { 
   content: '\e91e';
   font-family: 'Starry';
