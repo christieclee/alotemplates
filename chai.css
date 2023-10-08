@@ -31,12 +31,12 @@ top: 25px;
   
 .chai-checker1, .chai-checker2 { 
   height: 30px; 
-  width: 135px;
+  width: 134.5px;
   background-size: 30px 30px;
- background-position: 15px 0px, 0px 15px !important; 
+ background-position: -0.94em 0em, 0em -0.93em !important; 
   background-image: 
-linear-gradient(45deg, rgba(var(--hmain), 0.8) 25%, transparent 25%, transparent 75%, rgba(var(--hmain), 0.8) 75%, rgba(var(--hmain), 0.8)),
-linear-gradient(45deg, rgba(var(--hmain), 0.8) 25%, transparent 25%, transparent 75%, rgba(var(--hmain), 0.8) 75%, rgba(var(--hmain), 0.8)); 
+linear-gradient(45deg, rgba(var(--hmain), 0.9) 26%, transparent 25%, transparent 75%, rgba(var(--hmain), 0.9) 75%, rgba(var(--hmain), 0.9)),
+linear-gradient(45deg, rgba(var(--hmain), 0.9) 26%, transparent 25%, transparent 75%, rgba(var(--hmain), 0.9) 75%, rgba(var(--hmain), 0.9)); 
 }
 
 .chai-checker1 { 
@@ -49,23 +49,21 @@ position: absolute;
 left: 320px; 
 top: 55px;
   background-image: 
-linear-gradient(45deg, rgba(var(--haccent), 0.8) 25%, transparent 25%, transparent 75%, rgba(var(--haccent), 0.8) 75%, rgba(var(--haccent), 0.8)),
-linear-gradient(45deg, rgba(var(--haccent), 0.8) 25%, transparent 25%, transparent 75%, rgba(var(--haccent), 0.8) 75%, rgba(var(--haccent), 0.8)); 
-
+linear-gradient(45deg, rgba(var(--haccent), 0.9) 26%, transparent 25%, transparent 75%, rgba(var(--haccent), 0.9) 75%, rgba(var(--haccent), 0.9)),
+linear-gradient(45deg, rgba(var(--haccent), 0.9) 26%, transparent 25%, transparent 75%, rgba(var(--haccent), 0.9) 75%, rgba(var(--haccent), 0.9)); 
 } 
 
 .chai-checker3 { 
   height: 20px; 
   width:500px;
   background-size: 20px 20px;
- background-position: -30px 0, 0 30px !important; 
+ background-position: -30px 0px, 0px 30px !important; 
   background-image: 
 linear-gradient(45deg, rgba(var(--shadow), 0.2) 25%, transparent 25%, transparent 75%, rgba(var(--shadow), 0.2) 75%, rgba(var(--shadow), 0.2)),
 linear-gradient(45deg, rgba(var(--shadow), 0.2) 25%, transparent 25%, transparent 75%, rgba(var(--shadow), 0.2) 75%, rgba(var(--shadow), 0.2)); 
 position: absolute; 
 top: 0px; 
 }
-
 
 
 .chai-i { 
@@ -99,13 +97,14 @@ top: 15px;
   left:63px; 
   top: -50px; 
 } 
+
 .chai-date:before { 
   content: '\e91e';
   font-family: 'Starry';
   color: rgba(var(--haccent), 0.6);
   position: absolute; 
   left: -15px; 
-  top: -10px; 
+  top: -15px; 
 } 
 
 .chai-text { 
@@ -117,7 +116,6 @@ border-radius: 5px;
 color: rgba(var(--black), 0.9);
 text-align: left;
 font-size: 15px; 
-text-align: left; 
 line-height: 25px;
      box-shadow: 1px 3px 10px  rgba(205, 205, 205, 0.3);
 } 
@@ -160,6 +158,7 @@ font-size: 12px;
  text-decoration: none;
  color: rgba(var(--hmain));
  font-weight: 600;
+ text-transform: uppercase;
 } 
 
 .chai-tag a::before { 
