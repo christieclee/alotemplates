@@ -1,4 +1,4 @@
-   @import "//christieclee.github.io/highalo/high/high.css";  
+  @import "//christieclee.github.io/highalo/high/high.css";  
 @import "//christieclee.github.io/alotemplates/oc-colors.css";  
 
 
@@ -33,6 +33,7 @@ top: 25px;
   height: 30px; 
   width: 134.5px;
   background-size: 30px 30px;
+  font-size:16px;
  background-position: -0.94em 0em, 0em -0.93em !important; 
   background-image: 
 linear-gradient(45deg, rgba(var(--hmain), 0.9) 26%, transparent 25%, transparent 75%, rgba(var(--hmain), 0.9) 75%, rgba(var(--hmain), 0.9)),
@@ -48,6 +49,7 @@ linear-gradient(45deg, rgba(var(--hmain), 0.9) 26%, transparent 25%, transparent
 position: absolute; 
 left: 320px; 
 top: 55px;
+  font-size:16px;
   background-image: 
 linear-gradient(45deg, rgba(var(--haccent), 0.9) 26%, transparent 25%, transparent 75%, rgba(var(--haccent), 0.9) 75%, rgba(var(--haccent), 0.9)),
 linear-gradient(45deg, rgba(var(--haccent), 0.9) 26%, transparent 25%, transparent 75%, rgba(var(--haccent), 0.9) 75%, rgba(var(--haccent), 0.9)); 
