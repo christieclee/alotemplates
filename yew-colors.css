@@ -175,3 +175,14 @@
      border-radius: 10px; 
         transform: scaleX(-1)
 }
+
+ #ti {
+--hmain: 109, 157, 194;
+--haccent: 105, 164, 138;
+--bg-image: url(https://cdn.discordapp.com/attachments/1064796611374493799/1166190395458338856/teddy.png?ex=65499671&is=65372171&hm=ae567ab33927733d42ef9371c512cda179db947c33fd5384f0c281db2698ec26&);
+}
+
+  #ti  .yew-image2 { 
+    background-size: cover;
+     background-position: -85px 0px;
+} 
