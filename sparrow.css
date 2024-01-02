@@ -1,0 +1,146 @@
+@import "//christieclee.github.io/highalo/high/high.css";  
+@import "//christieclee.github.io/alotemplates/oc-colors.css";  
+@import "//fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"; 
+
+
+
+  .sparrow-wrapper { 
+    --gray: 93, 93, 93;
+    --shadow: 187, 187, 187;
+    --backgroundskin: 239, 239, 239;
+    --background2: 247, 247, 247;
+    --black: 63, 63, 63;
+      width: 500px;
+      font-family: 'Quicksand', Sans-serif;
+      position: relative; 
+      margin: 20px;
+       -webkit-text-size-adjust: none;
+      background: rgba(var(--background2), 0.5);
+      display: inline-block;
+      overflow: hidden;
+
+  } 
+  
+    .sparrow-wrapper b { 
+      font-weight: 700;
+  color: rgba(var(--hmain), 0.8);
+  } 
+  
+  .sparrow-wrapper hr { 
+    border: none;
+    border-bottom: 1px solid rgba(var(--haccent),0.3);
+    margin:30px 30px 0px; 
+  } 
+  
+  .sparrow-gradient { 
+  min-height: 200px; 
+  background-image: linear-gradient(130deg, rgba(var(--gray), 0.1), rgba(var(--haccent), 0.3) 10%, rgba(var(--hmain), 0.3) 70%, rgba(var(--gray), 0.1));
+  padding: 15px; 
+  } 
+  
+  .sparrow-inner { 
+width: 95%;
+ background: rgba(var(--background2));
+ min-height: 200px; 
+  border-radius:10px;
+  padding: 10px; 
+  } 
+  
+  .sparrow-top {
+    position: relative; 
+    height: 90px; 
+    
+  }
+  .sparrow-circle::after { 
+    content: '';
+    width: 50px;
+    height: 50px; 
+background-image: linear-gradient(130deg, rgba(var(--haccent), 0.4) 30%, rgba(var(--hmain), 0.2) 70%);
+    border-radius: 100px;
+filter: blur(4px); 
+    position: absolute; 
+ top: 20px; 
+ left: 45px; 
+    
+  } 
+
+
+.sparrow-i { 
+  font-size: 53px; 
+  color:rgba(var(--haccent),0.7);
+text-shadow: 1px 1px rgba(var(--background2), 0.6);
+  position: absolute; 
+  left: 25px;
+    top: 20px; 
+}
+
+.sparrow-month { 
+  color: rgba(var(--hmain), 0.3);
+  font-weight: 700; 
+  font-size: 15px; 
+  text-transform: uppercase;
+  border: 1.5px solid rgba(var(--haccent), 0.3); 
+  padding: 5px 20px; 
+  border-radius: 20px; 
+  position: absolute; 
+  right: 20px;
+  top: 40px; 
+} 
+  
+  .fly-month { 
+    color: rgba(var(--hmain), 0.6)
+  } 
+
+  
+.sparrow-text { 
+padding: 30px; 
+margin: 0px 0px 0px ; 
+position: relative; 
+border-radius: 5px; 
+color: rgba(var(--black), 0.9);
+text-align: left;
+font-size: 15px; 
+line-height: 25px;
+} 
+
+ .sparrow-text b { 
+  font-weight: 700;
+  color: rgba(var(--hmain), 0.8);
+} 
+  
+  
+.sparrow-text i { 
+  font-style: italic;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+.sparrow-text u { 
+    font-style: italic;
+    text-decoration: none;
+    color: rgba(var(--haccent), 0.8);
+    border-bottom: 1px solid rgba(var(--hmain), 0.8);
+    font-weight: 600; 
+    } 
+    
+
+.sparrow-text a { 
+    text-decoration: none;
+    color: rgba(var(--hmain), 0.5);
+    font-weight: 600; 
+    } 
+    
+       .sparrow-tag { 
+
+  font-size: 12px; 
+  text-align: right; 
+  margin: 0px 20px 30px; 
+} 
+
+.sparrow-tag a { 
+font-size: 12px; 
+ text-decoration: none;
+ color: rgba(var(--hmain), 0.5);
+ font-weight: 600;
+ text-transform: uppercase;
+
+} 
