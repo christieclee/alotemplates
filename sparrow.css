@@ -67,7 +67,7 @@ filter: blur(4px);
 
 .sparrow-i { 
   font-size: 53px; 
-  color:rgba(var(--haccent),0.7);
+  color:rgba(var(--haccent),0.8);
 text-shadow: 1px 1px rgba(var(--background2), 0.6);
   position: absolute; 
   left: 25px;
