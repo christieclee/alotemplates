@@ -137,7 +137,7 @@ line-height: 25px;
   line-height: 15px;
 } 
 
-.sparrow-tag a { 
+.sparrow-tag  a.user-tagged  { 
 font-size: 12px; 
  text-decoration: none;
  color: rgba(var(--hmain), 0.5);
