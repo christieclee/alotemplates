@@ -145,3 +145,9 @@ font-size: 12px;
  text-transform: uppercase;
 
 } 
+
+.sparrow-tag  a { 
+font-size: 12px; 
+ text-decoration: none;
+ color: rgba(var(--hmain), 0.5);
+} 
