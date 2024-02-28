@@ -135,20 +135,12 @@
 
 }
 
-#rp {
-  --hmain: 98, 117, 89;
-  --haccent: 192, 125, 142;
-  --bg-image: url(https://i.postimg.cc/43TJR1z3/rhys2.png);
-}
-
-
 #rp   .yew-image2 { 
-    background-size: ;
+    background-size: 400%;
      background-position: -190px 0px;
      border-radius: 10px; 
 
-} 
-
+}
 
 #td {
 --hmain: 131, 31, 39;
