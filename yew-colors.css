@@ -186,3 +186,14 @@
     background-size: cover;
      background-position: -85px 0px;
 } 
+
+ #wm {
+--haccent: 224, 146, 33; 
+--hmain:133, 160, 82;
+--bg-image: url(https://i.postimg.cc/2yFx4hDS/moxley2.png);
+}
+
+  #wm  .yew-image2 { 
+       background-size:cover;
+     background-position: -155px 0px;
+} 
