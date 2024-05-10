@@ -1,0 +1,220 @@
+  
+  @import "//christieclee.github.io/highalo/high/high.css";  
+@import "//christieclee.github.io/alotemplates/oc-colors.css";  
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Yeseva+One&display=swap');
+
+
+
+  .albatross-wrapper { 
+    --gray: 93, 93, 93;
+    --shadow: 187, 187, 187;
+    --backgroundskin: 239, 239, 239;
+    --background2: 247, 247, 247;
+    --black: 63, 63, 63;
+      width: 500px;
+      min-height: 200px;
+      font-family: 'Quicksand', Sans-serif;
+      position: relative; 
+      margin: 20px;
+       -webkit-text-size-adjust: none;
+      background: rgba(var(--background2), 0.5);
+      display: inline-block;
+      overflow: hidden;
+      border-radius: 0px 10px 0px 10px;
+  } 
+  
+   .albatross-wrapper b { 
+      font-weight: 700;
+  color: rgba(var(--hmain), 0.8);
+  } 
+  
+  .albatross-wrapper hr { 
+    border: none;
+    border-bottom: 1px solid rgba(var(--haccent),0.3);
+    margin:30px 30px 0px; 
+  } 
+  
+  .albatross-date { 
+  padding: 20px; 
+  position: absolute;
+  left: 55px;
+  top: 20px;
+  font: 28px 'Yeseva One', Serif;
+   color: rgba(var(--hmain), 0.8);
+  text-align: right; 
+  line-height: 19px;
+  z-index: 4;
+  }
+  
+  .alba-year { 
+   position: relative;
+   left: 20px;
+   color: rgba(var(--haccent), 0.4);
+   font-size: 24px; 
+
+  } 
+
+.alba-top { 
+  height: 60px; 
+  background: rgba(var(--hmain), 0.2);
+  position: relative;
+  
+} 
+  
+  .alba-bottom { 
+    height: 100px;
+    background: rgba(var(--haccent), 0.7);
+    position: absolute;
+    bottom: 0px;
+    
+  } 
+  
+  .alba-icon { 
+    font-size: 40px;
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    padding: 10px; 
+    color: rgba(var(--hmain));
+    z-index: 4;
+  } 
+  
+  .albatross-tile-left .alba-icon { 
+    font-size: 40px; 
+    left: -2px;
+    top: 2px; 
+    color: rgba(var(--hmain));
+    z-index: 5;
+  } 
+  
+  
+   .albatross-tile-left { 
+    left: 0px;
+    top: 0px;
+    width: 60px;
+    position: absolute; 
+    height: 60px;
+   color: rgba(var(--hmain), 0.5);
+border-right: 1px solid rgba(var(--background2));
+overflow: hidden; 
+    } 
+    
+      .albatross-tile-left::after { 
+    content: '';
+    display: block;
+  width: 60px;
+  height: 30px;
+    border-bottom-left-radius: 110px;  
+    border-bottom-right-radius: 110px; 
+position: relative; 
+top: -58px;
+left: -17px;
+  border: 1px solid rgba(var(--background2));
+      transform: rotate(180deg);
+  } 
+  
+    
+      .albatross-tile-left::before { 
+    content: '';
+    display: block;
+  width: 57px;
+  height: 67px;
+    border-bottom-left-radius: 110px;  
+    border-bottom-right-radius: 110px; 
+
+position: relative; 
+top: 0px;
+left: 27px;
+  border: 1px solid rgba(var(--background2));
+    background: rgba(var(--haccent), 0.3); 
+      transform: rotate(180deg);
+  } 
+  
+  
+  
+  .albatross-text { 
+    width: 360px; 
+    padding: 30px; 
+margin: 30px 0px 20px ; 
+position: relative; 
+border-radius: 5px; 
+color: rgba(var(--black), 0.9);
+text-align: left;
+font-size: 15px; 
+line-height: 25px;
+
+  } 
+  
+  
+  .albatross-text b { 
+  font-weight: 700;
+  color: rgba(var(--hmain), 0.8);
+} 
+  
+  
+.albatross-text i { 
+  font-style: italic;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+.albatross-text u { 
+    font-style: italic;
+    text-decoration: none;
+    color: rgba(var(--haccent), 0.8);
+    border-bottom: 1px solid rgba(var(--hmain), 0.8);
+    font-weight: 600; 
+    } 
+    
+
+.albatross-text a { 
+    text-decoration: none;
+    color: rgba(var(--hmain), 0.5);
+    font-weight: 600; 
+    } 
+
+  
+ .albatross-tile { 
+    right: 1px;
+    bottom: -1px;
+    width: 60px;
+    position: absolute; 
+    height: 60px;
+   color: rgba(var(--hmain));
+  background: rgba(var(--haccent),0.2);
+    } 
+  
+  
+  .albatross-tile::after { 
+    content: '';
+    display: block;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+position: relative; 
+  border: 2px solid rgba(var(--background2)); 
+ top: 9px;
+    z-index: 2; 
+    
+  } 
+  
+.albatross-tag { 
+  font-size: 11px; 
+  text-align: left; 
+  margin: 0px 0px 25px 70px; 
+  line-height: 15px;
+  color: rgba(var(--black), 0.9);
+} 
+
+.albatross-tag  a.user-tagged  { 
+ text-decoration: none;
+ color: rgba(var(--hmain), 0.5);
+ font-weight: 600;
+ text-transform: uppercase;
+
+} 
+
+.albatross-tag  a { 
+ text-decoration: none;
+ color: rgba(var(--hmain), 0.5);
+  font-weight: 600;
+} 
