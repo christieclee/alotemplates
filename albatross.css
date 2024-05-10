@@ -5,7 +5,8 @@
 
 
 
-  .albatross-wrapper { 
+
+     .albatross-wrapper { 
     --gray: 93, 93, 93;
     --shadow: 187, 187, 187;
     --backgroundskin: 239, 239, 239;
@@ -21,7 +22,11 @@
       display: inline-block;
       overflow: hidden;
       border-radius: 0px 10px 0px 10px;
+     box-shadow: 1px -3px 10px  rgba(205, 205, 205, 0.4);
+      border: 1px solid rgba(var(--shadow), 0.4);
   } 
+  
+
   
    .albatross-wrapper b { 
       font-weight: 700;
