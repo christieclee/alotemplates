@@ -180,7 +180,7 @@ line-height: 25px;
 
   
  .albatross-tile { 
-    right: 1px;
+       right: 0px;
     bottom: -1px;
     width: 60px;
     position: absolute; 
