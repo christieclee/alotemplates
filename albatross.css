@@ -49,6 +49,7 @@
   text-align: right; 
   line-height: 19px;
   z-index: 4;
+      text-transform: lowercase;
   }
   
   .alba-year { 
