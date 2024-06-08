@@ -204,11 +204,12 @@ position: relative;
   } 
   
 .albatross-tag { 
-  font-size: 12px; 
+  font-size: 11px; 
   text-align: left; 
-  margin: 0px 0px 25px 70px; 
+  margin: 0px 0px 25px 0px; 
   line-height: 15px;
   color: rgba(var(--black), 0.9);
+  width: 350px;
 } 
 
 .albatross-tag  a.user-tagged  { 
