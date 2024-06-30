@@ -77,14 +77,14 @@ font-family: 'Lobster';
 
 
 .bingo-name6 .bingo-word6 { 
-  font-size: 42px;
+  font-size: 40px;
 color: rgba(var(--white));
 background-image: linear-gradient(rgba(var(--white)), rgba(var(--lgray)));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-font-weight: 700; 
+font-weight: 400; 
 position: relative;
 left: 0px; 
 } 
@@ -110,7 +110,7 @@ font-family: 'Lobster';
 .bingo-table {
 position:relative;
 z-index:1;
-margin:-10px 25px 25px;
+margin:-20px 25px 25px;
 background: transparent;
   border-collapse: separate;
 }
@@ -123,11 +123,12 @@ width:130px;
 height:135px;
 padding:0px 15px;
 text-align:center;
-font-size:20px;
-line-height:22px;
+font-size:19px;
+line-height:21px;
 text-transform:lowercase;
 color:rgba(var(--black));
 z-index: 2;
+font-weight: 400;
 }
 
 .filled:before {
@@ -165,6 +166,7 @@ color: rgba(var(--imogen));
 
 
 /*color*/
+
 #travel {
  --party1: 234, 105, 75; 
 --party2:108, 186, 178;
