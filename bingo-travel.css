@@ -20,7 +20,7 @@ text-align:left;
 z-index:1;
 padding:10px 25px;
 line-height:35px;
-font-size:25px;
+font-size:24px;
 font-weight:200;
 color:rgba(var(--white));
 width:500px;
@@ -110,7 +110,7 @@ font-family: 'Lobster';
 .bingo-table {
 position:relative;
 z-index:1;
-margin:-30px 25px 25px;
+margin:-40px 25px 25px;
 background: transparent;
   border-collapse: separate;
 }
