@@ -1,0 +1,177 @@
+.bingo-container7
+{
+font-family: 'Quicksand';
+position:relative;
+overflow: hidden;
+margin:25px auto;
+width:550px;
+height:575px;
+background:rgba(var(--lgray));
+background: linear-gradient(rgba(var(--party1), 1) -25%, rgba(var(--party2), 0.4));
+color:rgba(var(--black));
+font-size:12px;
+line-height:17px;
+box-shadow:2px 2px 2px #d3d3d3;
+text-align:left;
+
+}
+
+.bingo-name7 {
+z-index:1;
+padding:10px 25px;
+line-height:35px;
+font-size:25px;
+font-weight:200;
+color:rgba(var(--white));
+width:500px;
+position:relative;
+top: 15px; 
+text-align:center;
+font-family: 'Lobster';
+  transform: rotate(-10deg);
+  z-index: 4;
+  left: -200px;
+  text-shadow: 2px 2px rgba(var(--black));
+}
+
+.bingo-name7:before { 
+  content: 'Wish';
+  font-size: 55px; 
+
+} 
+
+.bingo-name7:after{ 
+  content: 'here!';
+    font-size: 55px; 
+} 
+
+.travel-bingoicon:before { 
+  content: '\a71';
+  font-family: 'Starry';
+  font-size: 70px; 
+  color: rgba(var(--party1), 1);
+  position: absolute; 
+  left: 115px; 
+  top: 55px; 
+   text-shadow: 0.5px 0.5px rgba(var(--black),0.5);
+} 
+
+.travel-tag:before { 
+  content: '\a78';
+  font-family: 'Starry';
+    font-size: 30px; 
+  color: rgba(var(--white), 0.8);
+  position: absolute; 
+  top: 90px; right: 10px; 
+} 
+
+.travel-tag:after { 
+  content: 'Travel Bingo!';
+  font-family: 'Lobster';
+  font-size: 20px; 
+  color: rgba(var(--white));
+  position: absolute; 
+  right: 40px; 
+  top: 95px; 
+} 
+
+
+.bingo-name6 .bingo-word6 { 
+  font-size: 42px;
+color: rgba(var(--white));
+background-image: linear-gradient(rgba(var(--white)), rgba(var(--lgray)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+font-weight: 700; 
+position: relative;
+left: 0px; 
+} 
+
+.bingo-word7 { 
+  z-index:1;
+padding:10px 25px;
+line-height:35px;
+font-size:20px;
+font-weight:200;
+color:rgba(var(--white));
+position:absolute;
+text-align:center;
+font-family: 'Lobster';
+  transform: rotate(-5deg);
+  z-index: 4;
+  left: -200px;
+  text-shadow: 2px 2px rgba(var(--black));
+  top: 50px; 
+  left:120px; 
+} 
+
+.bingo-table {
+position:relative;
+z-index:1;
+margin:-10px 25px 25px;
+background: transparent;
+  border-collapse: separate;
+}
+
+.prompt, .filled {
+position:relative;
+background: rgba(var(--white), 0.6);
+border-radius:5px;
+width:130px;
+height:135px;
+padding:0px 15px;
+text-align:center;
+font-size:20px;
+line-height:22px;
+text-transform:lowercase;
+color:rgba(var(--black));
+z-index: 2;
+}
+
+.filled:before {
+font-family: starry; 
+position:absolute;
+top:30px;
+left: 15px; 
+font-size: 90px;
+z-index:3;
+margin:25px 10px;
+display:block;
+width:100px;
+height:100px;
+border-radius:100%;
+color: rgba(var(--party2), 0.5);
+transform: rotate(0deg);
+}
+
+.prompt a, .filled a {
+z-index:4;
+display:block;
+width:150px;
+height:150px;
+position:absolute;
+top:0px; left:0px;
+}
+
+.prompt .filled, cls {
+display:block;
+font-size:12px;
+line-height:18px;
+color: rgba(var(--imogen));
+}
+
+
+
+/*color*/
+#travel {
+ --party1: 234, 105, 75; 
+--party2:108, 186, 178;
+
+}
+
+
+#travel .filled:before {
+content:'\a123';
+} 
