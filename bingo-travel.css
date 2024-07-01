@@ -36,13 +36,13 @@ font-family: 'Lobster';
 
 .bingo-name7:before { 
   content: 'Wish';
-  font-size: 50px; 
+  font-size: 55px; 
 
 } 
 
 .bingo-name7:after{ 
   content: 'here!';
-    font-size: 50px; 
+    font-size: 55px; 
 } 
 
 .travel-bingoicon:before { 
