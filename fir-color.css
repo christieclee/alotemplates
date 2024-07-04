@@ -1,0 +1,143 @@
+ #db {   
+  --hmain: 68, 126, 128;
+--haccent: 196, 136, 88; 
+--bg-image: url(https://i.postimg.cc/597h1mwm/2.png);
+ } 
+ 
+ #db .fir-image:after, #db .fir-image2:after { 
+    background-size: cover;
+     background-position: -40px 00px;
+ } 
+ 
+
+ #dh {   
+--hmain: 94, 110, 130; 
+--haccent: 175, 156, 158;
+--bg-image: url(https://i.postimg.cc/wTyDG0ws/34.png);
+ } 
+ 
+ #dh .fir-image:after, #dh .fir-image2:after { 
+    background-size: cover;
+    background-position: -40px 00px;
+ } 
+ 
+  #es {   
+ --hmain: 74, 97, 110;
+--haccent: 191, 166, 125;
+--bg-image: url(https://i.postimg.cc/XJ2qDmTj/08b.png);
+ } 
+ 
+ #es .fir-image:after, #es .fir-image2:after{ 
+    background-size: cover;
+    background-position: -40px 00px;
+ } 
+ 
+ #jl {
+--hmain: 132, 148, 148;
+--haccent: 187, 153, 153;
+--bg-image: url(https://i.postimg.cc/FHBqXF3s/28.png);
+}
+  #jl .fir-image:after,#jl .fir-image2:after  { 
+    background-size: cover;
+     background-position: -90px 00px;
+ } 
+ 
+   #lb { 
+--hmain: 143, 61, 65; 
+--haccent:115, 136, 149;
+--bg-image: url(https://i.postimg.cc/1zP8QCQ4/69.png);
+} 
+
+  #lb .fir-image:after, #lb .fir-image2:after { 
+    background-size: cover;
+     background-position: -30px 00px;
+ }
+ 
+   #mj { 
+--hmain: 195, 120, 85;
+--haccent: 137, 185, 177;
+--bg-image: url(https://i.postimg.cc/1zP8QCQ4/69.png);
+} 
+
+  #mj .fir-image:after, #mj .fir-image2:after { 
+    background-size: cover;
+     background-position: -30px 00px;
+ }
+ 
+  #rc { 
+    --hmain: 119, 67, 92;
+--haccent: 200, 134, 97;
+--bg-image: url(https://i.postimg.cc/3NjRzbqY/ravi4.png);
+} 
+
+  #rc .fir-image:after,  #rc .fir-image2:after { 
+    background-size: cover;
+     background-position: -50px 00px;
+ }
+ 
+ 
+ #rl {
+--haccent: 185, 195, 163;
+--hmain: 145, 145, 162;
+--bg-image: url(https://i.postimg.cc/3NjRzbqY/ravi4.png);
+} 
+
+  #rl .fir-image:after, #rl .fir-image2:after { 
+    background-size: cover;
+     background-position: -50px 00px;
+ }
+
+ #rp {
+  --hmain: 98, 117, 89;
+  --haccent: 192, 125, 142;
+--bg-image: url(https://i.postimg.cc/3NjRzbqY/ravi4.png);
+} 
+
+  #rp .fir-image:after, #rp .fir-image2:after { 
+    background-size: cover;
+     background-position: -50px 00px;
+ }
+ 
+  #ti {
+--hmain: 109, 157, 194;
+--haccent: 105, 164, 138;
+--bg-image: url(https://i.postimg.cc/zXjwgdGs/17.png);
+}
+
+  #ti .fir-image:after, #ti .fir-image2:after { 
+    background-size: cover;
+     background-position: -70px 00px;
+ }
+
+#td {
+--hmain: 131, 31, 39;
+--haccent: 101, 113, 91;
+--bg-image: url(https://i.postimg.cc/GhfyDx1m/29.png);
+}
+
+
+  #td .fir-image:after, #td .fir-image2:after { 
+    background-size: cover;
+     background-position: -60px 00px;
+ }
+  #wm {
+--haccent: 224, 146, 33; 
+--hmain:133, 160, 82;
+--bg-image: url(https://i.postimg.cc/W1ncKXb2/31.png);
+}
+
+  #wm .fir-image:after, #wm .fir-image2:after { 
+    background-size: cover;
+     background-position: -40px 00px;
+ }
+ 
+  #ya { 
+ --hmain: 183, 65, 45; 
+--haccent:218, 155, 99;
+--bg-image: url(https://i.postimg.cc/SQzgr3B0/yusuftummy.png);
+} 
+
+ #ya .fir-image:after, #ya .fir-image2:after { 
+    background-size: cover;
+     background-position: -70px 00px;
+ }
