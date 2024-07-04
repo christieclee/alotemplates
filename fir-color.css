@@ -1,4 +1,4 @@
- #db {   
+#db {   
   --hmain: 68, 126, 128;
 --haccent: 196, 136, 88; 
 --bg-image: url(https://i.postimg.cc/597h1mwm/2.png);
@@ -56,12 +56,12 @@
    #mj { 
 --hmain: 195, 120, 85;
 --haccent: 137, 185, 177;
---bg-image: url(https://i.postimg.cc/1zP8QCQ4/69.png);
+--bg-image: url(https://i.postimg.cc/fWqYK3NL/26.png);
 } 
 
   #mj .fir-image:after, #mj .fir-image2:after { 
     background-size: cover;
-     background-position: -30px 00px;
+     background-position: -80px 00px;
  }
  
   #rc { 
@@ -79,23 +79,23 @@
  #rl {
 --haccent: 185, 195, 163;
 --hmain: 145, 145, 162;
---bg-image: url(https://i.postimg.cc/3NjRzbqY/ravi4.png);
+--bg-image: url(https://i.postimg.cc/26s9f60c/5.png);
 } 
 
   #rl .fir-image:after, #rl .fir-image2:after { 
     background-size: cover;
-     background-position: -50px 00px;
+     background-position: -90px 00px;
  }
 
  #rp {
   --hmain: 98, 117, 89;
   --haccent: 192, 125, 142;
---bg-image: url(https://i.postimg.cc/3NjRzbqY/ravi4.png);
+--bg-image: url(https://i.postimg.cc/4NC25FZn/36.png);
 } 
 
   #rp .fir-image:after, #rp .fir-image2:after { 
     background-size: cover;
-     background-position: -50px 00px;
+     background-position: -60px 00px;
  }
  
   #ti {
