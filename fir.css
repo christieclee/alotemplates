@@ -17,6 +17,7 @@
   border-radius: 10px;
   overflow: hidden; 
   list-style: none;
+      border: 1px solid rgba(var(--shadow),0.2);
 } 
 
 /*toggled divs*/
