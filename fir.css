@@ -494,3 +494,6 @@ content: '\a96';
 #fam:before { 
  content: '\a48';
 }  
+ .npc { 
+   color: rgba(var(--black),0.5);
+ } 
