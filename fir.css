@@ -357,19 +357,16 @@ border-radius: 5px;
   font-weight: 400;
 } 
 
-.fir-thread-inner b { 
+.fir-thread-info b { 
   font-style:italic;
 } 
-.fir-thread-inner .flex-items { 
-  font-size: 12px; 
-} 
 
-.fir-thread-inner f1:after { 
+.fir-thread-info f1:after { 
   content: '.';
   padding-right: 5px; 
 } 
 
-.fir-thread-inner event{ 
+.fir-thread-info event{ 
 font-style: italic; 
 position: absolute;    
 bottom: -16.5px;
@@ -379,7 +376,6 @@ color: rgba(var(--haccent),0.8);
 font-size: 11px;
 font-weight: 600;
 } 
-
 /*relationship*/ 
 
 .fir-relationships { 
