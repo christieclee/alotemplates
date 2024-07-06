@@ -227,7 +227,7 @@ opacity: 0;
   right: 60px; 
   height: 455px;
   top: 30px;
-  overflow-x: none;
+  overflow-x: hidden;
   overflow-y: scroll; 
   padding:0px 20px 20px 20px; 
   display: inline-flex; 
@@ -435,7 +435,7 @@ font-size: 13px;
 } 
 
 .fir-rel-scroll { 
-  overflow-x:scroll;
+  overflow-y:scroll;
   width:110px; 
   height: 325px; 
   position: absolute; 
