@@ -116,7 +116,7 @@ opacity: 0;
   border-right: 1.78px solid rgba(var(--white), 0.8); 
   padding: 0px; 
   position: relative; 
-  top: 30px;
+  top: 35px;
   z-index: 5;
   background: rgba(var(--hbackground));
   z-index: 4;
