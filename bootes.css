@@ -1,5 +1,3 @@
-
-
 .bootes-wrapper { 
 
     --gray: 93, 93, 93;
@@ -98,13 +96,13 @@ font-family: 'proxima nova bold';
 
 .bootes-barcode:before {
   content: 'abcd';
-  font: 40px 'Libre Barcode 39';
+  font: 39px 'Libre Barcode 39';
   color: rgba(var(--bmain));
-  padding:  15px 10px; 
+  padding:  10px 15px; 
   position: absolute;  
-  left: 40px;
-  bottom: 25px; 
-  width: 75px; 
+  left: 39px;
+  bottom: 36px; 
+  width: 66px; 
 border-top: 1px solid rgba(var(--bmain));
 } 
 
@@ -125,16 +123,16 @@ border-top: 1px solid rgba(var(--bmain));
   text-align: justify;
   position: absolute;  
   bottom: 45px; 
-  left: 50px; 
+  left: 53px; 
   color: rgba(var(--baccent));
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  background: rgba(var(--bg-bootes));
+  letter-spacing: 1.2px;
   z-index: 4; 
   
 } 
 .bootes-date year { 
   color: rgba(var(--bmain),0.7);
+  letter-spacing: 0.75px;
 
 } 
 
