@@ -126,7 +126,7 @@ border-top: 1px solid rgba(var(--bmain));
   left: 53px; 
   color: rgba(var(--baccent));
   text-transform: uppercase;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
   z-index: 4; 
   
 } 
