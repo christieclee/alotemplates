@@ -1,0 +1,168 @@
+
+
+.bootes-wrapper { 
+
+    --gray: 93, 93, 93;
+    --shadow: 187, 187, 187;
+    --bg-bootes: 239, 239, 239;
+    --white: 247, 247, 247;
+    --skinbody: 226,226,226; 
+    --black: 63, 63, 63;
+      width: 450px;
+      min-height: 00px;
+      position: relative; 
+      margin: 20px;
+       -webkit-text-size-adjust: none;
+      background: rgba(var(--bg-bootes));
+      border-radius: 20px;
+      padding: 20px 20px 25px; 
+      font-family: 'proxima nova reg';
+  } 
+  
+.bootes-text { 
+  width: 330px; 
+  text-align: left; 
+  padding:50px  40px 50px ; 
+  font-family: 'proxima nova reg';
+  font-size: 14.75px; 
+  line-height: 20px;
+  color: rgba(var(--black));
+  border: 1px solid rgba(var(--bmain));
+  margin: 20px 20px 10px 20px ; 
+  min-height: 10px;
+  overflow: hidden; 
+} 
+
+
+.bootes-text:before { 
+   content: "";
+  position: absolute;
+  width: 40px;
+  height: 39px;
+  left: 19px; 
+  top: 20px; 
+  transform: rotate(45deg);
+  background-color: rgba(var(--bg-bootes));
+  border-right: 1px solid rgba(var(--bmain));
+  
+} 
+
+.bootes-text:after { 
+   content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 19px; 
+  top: 20px; 
+  transform: rotate(45deg);
+  background-color: rgba(var(--bg-bootes));
+  border-bottom: 1px solid rgba(var(--bmain));
+} 
+
+ .bootes-wrapper b { 
+font-family: 'proxima nova bold';
+  color: rgba(var(--bmain), 0.8);
+  } 
+  
+  .bootes-wrapper hr { 
+    border: none;
+    border-bottom: 1px solid rgba(var(--baccent),0.3);
+    margin:30px 30px 0px; 
+  } 
+  
+.bootes-text i { 
+  font-style: italic;
+  color: rgba(var(--bmain), 0.8);
+} 
+
+.bootes-text u { 
+    font-style: italic;
+    text-decoration: none;
+    color: rgba(var(--baccent), 0.8);
+    border-bottom: 1px solid rgba(var(--bmain), 0.8);
+    font-family: 'proxima nova semi bold';
+    } 
+    
+
+.bootes-text a { 
+    text-decoration: none;
+    color: rgba(var(--baccent), 0.5);
+    font-family: 'proxima nova semi bold';
+    } 
+
+.bootes-bottom { 
+    width: 330px; 
+    height: 30px; 
+    padding: 10px; 
+    margin-bottom: 15px; } 
+
+.bootes-barcode:before {
+  content: 'abcd';
+  font: 40px 'Libre Barcode 39';
+  color: rgba(var(--bmain));
+  padding:  15px 10px; 
+  position: absolute;  
+  left: 40px;
+  bottom: 25px; 
+  width: 75px; 
+border-top: 1px solid rgba(var(--bmain));
+} 
+
+.bootes-barcode:after { 
+  content: "";
+  position: absolute; 
+  bottom: 56px; 
+  left: 144px; 
+  width: 85px;
+  height: 60px;
+  transform: rotate(45deg);
+  border-bottom: 1px solid rgba(var(--bmain));
+  z-index: 4;
+} 
+
+.bootes-date { 
+  font: 13px 'proxima nova semi bold';
+  text-align: justify;
+  position: absolute;  
+  bottom: 45px; 
+  left: 50px; 
+  color: rgba(var(--baccent));
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(var(--bg-bootes));
+  z-index: 4; 
+  
+} 
+.bootes-date year { 
+  color: rgba(var(--bmain),0.7);
+
+} 
+
+
+
+.bootes-tag { 
+  font-size: 12px;
+  position: absolute;
+  bottom: 3.21em;   
+  right: 3.1em;  
+  padding: 2em 2em 1em; 
+  text-align: right; 
+  width: 18.8em; 
+  min-height:2em; 
+
+} 
+
+
+.bootes-tag  a.user-tagged  { 
+ text-decoration: none;
+ color: rgba(var(--bmain));
+ font-weight: 600;
+ text-transform: uppercase;
+
+} 
+
+.bootes-tag  a { 
+ text-decoration: none;
+ color: rgba(var(--bmain));
+  font-weight: 600;
+} 
