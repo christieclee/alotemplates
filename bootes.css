@@ -163,3 +163,19 @@ font-family: 'proxima nova bold';
   font-weight: 600;
 } 
   
+/*color*/ 
+
+#lb {
+--bmain:  190,155,123;
+--baccent:  133,118,79;
+ }
+
+#dh {
+--bmain:  113, 119, 115;
+--baccent:  135, 107, 70;
+}
+
+#wht {
+--bmain:  59, 76, 96;
+--baccent:  196, 154, 90;
+}
