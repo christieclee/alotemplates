@@ -87,15 +87,15 @@
      background-position: -90px 00px;
  }
 
- #rp {
+#rw {
   --hmain: 98, 117, 89;
   --haccent: 192, 125, 142;
---bg-image: url(https://i.postimg.cc/4NC25FZn/36.png);
+--bg-image: url(https://i.postimg.cc/wj2w5KXH/6.png);
 } 
 
-  #rp .fir-image:after, #rp .fir-image2:after { 
+  #rw .fir-image:after, #rp .fir-image2:after { 
     background-size: cover;
-     background-position: -60px 00px;
+     background-position: -30px 00px;
  }
  
   #ti {
