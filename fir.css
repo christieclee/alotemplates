@@ -55,6 +55,11 @@ flex-shrink: initial;
    -o-transition: ease-in-out 0.5s;
 } 
 
+#firtoggle-wrap input[type=checkbox]:checked ~ .fir-right li#closed { 
+  width: 240px;
+flex-shrink: initial;
+opacity:0.5;
+} 
 
 #firtoggle-wrap input[type=checkbox]:checked ~ label { 
 top: 225px;
