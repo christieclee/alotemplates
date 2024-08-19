@@ -159,14 +159,15 @@ background-image: linear-gradient(0deg, rgba(var(--hmain), 0.9), rgba(var(--hmai
 
 
 .cmyk-icon { 
-  font-size: 45px; 
+  font-size: 41px; 
   position: absolute; 
-  left: 17px; 
+  left: 18px; 
   top: 15px; 
   color: rgba(var(--hmain),0.8);
   z-index: 4;
   text-shadow: 1px 1px rgba(var(--haccent), 0.4) ;
 } 
+
 
 
 .cmyk-tag { 
