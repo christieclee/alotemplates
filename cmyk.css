@@ -171,7 +171,7 @@ background-image: linear-gradient(0deg, rgba(var(--hmain), 0.9), rgba(var(--hmai
 .cmyk-tag { 
   font-size: 13px; 
   text-align: left; 
-  margin: 30px 0px 5px 0px; 
+  margin: 40px 0px 0px 0px; 
   line-height: 15px;
   color: rgba(var(--black), 0.9);
   width: 350px;
