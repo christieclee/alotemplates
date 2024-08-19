@@ -106,7 +106,7 @@ left: 420px;
 
 
 .bottomright:before { 
-  content: '✴';
+  content: '✸';
   color: rgba(var(--haccent), 0.7);
   font-size: 30px;
   position: relative; 
@@ -181,7 +181,7 @@ background-image: linear-gradient(0deg, rgba(var(--hmain), 0.9), rgba(var(--hmai
 } 
 
 .cmyk-tag:before { 
-  content: '✴';
+  content: '✸';
   font-weight: 800; 
   color: rgba(var(--haccent),0.5);
   text-shadow: 1px 1px rgba(var(--hmain), 0.5);
