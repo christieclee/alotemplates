@@ -148,7 +148,7 @@ background-image: linear-gradient(0deg, rgba(var(--hmain), 0.9), rgba(var(--hmai
 
 
 .cmyk-date { 
-  font: 25px 'Oswald', Sans-Serif ;
+  font: 22px 'Oswald', Sans-Serif ;
   font-weight: 800; 
   padding: 0px 0px 20px 0px;  
   color: rgba(var(--backgroundskin),0.4); 
