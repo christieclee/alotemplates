@@ -113,6 +113,7 @@ left: 420px;
   left: 4px;
   top: 10px; 
   text-shadow: 1px 1px rgba(var(--hmain),0.5);
+  line-height: 40px; !important
 
 } 
 
