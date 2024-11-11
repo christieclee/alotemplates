@@ -165,6 +165,11 @@ font-family: 'proxima nova bold';
   
 /*color*/ 
 
+#ah {
+--baccent: 140, 133, 194;
+--bmain: 191, 127, 147;
+}
+
 #lb {
 --bmain:  190,155,123;
 --baccent:  133,118,79;
