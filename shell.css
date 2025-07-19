@@ -14,7 +14,7 @@
       border-radius: 10px;
   overflow: hidden; 
   border: 1px solid rgba(var(--shadow), 0.3);
-    background: rgba(var(--white), 0.5);
+      background: linear-gradient(0deg,rgba(var(--hmain), 0.2) 0%, rgba(var(--white), 0.5) 20%);
 }
 
   .shell-wrapper b { 
