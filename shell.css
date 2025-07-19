@@ -1,0 +1,155 @@
+ @import "//christieclee.github.io/highalo/high/high.css";  
+
+
+.shell-wrapper {
+    --gray: 93, 93, 93;
+    --shadow: 187, 187, 187;
+    --white: 247, 247, 247;
+    --black: 63, 63, 63;
+      width: 450px;
+      min-height: 100px;
+      position: relative; 
+      margin: 20px;
+  box-shadow: 2px 2px rgba(var(--shadow), 0.3);
+      border-radius: 10px;
+  overflow: hidden; 
+  border: 1px solid rgba(var(--shadow), 0.3);
+    background: rgba(var(--white), 0.5);
+}
+
+  .shell-wrapper b { 
+  font-weight: 700;
+  color: rgba(var(--hmain), 0.8);
+} 
+  
+.shell-icon { 
+  font-size: 40px; 
+  position: absolute; 
+  top: 50px; 
+  right: 70px; 
+  color: rgba(var(--hmain),0.5);
+  z-index: 4;
+  text-shadow: 1px 1px rgba(var(--haccent), 0.4) ;
+} 
+
+.shell-date { 
+  font-weight: 700;
+  text-transform: uppercase; 
+   color: rgba(var(--haccent), 0.8);
+  text-align: left;
+  margin-bottom: 40px; 
+} 
+
+.shell-text { 
+ text-align: left; 
+  width: 320px; 
+  padding:30px 40px 50px; 
+  position: relative; 
+  display: inline-block;
+  margin: 35px 0px;  
+    font-size: 14.75px; 
+line-height: 25px;
+color: rgba(var(--black), 0.9);
+} 
+  
+.shell-text i { 
+  font-style: italic;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+.shell-text u { 
+    font-style: italic;
+    text-decoration: none;
+    color: rgba(var(--haccent), 0.8);
+    border-bottom: 1px solid rgba(var(--hmain), 0.8);
+    font-weight: 600; 
+    } 
+    
+.shell-text a { 
+    text-decoration: none;
+    color: rgba(var(--hmain), 0.5);
+    font-weight: 600; 
+    } 
+
+.shell-bottom { 
+  height: 90px; 
+  position: absolute; 
+  bottom: 0px; 
+  width: 100%;
+} 
+
+.shell-bottom:before { 
+  content: '';
+  height: 90px; 
+  width: 100%; 
+  position: absolute; 
+  display: block; 
+  top: 0px; 
+  left: 0px; 
+  background-image: url(https://i.postimg.cc/3wnNgdqq/dbc08e3a451a85a028d8c8e7e85cc2b0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -59px;
+  opacity: 0.2;
+ background-blend-mode: luminosity;
+    background-color: rgba(var(--haccent));
+}
+
+.shell-tag { 
+position: relative; 
+margin: 50px 0px; 
+text-align: right; 
+}
+
+.shell-tag  a.user-tagged  { 
+ text-decoration: none;
+ color: rgba(var(--hmain), 0.5);
+ font-weight: 600;
+ text-transform: uppercase;
+
+} 
+
+.shell-tag  a { 
+ text-decoration: none;
+ color: rgba(var(--hmain), 0.5);
+  font-weight: 600;  
+} 
+
+
+/*color*/ 
+
+#dh { 
+--hmain: 94, 110, 130; 
+--haccent: 175, 156, 158;
+} 
+
+  #jl {
+--hmain: 132, 148, 148;
+--haccent: 187, 153, 153;
+}
+
+#lb {
+--hmain: 143, 61, 65; 
+--haccent:115, 136, 149;
+ }
+
+#rc {
+--hmain: 119, 67, 92;
+--haccent: 200, 134, 97;
+}
+
+  #ti {
+--hmain: 109, 157, 194;
+--haccent: 105, 164, 138;
+}
+
+#wm { 
+  --hmain:133, 160, 82;
+--haccent: 224, 146, 33; 
+} 
+
+ #ya { 
+ --hmain: 183, 65, 45; 
+--haccent:218, 155, 99;
+} 
+
