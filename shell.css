@@ -67,7 +67,7 @@ color: rgba(var(--black), 0.9);
     
 .shell-text a { 
     text-decoration: none;
-    color: rgba(var(--hmain), 0.5);
+    color: rgba(var(--hmain));
     font-weight: 600; 
     } 
 
