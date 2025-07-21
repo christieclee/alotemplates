@@ -7,7 +7,7 @@
   --white: 255, 255, 253;
   --shadow: 187, 187, 187;
   --black: 22, 22, 22;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Urbanist', sans-serif;
   position: relative;  
   width: 640px;
   height: 530px; 
@@ -178,16 +178,17 @@ opacity: 0;
 } 
 
 .fir-name { 
-  font-size: 15px; 
+  font-size: 17px; 
   position: relative; 
   left: -37px; 
   text-align: center;
   top: 70px; 
   text-transform: uppercase; 
   display: block;
-  font-weight: 600;
-  line-height: 13px;
+  font-weight: 900;
+  line-height: 14px;
   color: rgba(var(--white),0.8);
+  letter-spacing: 1px; 
 } 
 
 .fir-tracker-year { 
@@ -215,7 +216,7 @@ opacity: 0;
 .fir-threadcount, .fir-cap { 
   font-weight: 600;
   font-size: 15px;
-     font-family: 'Montserrat', sans-serif; 
+     font-family: 'Urbanist', sans-serif; 
 } 
 
 .fir-cap { 
@@ -260,6 +261,7 @@ opacity: 0;
   padding:0px 0px 20px; 
   left: 400px;      
   line-height: 75px;
+  font-weight: 600; 
   -webkit-transition: ease-in-out 0.5s;  
    -ms-transition: ease-in-out 0.5s;  
    -moz-transition: ease-in-out 0.5s;  
@@ -339,7 +341,8 @@ border-radius: 5px;
   text-transform: uppercase; 
   text-decoration: none;
   color: rgba(var(--hmain));
-  font-weight: 800; 
+  font-weight: 900; 
+  font-size: 15px; 
 }
 
 .fir-thread a:after { 
@@ -498,4 +501,4 @@ content: '\a96';
 }  
  .npc { 
    color: rgba(var(--black),0.5);
- } 
+ }  
