@@ -1,15 +1,3 @@
-#db {   
-  --hmain: 68, 126, 128;
---haccent: 196, 136, 88; 
---bg-image: url(https://i.postimg.cc/597h1mwm/2.png);
- } 
- 
- #db .fir-image:after, #db .fir-image2:after { 
-    background-size: cover;
-     background-position: -40px 00px;
- } 
- 
-
  #dh {   
 --hmain: 94, 110, 130; 
 --haccent: 175, 156, 158;
@@ -17,17 +5,6 @@
  } 
  
  #dh .fir-image:after, #dh .fir-image2:after { 
-    background-size: cover;
-    background-position: -40px 00px;
- } 
- 
-  #es {   
- --hmain: 74, 97, 110;
---haccent: 191, 166, 125;
---bg-image: url(https://i.postimg.cc/XJ2qDmTj/08b.png);
- } 
- 
- #es .fir-image:after, #es .fir-image2:after{ 
     background-size: cover;
     background-position: -40px 00px;
  } 
@@ -53,17 +30,7 @@
      background-position: -30px 00px;
  }
  
-   #mj { 
---hmain: 195, 120, 85;
---haccent: 137, 185, 177;
---bg-image: url(https://i.postimg.cc/fWqYK3NL/26.png);
-} 
 
-  #mj .fir-image:after, #mj .fir-image2:after { 
-    background-size: cover;
-     background-position: -80px 00px;
- }
- 
   #rc { 
     --hmain: 119, 67, 92;
 --haccent: 200, 134, 97;
@@ -73,29 +40,6 @@
   #rc .fir-image:after,  #rc .fir-image2:after { 
     background-size: cover;
      background-position: -50px 00px;
- }
- 
- 
- #rl {
---haccent: 185, 195, 163;
---hmain: 145, 145, 162;
---bg-image: url(https://i.postimg.cc/26s9f60c/5.png);
-} 
-
-  #rl .fir-image:after, #rl .fir-image2:after { 
-    background-size: cover;
-     background-position: -90px 00px;
- }
-
-#rw {
-  --hmain: 98, 117, 89;
-  --haccent: 192, 125, 142;
---bg-image: url(https://i.postimg.cc/wj2w5KXH/6.png);
-} 
-
-  #rw .fir-image:after, #rp .fir-image2:after { 
-    background-size: cover;
-     background-position: -30px 00px;
  }
  
   #ti {
@@ -123,12 +67,12 @@
   #wm {
 --haccent: 224, 146, 33; 
 --hmain:133, 160, 82;
---bg-image: url(https://i.postimg.cc/K8bSN7YF/photoshophover.png);
+--bg-image: url(https://i.postimg.cc/65kB6851/5.png);
 }
 
   #wm .fir-image:after, #wm .fir-image2:after { 
     background-size: cover;
-     background-position: -40px 00px;
+     background-position: -10px 0px;
  }
  
   #ya { 
@@ -141,3 +85,77 @@
     background-size: cover;
      background-position: -70px 00px;
  }
+
+/* old
+
+#db {   
+  --hmain: 68, 126, 128;
+--haccent: 196, 136, 88; 
+--bg-image: url(https://i.postimg.cc/597h1mwm/2.png);
+ } 
+ 
+ #db .fir-image:after, #db .fir-image2:after { 
+    background-size: cover;
+     background-position: -40px 00px;
+ } 
+
+  #es {   
+ --hmain: 74, 97, 110;
+--haccent: 191, 166, 125;
+--bg-image: url(https://i.postimg.cc/XJ2qDmTj/08b.png);
+ } 
+ 
+ #es .fir-image:after, #es .fir-image2:after{ 
+    background-size: cover;
+    background-position: -40px 00px;
+ } 
+ 
+
+   #mj { 
+--hmain: 195, 120, 85;
+--haccent: 137, 185, 177;
+--bg-image: url(https://i.postimg.cc/fWqYK3NL/26.png);
+} 
+
+  #mj .fir-image:after, #mj .fir-image2:after { 
+    background-size: cover;
+     background-position: -80px 00px;
+ }
+
+
+ #rl {
+--haccent: 185, 195, 163;
+--hmain: 145, 145, 162;
+--bg-image: url(https://i.postimg.cc/26s9f60c/5.png);
+} 
+
+  #rl .fir-image:after, #rl .fir-image2:after { 
+    background-size: cover;
+     background-position: -90px 00px;
+ }
+
+#rw {
+  --hmain: 98, 117, 89;
+  --haccent: 192, 125, 142;
+--bg-image: url(https://i.postimg.cc/wj2w5KXH/6.png);
+} 
+
+  #rw .fir-image:after, #rp .fir-image2:after { 
+    background-size: cover;
+     background-position: -30px 00px;
+ }
+ 
+
+#td {
+--hmain: 131, 31, 39;
+--haccent: 101, 113, 91;
+--bg-image: url(https://i.postimg.cc/GhfyDx1m/29.png);
+}
+
+
+  #td .fir-image:after, #td .fir-image2:after { 
+    background-size: cover;
+     background-position: -60px 00px;
+ }
+
+*/ 
