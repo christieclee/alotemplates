@@ -4,7 +4,7 @@
 .fir-wrapper { 
   --background: 200, 200, 200;
   --hbackground: 236, 236, 236; 
-  --white: 255, 255, 253;
+  --white: 248, 248, 248;
   --shadow: 187, 187, 187;
   --black: 22, 22, 22;
     font-family: 'Urbanist', sans-serif;
@@ -17,8 +17,9 @@
   border-radius: 10px;
   overflow: hidden; 
   list-style: none;
-    border: 1px solid rgba(var(--shadow),0.2);
+    border: 1px solid rgba(var(--shadow),0.4);
 } 
+
 
 /*toggled divs*/
   
