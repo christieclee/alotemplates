@@ -65,8 +65,8 @@
      background-position: -60px 00px;
  }
   #wm {
---haccent: 224, 146, 33; 
---hmain:133, 160, 82;
+  --hmain:106, 150, 168;
+--haccent: 204, 176, 124; 
 --bg-image: url(https://i.postimg.cc/65kB6851/5.png);
 }
 
