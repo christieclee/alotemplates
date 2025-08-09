@@ -12,12 +12,13 @@
  #jl {
 --hmain: 132, 148, 148;
 --haccent: 187, 153, 153;
---bg-image: url(https://i.postimg.cc/FHBqXF3s/28.png);
+--bg-image: url(https://i.postimg.cc/gJd6zkS1/5.png);
 }
   #jl .fir-image:after,#jl .fir-image2:after  { 
     background-size: cover;
-     background-position: -90px 00px;
- } 
+     background-position: 0px 00px; 
+
+  } 
  
    #lb { 
 --hmain: 143, 61, 65; 
