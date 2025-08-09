@@ -9,16 +9,15 @@
     background-position: -40px 00px;
  } 
  
- #jl {
+#jl {
 --hmain: 132, 148, 148;
 --haccent: 187, 153, 153;
---bg-image: url(https://i.postimg.cc/gJd6zkS1/5.png);
+--bg-image: url(https://i.postimg.cc/2y23Ss5r/19.png);
 }
   #jl .fir-image:after,#jl .fir-image2:after  { 
     background-size: cover;
-     background-position: 0px 00px; 
-
-  } 
+     background-position: -60px 00px;
+ } 
  
    #lb { 
 --hmain: 143, 61, 65; 
