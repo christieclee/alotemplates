@@ -1,12 +1,12 @@
- #dh {   
+#ds {   
 --hmain: 94, 110, 130; 
 --haccent: 175, 156, 158;
---bg-image: url(https://i.postimg.cc/wTyDG0ws/34.png);
+--bg-image: url(https://i.postimg.cc/T1y5B3JX/daud31.png);
  } 
  
- #dh .fir-image:after, #dh .fir-image2:after { 
+ #ds .fir-image:after, #ds .fir-image2:after { 
     background-size: cover;
-    background-position: -40px 00px;
+    background-position: -10px 00px;
  } 
  
 #jl {
