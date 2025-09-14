@@ -173,3 +173,41 @@ background: rgba(var(--haccent), 0.4);
 .high-mox { 
   transform: scaleX(-1);
 } 
+
+
+/*color*/ 
+
+#dh { 
+--hmain: 94, 110, 130; 
+--haccent: 175, 156, 158;
+} 
+
+  #jl {
+--hmain: 132, 148, 148;
+--haccent: 187, 153, 153;
+}
+
+#lb {
+--hmain: 143, 61, 65; 
+--haccent:115, 136, 149;
+ }
+
+#rc {
+--hmain: 119, 67, 92;
+--haccent: 200, 134, 97;
+}
+
+  #ti {
+--hmain: 109, 157, 194;
+--haccent: 105, 164, 138;
+}
+
+#wm { 
+  --hmain:106, 150, 168;
+--haccent: 204, 176, 124; 
+} 
+
+ #ya { 
+ --hmain: 183, 65, 45; 
+--haccent:218, 155, 99;
+} 
