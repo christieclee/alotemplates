@@ -1,0 +1,175 @@
+@import "//christieclee.github.io/highalo/high/high.css";  
+ @import "//christieclee.github.io/highalo/whim/whim.css";  
+
+.coast-wrapper {
+    --gray: 93, 93, 93;
+    --shadow: 187, 187, 187;
+    --white: 238, 238, 238;
+    --black: 63, 63, 63;
+  --cream: 227, 224, 224; 
+      width: 450px;
+      min-height: 100px;
+      position: relative; 
+      margin: 20px;
+      box-shadow: 2px 2px rgba(var(--shadow), 0.3);
+      border-radius: 10px;
+      overflow: hidden; 
+      border: 1px solid rgba(var(--shadow), 0.2);
+  background: rgba(var(--white));
+color: rgba(var(--black));
+border-top: 10px solid rgba(var(--cream));} 
+
+.coast-top { 
+  border-radius: 0px 0px 100px 100px; 
+  position: relative; 
+border-top: 40px solid rgba(var(--cream));
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	height: 0;
+	width: 225px;
+} 
+
+  .coast-wrapper b { 
+  font-weight: 700;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+.coast-pin { 
+ position: absolute; 
+ bottom: 95px;
+  right: 20px; 
+  z-index: 4; 
+width: 20px; 
+height: 20px; 
+  border-radius: 100px; 
+  background: rgba(var(--hmain));
+
+  box-shadow: 4px 4px rgba(var(--cream)); 
+  
+} 
+
+.coast-text { 
+ text-align: left; 
+  width: 320px; 
+  padding: 30px 20px 120px; 
+  position: relative; 
+  display: inline-block;
+  margin: 35px 20px;  
+line-height: 25px;
+color: rgba(var(--black), 0.9);
+    font-size: 14.75px; 
+} 
+  
+.coast-text i { 
+  font-style: italic;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+.coast-text u { 
+    font-style: italic;
+    text-decoration: none;
+    color: rgba(var(--haccent), 0.8);
+    border-bottom: 1px solid rgba(var(--hmain), 0.8);
+    font-weight: 600; 
+    } 
+    
+.coast-text a { 
+    text-decoration: none;
+    color: rgba(var(--hmain), 0.5);
+    font-weight: 600; 
+    } 
+
+.coast-bottom { 
+background: rgba(var(--cream)); 
+width: 75%; 
+height: 85px; 
+  position: absolute; 
+  bottom: 15px; 
+  overflow: hidden; 
+} 
+
+.coast-date { 
+position: absolute; 
+  color: rgba(var(--black));
+  left: 15px; 
+  bottom: 15px;
+  letter-spacing: -0.5px;   
+} 
+.coast-month { 
+font-size: 45px; 
+  color: rgba(var(--hmain));
+}
+
+
+
+.coast-tag { 
+position: absolute; 
+text-align: right; 
+ font-size: 11px;
+width: 150px; 
+right: 20px; 
+  bottom: 18px; 
+  border-bottom: 1px solid rgba(var(--black), 0.5);
+  padding-bottom: 5px; 
+  padding-left: 40px; 
+} 
+
+.coast-tag  a.user-tagged  { 
+ text-decoration: none;
+ color: rgba(var(--hmain), 0.7);
+ font-weight: 600;
+ text-transform: uppercase;
+} 
+
+.coast-tag  a { 
+ text-decoration: none;
+ color: rgba(var(--hmain), 0.7) ;
+ font-weight: 600;  
+} 
+
+.coast-circle { 
+position: absolute; 
+width: 12px; 
+height: 12px; 
+ background: rgba(var(--white));
+  bottom: 25px; 
+  right: 108px; 
+  z-index: 2;
+
+}
+
+.one { 
+bottom: 50px;
+} 
+
+.two { 
+bottom: 75px;
+} 
+
+.coast-icon { 
+  position: relative; 
+  bottom: 10px; 
+font-size: 45px; 
+  height: 55px;
+background: rgba(var(--haccent), 0.4); 
+  padding: 10px 0px 0px 0px; 
+  text-align: center; 
+  border-radius: 10px; 
+  color: rgba(var(--hmain));
+} 
+
+.coast-icon-border { 
+  position: absolute; 
+    width: 15%;
+  bottom: 17px; 
+  right: 27px; 
+  padding: 20px 10px 0px; 
+  height: 65px;
+  background: rgba(var(--white));
+    box-shadow: 2px 2px rgba(var(--cream));
+  border-radius: 0px 10px 10px 0px; 
+}
+
+.high-mox { 
+  transform: scaleX(-1);
+} 
