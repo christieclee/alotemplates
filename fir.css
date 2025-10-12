@@ -306,6 +306,7 @@ border-radius: 5px;
    -ms-transition: ease-in-out 0.5s;  
    -moz-transition: ease-in-out 0.5s;  
    -o-transition: ease-in-out 0.5s;
+    text-transform: lowercase; 
 } 
 
 
@@ -324,7 +325,7 @@ border-radius: 5px;
   left: -28px;
   top: 10px;
   z-index: 2;
-  text-transform: lowercase; 
+
 }
 
 .fir-thread #closed { 
