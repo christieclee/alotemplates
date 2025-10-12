@@ -324,6 +324,7 @@ border-radius: 5px;
   left: -28px;
   top: 10px;
   z-index: 2;
+  text-transform: lowercase; 
 }
 
 .fir-thread #closed { 
@@ -336,6 +337,7 @@ border-radius: 5px;
   position: relative; 
   left: 35px; 
   line-height: 12px;
+  text-ttransform: uppercase; 
 } 
 
 .fir-thread a { 
