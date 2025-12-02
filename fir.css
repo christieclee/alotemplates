@@ -274,7 +274,7 @@ opacity: 0;
   font-size: 15px; 
   color: rgba(var(--white));
   position: relative; 
-  right: 10px; 
+  right: 30px; 
   top: -15px;
 text-shadow: 1px 1px rgba(var(--black),0.5);
 padding: 0px 5px; 
