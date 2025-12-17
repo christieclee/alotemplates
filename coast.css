@@ -184,6 +184,12 @@ background: rgba(var(--haccent), 0.4);
 --haccent: 175, 156, 158;
 } 
 
+#es { 
+ --hmain: 74, 97, 110;
+--haccent: 191, 166, 125;
+
+}
+
   #jl {
 --hmain: 132, 148, 148;
 --haccent: 187, 153, 153;
