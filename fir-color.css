@@ -8,6 +8,18 @@
     background-size: cover;
     background-position: -10px 00px;
  } 
+
+#es {   
+ --hmain: 74, 97, 110;
+--haccent: 191, 166, 125;
+--bg-image: url(https://i.postimg.cc/02nyy6vx/cullenh4.png);
+ } 
+ 
+ #es .fir-image:after, #ds .fir-image2:after { 
+    background-size: cover;
+    background-position: -10px 00px;
+ } 
+
  
 #jl {
 --hmain: 132, 148, 148;
