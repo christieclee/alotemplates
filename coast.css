@@ -19,6 +19,15 @@
 color: rgba(var(--black));
 border-top: 10px solid rgba(var(--cream));} 
 
+.coast-wrapper a:before  {
+    content: '[';
+color: rgba(var(--black), 0.5);}
+
+.coast-wrapper a:after  {
+    content: ']';
+  color: rgba(var(--black), 0.5);
+}
+
 .coast-top { 
   border-radius: 0px 0px 100px 100px; 
   position: relative; 
@@ -191,8 +200,8 @@ background: rgba(var(--haccent), 0.4);
 }
 
   #jl {
---hmain: 132, 148, 148;
---haccent: 187, 153, 153;
+--hmain: 116, 139, 111;
+--haccent: 153, 167, 152;
 }
 
 #lb {
@@ -206,8 +215,8 @@ background: rgba(var(--haccent), 0.4);
 }
 
   #ti {
---hmain: 109, 157, 194;
---haccent: 105, 164, 138;
+--haccent: 109, 157, 194;
+--hmain: 105, 164, 138;
 }
 
 #wm { 
