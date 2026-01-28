@@ -19,11 +19,11 @@
 color: rgba(var(--black));
 border-top: 10px solid rgba(var(--cream));} 
 
-.coast-wrapper a:before  {
+.coast-text a:before  {
     content: '[';
 color: rgba(var(--black), 0.5);}
 
-.coast-wrapper a:after  {
+.coast-text a:after  {
     content: ']';
   color: rgba(var(--black), 0.5);
 }
