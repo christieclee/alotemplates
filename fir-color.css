@@ -9,6 +9,18 @@
     background-position: -10px 00px;
  } 
 
+#dd {   
+--hmain: 139, 148, 97; 
+--haccent: 193, 146, 149;
+--bg-image: url(https://i.postimg.cc/P5gjWmHM/h16.png);
+ } 
+ 
+ #dd .fir-image:after, #ds .fir-image2:after { 
+    background-size: cover;
+    background-position: -30px 00px;
+ } 
+
+
 #es {   
  --hmain: 74, 97, 110;
 --haccent: 191, 166, 125;
