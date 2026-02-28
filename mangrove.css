@@ -10,7 +10,7 @@
       min-height: 200px;
       font-family: 'Urbanist', Sans-serif;
       position: relative; 
-      margin: 20px;
+            margin: 40px 20px;
        -webkit-text-size-adjust: none;
       box-shadow: 1px -3px 10px  rgba(205, 205, 205, 0.4);
       border: 1px solid rgba(var(--shadow), 0.4);
