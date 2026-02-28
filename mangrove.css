@@ -1,0 +1,238 @@
+@import "//christieclee.github.io/highalo/high/high.css";  
+
+  .mangrove-wrapper { 
+  --gray: 93, 93, 93;
+    --shadow: 187, 187, 187;
+    --white: 238, 238, 238;
+    --black: 63, 63, 63;
+      --cream: 227, 224, 224; 
+      width: 480px;
+      min-height: 200px;
+      font-family: 'Urbanist', Sans-serif;
+      position: relative; 
+      margin: 20px;
+       -webkit-text-size-adjust: none;
+      box-shadow: 1px -3px 10px  rgba(205, 205, 205, 0.4);
+      border: 1px solid rgba(var(--shadow), 0.4);
+      background: rgba(var(--white), 0.5);
+      border-radius: 5px;
+      display: inline-block;
+      overflow: hidden;
+      border-bottom: 10px solid rgba(var(--hmain), 0.5);
+  } 
+
+  .mangrove-wrapper b { 
+  font-weight: 700;
+  color: rgba(var(--hmain), 0.8);
+} 
+
+.mangrove-checker{ 
+  height: 40px; 
+  width:500px;
+    background-image:
+    linear-gradient(45deg,  rgba(var(--hmain), 0.3) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, rgba(var(--hmain), 0.3)  75%),
+      linear-gradient(45deg, transparent 75%, rgba(var(--hmain), 0.3)  75%),
+      linear-gradient(45deg, rgba(var(--hmain), 0.3) 25%, transparent 25%);    
+    background-size:40px 40px;       
+    background-position:0 0, 0 0, -20px 20px, 20px 20px;
+  position: absolute; 
+
+}
+
+.mangrove-checker2 { 
+height: 20px;
+  width:20%;
+    background-image:
+    linear-gradient(45deg,  rgba(var(--hmain), 0.2) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, rgba(var(--hmain), 0.2)  75%),
+      linear-gradient(45deg, transparent 75%, rgba(var(--hmain), 0.2)  75%),
+      linear-gradient(45deg, rgba(var(--hmain), 0.2) 25%, transparent 25%);    
+    background-size:20px 20px;       
+    background-position:0 0, 0 0, -10px 10px, 10px 10px;
+  position: absolute; 
+  right: 0px; 
+}
+
+
+
+.mangrove-top { 
+position: absolute; 
+   left: 25px; 
+  top: 30px; 
+  display: flex; 
+  z-index: 3; 
+}
+
+
+.mangrove-month, .mangrove-year, .mangrove-icon { 
+font-size: 20px; 
+ width: 20px; 
+  height: 20px; 
+  background-color: rgba(var(--hmain)); 
+  padding: 20px; 
+  border-radius: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(var(--white));
+  position: relative; 
+  font-weight: 500; 
+    outline: 1px solid rgba(var(--hmain), 0.6); 
+  outline-offset: 2px;
+} 
+
+.mangrove-icon { 
+font-size: 35px; 
+  background-color: rgba(var(--hmain)); 
+  padding: 20px; 
+  border-radius: 100%; 
+  color: rgba(var(--white));
+z-index: 3;} 
+
+.mangrove-month { 
+position: relative; 
+  left: -10px; 
+} 
+
+.mangrove-year { 
+  position: relative; 
+  left: -20px; 
+  letter-spacing: -2.25px;
+}
+
+
+.mangrove-body { 
+  z-index: 2; 
+  color: rgba(var(--black), 0.8); 
+    margin: 60px 0px 0px; 
+
+}
+
+.mangrove-text { 
+ text-align: left; 
+  position: relative; 
+  display: block;
+  top: 0px; 
+line-height: 25px;
+color: rgba(var(--black), 0.9);
+ font-size: 15px; 
+  padding: 70px 20px 50px 20px; 
+  width: 70%; 
+}
+
+.mangrove-text i { 
+  font-style: italic;
+ color: rgba(var(--hmain), 0.8);
+} 
+
+.mangrove-text u { 
+    font-style: italic;
+    text-decoration: none;
+    color: rgba(var(--hmain), 0.8);
+    border-bottom: 1px solid rgba(var(--hmain), 0.5);
+    font-weight: 600; 
+    } 
+
+.mangrove-text a { 
+    text-decoration: none;
+    color: rgba(var(--hmain), 0.5);
+    font-weight: 600; 
+    } 
+
+.mangrove-text a:before  {
+    content: '[';
+color: rgba(var(--black), 0.5);
+  font-weight: 800; 
+  margin-right: 2px; 
+}
+
+.mangrove-text a:after  {
+    content: ']';
+  color: rgba(var(--black), 0.5);
+  font-weight: 800; 
+   margin-left: 2px; 
+}
+
+
+.mangrove-text hr {
+  margin: 40px 20px 20px; 
+  border: 0; 
+  border-bottom: 1px solid rgba(var(--hmain), 0.4); 
+  
+}
+
+.mangrove-tag { 
+margin-top: 0px; 
+  line-height: 20px; 
+  font-size: 13px;
+padding:30px 70px; 
+  text-align: left; 
+  background: rgba(var(--cream), 0.4);
+}
+
+.mangrove-tag hr { 
+
+}
+
+.mangrove-tag  a.user-tagged  { 
+ text-decoration: none;
+ color: rgba(var(--hmain), 0.7);
+ font-weight: 700;
+ text-transform: uppercase;
+} 
+
+.mangrove-tag a.user-tagged:before { 
+content: '\e92b'; 
+  font-family: starry; 
+  color: rgba(var(--hmain));
+  font-size: 20px; 
+  margin-right: -2px; 
+}
+
+
+#dom { 
+--hmain: 94, 110, 130; 
+--haccent: 175, 156, 158;
+} 
+
+#dusty { 
+--haccent: 83, 99, 97; 
+--hmain: 193, 146, 149;
+} 
+
+#ellis { 
+ --hmain: 115, 131, 138;
+--haccent: 191, 166, 125;
+
+}
+
+  #june {
+--hmain: 116, 139, 111;
+--haccent: 153, 167, 152;
+}
+
+#leon {
+--hmain: 143, 61, 65; 
+--haccent:115, 136, 149;
+ }
+
+#ravi {
+--hmain: 119, 67, 92;
+--haccent: 200, 134, 97;
+}
+
+  #teddy {
+--haccent: 109, 157, 194;
+--hmain: 105, 164, 138;
+}
+
+#mox { 
+  --hmain:106, 150, 168;
+--haccent: 204, 176, 124; 
+} 
+
+ #yusuf { 
+ --haccent: 183, 65, 45; 
+--hmain:201, 143, 91;
+} 
