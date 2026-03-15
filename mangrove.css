@@ -83,7 +83,7 @@ font-size: 20px;
 } 
 
 .mangrove-icon { 
-font-size: 33px; 
+font-size: 31px; 
   background-color: rgba(var(--hmain)); 
   padding: 20px; 
   border-radius: 100%; 
@@ -232,4 +232,13 @@ content: '\e92b';
  #yusuf { 
  --haccent: 183, 65, 45; 
 --hmain:201, 143, 91;
+} 
+
+
+.high-mox { 
+font-size: 38px; 
+} 
+
+.high-leon { 
+font-size: 30px;
 } 
