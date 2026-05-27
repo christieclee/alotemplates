@@ -53,6 +53,17 @@
     background-size: cover;
      background-position: -30px 00px;
  }
+
+#om {   
+ --hmain:162, 44, 44;
+--haccent: 139, 148, 97; 
+--bg-image: url(https://i.postimg.cc/MKgGMMQn/h2.png);
+ } 
+ 
+ #om .fir-image:after, #ds .fir-image2:after { 
+    background-size: cover;
+    background-position: -50px 00px;
+ } 
  
 
   #rc { 
