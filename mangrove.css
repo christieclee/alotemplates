@@ -214,6 +214,11 @@ content: '\e92b';
 --haccent:115, 136, 149;
  }
 
+ #oberon { 
+--hmain:162, 44, 44;
+} 
+
+
 #ravi {
 --hmain: 119, 67, 92;
 --haccent: 200, 134, 97;
